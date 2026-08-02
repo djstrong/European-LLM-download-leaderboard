@@ -1,0 +1,56 @@
+name: Fetch download stats
+
+on:
+  schedule:
+    # Daily 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch downloads and parameter counts
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ ! -f data/manifest/latest.json ]; then
+            echo "Missing data/manifest/latest.json — run the Resolve workflow first"
+            exit 1
+          fi
+          python scripts/fetch_download_stats.py \
+            --manifest data/manifest/latest.json \
+            --metrics-dir data/metrics \
+            --output-dir output \
+            --concurrency 8 \
+            --max-retries 3 \
+            --allow-partial
+          python scripts/render_leaderboard_md.py \
+            --input output/leaderboard.json \
+            --output README.md
+
+      - name: Commit metrics and leaderboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/metrics/ output/ README.md
+          if git diff --staged --quiet; then
+            echo "No metrics/leaderboard changes to commit"
+          else
+            git commit -m "chore: update HF download leaderboard snapshot"
+            git push
+          fi

@@ -1,0 +1,52 @@
+name: Resolve model repos
+
+on:
+  push:
+    paths:
+      - "european-llm-hf-download-leaderboard.json"
+      - "scripts/resolve_model_repos.py"
+      - "scripts/leaderboard_common.py"
+  schedule:
+    # Weekly Monday 05:00 UTC — catch new official format variants
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Resolve repos from config regexes
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python scripts/resolve_model_repos.py \
+            --config european-llm-hf-download-leaderboard.json \
+            --out data/manifest/latest.json \
+            --audit \
+            --diff
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manifest/
+          if git diff --staged --quiet; then
+            echo "No manifest changes to commit"
+          else
+            git commit -m "chore: refresh HF model manifest"
+            git push
+          fi

@@ -1,0 +1,1567 @@
+{
+  "version": 2,
+  "description": "Version-specific European LLM leaderboard rows. Each row sums downloads from official Hugging Face repos only (published under official_org), including format variants (GGUF, MLX, FP8, GPTQ, AWQ, etc.) when that org publishes them.",
+  "match_target": "huggingface_model_id",
+  "regex_flavor": "python",
+  "official_only": true,
+  "regex_scope": "All patterns must match the full model id and start with ^{official_org}/. Third-party quantizations (mradermacher, QuantFactory, mlx-community, unsloth, …) are excluded.",
+  "downloads_metric": "last_30_days",
+  "downloads_api_note": "GET /api/models/{id}?expand[]=downloads&expand[]=downloadsAllTime: downloads = rolling last 30 days; downloadsAllTime = lifetime total. Parameter count via expand[]=safetensors (or expand[]=gguf for GGUF-only repos).",
+  "deduplication": {
+    "strategy": "each_repo_id_counts_once",
+    "assignment": "first_matching_row_in_object_key_order",
+    "comment": "List narrower version rows before broader ones (e.g. bielik-11b-v2.6 before any accidental broad pattern)."
+  },
+  "models": {
+    "bielik-11b-v3.0": {
+      "display_name": "Bielik-11B v3.0",
+      "version": "3.0",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v3\\.0",
+        "^speakleash/Bielik-11B-v3-Base"
+      ]
+    },
+    "bielik-minitron-7b-v3.0": {
+      "display_name": "Bielik-Minitron 7B v3.0",
+      "version": "3.0",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-(?:PL-)?Minitron-7B-v3\\.0"
+      ]
+    },
+    "bielik-11b-v2.6": {
+      "display_name": "Bielik-11B v2.6",
+      "version": "2.6",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v2\\.6"
+      ]
+    },
+    "bielik-11b-v2.5": {
+      "display_name": "Bielik-11B v2.5",
+      "version": "2.5",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v2\\.5"
+      ]
+    },
+    "bielik-11b-v2.3": {
+      "display_name": "Bielik-11B v2.3",
+      "version": "2.3",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v2\\.3"
+      ]
+    },
+    "bielik-11b-v2.2": {
+      "display_name": "Bielik-11B v2.2",
+      "version": "2.2",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v2\\.2"
+      ]
+    },
+    "bielik-11b-v2.1": {
+      "display_name": "Bielik-11B v2.1",
+      "version": "2.1",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v2\\.1"
+      ]
+    },
+    "bielik-11b-v2.0": {
+      "display_name": "Bielik-11B v2.0",
+      "version": "2.0",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v2\\.0"
+      ]
+    },
+    "bielik-11b-v2-base": {
+      "display_name": "Bielik-11B v2 (base)",
+      "version": "2",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-11B-v2$"
+      ]
+    },
+    "bielik-4.5b-v3.0": {
+      "display_name": "Bielik-4.5B v3.0",
+      "version": "3.0",
+      "country": "PL",
+      "developer": "SpeakLeash",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-4\\.5B-v3"
+      ]
+    },
+    "bielik-1.5b-v3.0": {
+      "display_name": "Bielik-1.5B v3.0",
+      "version": "3.0",
+      "country": "PL",
+      "developer": "SpeakLeash",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-1\\.5B-v3"
+      ]
+    },
+    "bielik-7b-v0.1": {
+      "display_name": "Bielik-7B v0.1",
+      "version": "0.1",
+      "country": "PL",
+      "developer": "SpeakLeash",
+      "official_org": "speakleash",
+      "regex": [
+        "^speakleash/Bielik-7B-v0\\.1",
+        "^speakleash/Bielik-7B-Instruct-v0\\.1"
+      ]
+    },
+    "llama-pllum-70b-2512": {
+      "display_name": "Llama-PLLuM 70B (2512)",
+      "version": "2512",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/Llama-PLLuM-70B-(?:base|chat|instruct)-2512$"
+      ]
+    },
+    "llama-pllum-70b-2508": {
+      "display_name": "Llama-PLLuM 70B (2508)",
+      "version": "2508",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/Llama-PLLuM-70B-(?:base|chat|instruct)-2508$"
+      ]
+    },
+    "llama-pllum-70b-2412": {
+      "display_name": "Llama-PLLuM 70B (2412)",
+      "version": "2412",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/Llama-PLLuM-70B-(?:base|chat|instruct)-2412$"
+      ]
+    },
+    "llama-pllum-8b-2512": {
+      "display_name": "Llama-PLLuM 8B (2512)",
+      "version": "2512",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/Llama-PLLuM-8B-(?:base|chat|instruct)-2512$"
+      ]
+    },
+    "llama-pllum-8b-2412": {
+      "display_name": "Llama-PLLuM 8B (2412)",
+      "version": "2412",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/Llama-PLLuM-8B-(?:base|chat|instruct)-2412$"
+      ]
+    },
+    "pllum-12b-2512": {
+      "display_name": "PLLuM 12B (2512)",
+      "version": "2512",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/PLLuM-12B-(?:base|chat|instruct|nc-base|nc-chat|nc-instruct)-2512$"
+      ]
+    },
+    "pllum-12b-2412": {
+      "display_name": "PLLuM 12B (2412)",
+      "version": "2412",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/PLLuM-12B-(?:base|chat|instruct|nc-base|nc-chat|nc-instruct)-2412$"
+      ]
+    },
+    "pllum-12b-nc-2507": {
+      "display_name": "PLLuM 12B nc (2507)",
+      "version": "2507",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/PLLuM-12b-nc-(?:base|chat|instruct)-2507$"
+      ]
+    },
+    "pllum-4b-2512": {
+      "display_name": "PLLuM 4B (2512)",
+      "version": "2512",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/PLLuM-4B-(?:base|chat|instruct)-2512$"
+      ]
+    },
+    "pllum-8x7b-2412": {
+      "display_name": "PLLuM 8x7B (2412)",
+      "version": "2412",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "regex": [
+        "^CYFRAGOVPL/PLLuM-8x7B-(?:base|chat|instruct|nc-base|nc-chat|nc-instruct)-2412$"
+      ]
+    },
+    "qra-7b": {
+      "display_name": "Qra 7B",
+      "version": null,
+      "country": "PL",
+      "developer": "OPI-PG",
+      "official_org": "OPI-PG",
+      "regex": [
+        "^OPI-PG/Qra-7b$"
+      ]
+    },
+    "qra-13b": {
+      "display_name": "Qra 13B",
+      "version": null,
+      "country": "PL",
+      "developer": "OPI-PG",
+      "official_org": "OPI-PG",
+      "regex": [
+        "^OPI-PG/Qra-13b$"
+      ]
+    },
+    "qra-1b": {
+      "display_name": "Qra 1B",
+      "version": null,
+      "country": "PL",
+      "developer": "OPI-PG",
+      "official_org": "OPI-PG",
+      "regex": [
+        "^OPI-PG/Qra-1b$"
+      ]
+    },
+    "trurl-2-7b": {
+      "display_name": "TRURL 2 7B",
+      "version": "2",
+      "country": "PL",
+      "developer": "Voicelab",
+      "official_org": "Voicelab",
+      "regex": [
+        "^Voicelab/trurl-2-7b"
+      ]
+    },
+    "trurl-2-13b": {
+      "display_name": "TRURL 2 13B",
+      "version": "2",
+      "country": "PL",
+      "developer": "Voicelab",
+      "official_org": "Voicelab",
+      "regex": [
+        "^Voicelab/trurl-2-13b"
+      ]
+    },
+    "eurollm-22b-instruct-2512": {
+      "display_name": "EuroLLM-22B-Instruct (2512)",
+      "version": "2512",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-22B-Instruct-2512$"
+      ]
+    },
+    "eurollm-22b-2512": {
+      "display_name": "EuroLLM-22B (2512 base)",
+      "version": "2512",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-22B-2512$"
+      ]
+    },
+    "eurollm-22b-instruct-preview": {
+      "display_name": "EuroLLM-22B-Instruct (Preview)",
+      "version": "preview",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-22B-Instruct-Preview$"
+      ]
+    },
+    "eurollm-22b-preview": {
+      "display_name": "EuroLLM-22B (Preview base)",
+      "version": "preview",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-22B-Preview$"
+      ]
+    },
+    "eurollm-9b-2512": {
+      "display_name": "EuroLLM-9B (2512)",
+      "version": "2512",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-9B-2512$"
+      ]
+    },
+    "eurollm-9b-instruct-2512": {
+      "display_name": "EuroLLM-9B-Instruct (2512)",
+      "version": "2512",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-9B-Instruct-2512$"
+      ]
+    },
+    "eurollm-9b-instruct": {
+      "display_name": "EuroLLM-9B-Instruct",
+      "version": null,
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-9B-Instruct$"
+      ]
+    },
+    "eurollm-9b-base": {
+      "display_name": "EuroLLM-9B (base)",
+      "version": null,
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-9B$"
+      ]
+    },
+    "eurollm-1.7b-instruct": {
+      "display_name": "EuroLLM-1.7B-Instruct",
+      "version": null,
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-1\\.7B-Instruct$"
+      ]
+    },
+    "eurollm-1.7b-base": {
+      "display_name": "EuroLLM-1.7B (base)",
+      "version": null,
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroLLM-1\\.7B$"
+      ]
+    },
+    "euromoe-2.6b-2512": {
+      "display_name": "EuroMoE 2.6B-A0.6B (2512)",
+      "version": "2512",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "regex": [
+        "^utter-project/EuroMoE-2\\.6B-A0\\.6B-(?:Instruct-)?2512$",
+        "^utter-project/EuroMoE-2\\.6B-A0\\.6B-Instruct-Preview$"
+      ]
+    },
+    "openeurollm-prelude": {
+      "display_name": "OpenEuroLLM Prelude",
+      "version": null,
+      "country": "EU",
+      "developer": "openeurollm",
+      "official_org": "openeurollm",
+      "regex": [
+        "^openeurollm/prelude$"
+      ]
+    },
+    "apertus-70b-2509": {
+      "display_name": "Apertus 70B (2509)",
+      "version": "2509",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "regex": [
+        "^swiss-ai/Apertus-70B-2509$",
+        "^swiss-ai/Apertus-70B-Instruct-2509$"
+      ]
+    },
+    "apertus-8b-2509": {
+      "display_name": "Apertus 8B (2509)",
+      "version": "2509",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "regex": [
+        "^swiss-ai/Apertus-8B-2509$",
+        "^swiss-ai/Apertus-8B-Instruct-2509$"
+      ]
+    },
+    "apertus-v1.5-70b": {
+      "display_name": "Apertus v1.5 70B",
+      "version": "1.5",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "regex": [
+        "^swiss-ai/Apertus-v1\\.5-70B$"
+      ]
+    },
+    "apertus-v1.5-8b": {
+      "display_name": "Apertus v1.5 8B",
+      "version": "1.5",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "regex": [
+        "^swiss-ai/Apertus-v1\\.5-8B$"
+      ]
+    },
+    "apertus-v1.1-4b": {
+      "display_name": "Apertus v1.1 4B",
+      "version": "1.1",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "regex": [
+        "^swiss-ai/Apertus-v1\\.1-4B"
+      ]
+    },
+    "apertus-v1.1-1.5b": {
+      "display_name": "Apertus v1.1 1.5B",
+      "version": "1.1",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "regex": [
+        "^swiss-ai/Apertus-v1\\.1-1\\.5B"
+      ]
+    },
+    "apertus-v1.1-0.5b": {
+      "display_name": "Apertus v1.1 0.5B",
+      "version": "1.1",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "regex": [
+        "^swiss-ai/Apertus-v1\\.1-0\\.5B"
+      ]
+    },
+    "mistral-large-3-2512": {
+      "display_name": "Mistral Large 3 (675B, 2512)",
+      "version": "2512",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Large-3-675B-(?:Base|Instruct)-2512"
+      ]
+    },
+    "mistral-medium-3.5-128b": {
+      "display_name": "Mistral Medium 3.5 (128B)",
+      "version": "3.5",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Medium-3\\.5-128B"
+      ]
+    },
+    "mistral-large-instruct-2411": {
+      "display_name": "Mistral Large Instruct (2411)",
+      "version": "2411",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Large-Instruct-2411$"
+      ]
+    },
+    "mistral-large-instruct-2407": {
+      "display_name": "Mistral Large Instruct (2407)",
+      "version": "2407",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Large-Instruct-2407$"
+      ]
+    },
+    "mistral-small-4-2603": {
+      "display_name": "Mistral Small 4 (119B, 2603)",
+      "version": "2603",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Small-4-119B-2603"
+      ]
+    },
+    "mistral-small-3.2-2506": {
+      "display_name": "Mistral Small 3.2 (24B, 2506)",
+      "version": "3.2",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Small-3\\.2-24B-Instruct-2506$"
+      ]
+    },
+    "mistral-small-3.1-2503": {
+      "display_name": "Mistral Small 3.1 (24B, 2503)",
+      "version": "3.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Small-3\\.1-24B-(?:Base|Instruct)-2503$"
+      ]
+    },
+    "mistral-small-24b-2501": {
+      "display_name": "Mistral Small 24B (2501)",
+      "version": "2501",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Small-24B-(?:Base|Instruct)-2501$"
+      ]
+    },
+    "mistral-nemo-2407": {
+      "display_name": "Mistral NeMo (2407)",
+      "version": "2407",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Nemo-(?:Base|Instruct)-2407",
+        "^mistralai/Mistral-Nemo-Instruct-FP8-2407$"
+      ]
+    },
+    "mixtral-8x7b-v0.1": {
+      "display_name": "Mixtral 8x7B v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mixtral-8x7B-(?:Instruct-)?v0\\.1"
+      ]
+    },
+    "mixtral-8x22b-v0.1": {
+      "display_name": "Mixtral 8x22B v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mixtral-8x22B-(?:Instruct-)?v0\\.1"
+      ]
+    },
+    "devstral-small-2505": {
+      "display_name": "Devstral Small (2505)",
+      "version": "2505",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Devstral-Small-2505"
+      ]
+    },
+    "devstral-small-2507": {
+      "display_name": "Devstral Small (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Devstral-Small-2507"
+      ]
+    },
+    "devstral-small-2-2512": {
+      "display_name": "Devstral Small 2 (24B, 2512)",
+      "version": "2512",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Devstral-Small-2-24B-Instruct-2512$"
+      ]
+    },
+    "devstral-2-2512": {
+      "display_name": "Devstral 2 (123B, 2512)",
+      "version": "2512",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Devstral-2-123B-Instruct-2512$"
+      ]
+    },
+    "magistral-small-2506": {
+      "display_name": "Magistral Small (2506)",
+      "version": "2506",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Magistral-Small-2506"
+      ]
+    },
+    "magistral-small-2507": {
+      "display_name": "Magistral Small (2507)",
+      "version": "2507",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Magistral-Small-2507"
+      ]
+    },
+    "magistral-small-2509": {
+      "display_name": "Magistral Small (2509)",
+      "version": "2509",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Magistral-Small-2509"
+      ]
+    },
+    "codestral-22b-v0.1": {
+      "display_name": "Codestral 22B v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Codestral-22B-v0\\.1$"
+      ]
+    },
+    "ministral-3-14b-2512": {
+      "display_name": "Ministral 3 14B (2512)",
+      "version": "2512",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Ministral-3-14B"
+      ]
+    },
+    "ministral-3-8b-2512": {
+      "display_name": "Ministral 3 8B (2512)",
+      "version": "2512",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Ministral-3-8B"
+      ]
+    },
+    "ministral-3-3b-2512": {
+      "display_name": "Ministral 3 3B (2512)",
+      "version": "2512",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Ministral-3-3B"
+      ]
+    },
+    "ministral-8b-2410": {
+      "display_name": "Ministral 8B Instruct (2410)",
+      "version": "2410",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Ministral-8B-Instruct-2410"
+      ]
+    },
+    "mathstral-7b-v0.1": {
+      "display_name": "Mathstral 7B v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mathstral-7B-v0\\.1"
+      ]
+    },
+    "mistral-small-instruct-2409": {
+      "display_name": "Mistral Small Instruct (2409)",
+      "version": "2409",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-Small-Instruct-2409"
+      ]
+    },
+    "leanstral-1.5": {
+      "display_name": "Leanstral 1.5 (119B-A6B)",
+      "version": "1.5",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Leanstral-1\\.5-119B-A6B"
+      ]
+    },
+    "leanstral-2603": {
+      "display_name": "Leanstral (2603)",
+      "version": "2603",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Leanstral-2603"
+      ]
+    },
+    "mistral-7b-v0.3": {
+      "display_name": "Mistral 7B v0.3",
+      "version": "0.3",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-7B-v0\\.3$",
+        "^mistralai/Mistral-7B-Instruct-v0\\.3$"
+      ]
+    },
+    "mistral-7b-v0.2": {
+      "display_name": "Mistral 7B v0.2",
+      "version": "0.2",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-7B-Instruct-v0\\.2$"
+      ]
+    },
+    "mistral-7b-v0.1": {
+      "display_name": "Mistral 7B v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "regex": [
+        "^mistralai/Mistral-7B-v0\\.1$",
+        "^mistralai/Mistral-7B-Instruct-v0\\.1$"
+      ]
+    },
+    "teuken-7b-v0.6": {
+      "display_name": "Teuken 7B v0.6",
+      "version": "0.6",
+      "country": "DE",
+      "developer": "openGPT-X",
+      "official_org": "openGPT-X",
+      "regex": [
+        "^openGPT-X/Teuken-7B-(?:base|instruct)-v0\\.6$"
+      ]
+    },
+    "teuken-7b-v0.4-research": {
+      "display_name": "Teuken 7B v0.4 (research)",
+      "version": "0.4",
+      "country": "DE",
+      "developer": "openGPT-X",
+      "official_org": "openGPT-X",
+      "regex": [
+        "^openGPT-X/Teuken-7B-instruct-research-v0\\.4$"
+      ]
+    },
+    "teuken-7b-v0.4-commercial": {
+      "display_name": "Teuken 7B v0.4 (commercial)",
+      "version": "0.4",
+      "country": "DE",
+      "developer": "openGPT-X",
+      "official_org": "openGPT-X",
+      "regex": [
+        "^openGPT-X/Teuken-7B-instruct-commercial-v0\\.4$"
+      ]
+    },
+    "pharia-7b-control": {
+      "display_name": "Pharia-1-LLM-7B-control",
+      "version": null,
+      "country": "DE",
+      "developer": "Aleph Alpha",
+      "official_org": "Aleph-Alpha",
+      "regex": [
+        "^Aleph-Alpha/Pharia-1-LLM-7B-control"
+      ]
+    },
+    "leo-hessianai-70b": {
+      "display_name": "LeoLM HessianAI 70B",
+      "version": null,
+      "country": "DE",
+      "developer": "LeoLM",
+      "official_org": "LeoLM",
+      "regex": [
+        "^LeoLM/leo-hessianai-70b"
+      ]
+    },
+    "leo-hessianai-13b": {
+      "display_name": "LeoLM HessianAI 13B",
+      "version": null,
+      "country": "DE",
+      "developer": "LeoLM",
+      "official_org": "LeoLM",
+      "regex": [
+        "^LeoLM/leo-hessianai-13b"
+      ]
+    },
+    "leo-hessianai-7b": {
+      "display_name": "LeoLM HessianAI 7B",
+      "version": null,
+      "country": "DE",
+      "developer": "LeoLM",
+      "official_org": "LeoLM",
+      "regex": [
+        "^LeoLM/leo-hessianai-7b"
+      ]
+    },
+    "leo-mistral-hessianai-7b": {
+      "display_name": "LeoLM Mistral HessianAI 7B",
+      "version": null,
+      "country": "DE",
+      "developer": "LeoLM",
+      "official_org": "LeoLM",
+      "regex": [
+        "^LeoLM/leo-mistral-hessianai-7b"
+      ]
+    },
+    "velvet-14b": {
+      "display_name": "Velvet 14B",
+      "version": null,
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "Almawave",
+      "regex": [
+        "^Almawave/Velvet-14B$"
+      ]
+    },
+    "velvet-2b": {
+      "display_name": "Velvet 2B",
+      "version": null,
+      "country": "IT",
+      "developer": "Almawave",
+      "official_org": "Almawave",
+      "regex": [
+        "^Almawave/Velvet-2B$"
+      ]
+    },
+    "minerva-7b-v1.0": {
+      "display_name": "Minerva 7B v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "SapienzaNLP",
+      "official_org": "sapienzanlp",
+      "regex": [
+        "^sapienzanlp/Minerva-7B-(?:base|instruct)-v1\\.0"
+      ]
+    },
+    "alia-40b-base": {
+      "display_name": "ALIA 40B (base)",
+      "version": null,
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/ALIA-40b$"
+      ]
+    },
+    "alia-40b-instruct-2601": {
+      "display_name": "ALIA 40B Instruct (2601)",
+      "version": "2601",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/ALIA-40b-instruct-2601"
+      ]
+    },
+    "salamandra-7b-base": {
+      "display_name": "Salamandra 7B (base)",
+      "version": null,
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/salamandra-7b$"
+      ]
+    },
+    "salamandra-7b-instruct": {
+      "display_name": "Salamandra 7B Instruct",
+      "version": null,
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/salamandra-7b-instruct"
+      ]
+    },
+    "salamandra-2b": {
+      "display_name": "Salamandra 2B",
+      "version": null,
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "regex": [
+        "^BSC-LT/salamandra-2b"
+      ]
+    },
+    "poro-34b": {
+      "display_name": "Poro 34B",
+      "version": null,
+      "country": "FI",
+      "developer": "LumiOpen",
+      "official_org": "LumiOpen",
+      "regex": [
+        "^LumiOpen/Poro-34B"
+      ]
+    },
+    "llama-poro-2-70b": {
+      "display_name": "Llama-Poro 2 70B",
+      "version": "2",
+      "country": "FI",
+      "developer": "LumiOpen",
+      "official_org": "LumiOpen",
+      "regex": [
+        "^LumiOpen/Llama-Poro-2-70B"
+      ]
+    },
+    "llama-poro-2-8b": {
+      "display_name": "Llama-Poro 2 8B",
+      "version": "2",
+      "country": "FI",
+      "developer": "LumiOpen",
+      "official_org": "LumiOpen",
+      "regex": [
+        "^LumiOpen/Llama-Poro-2-8B"
+      ]
+    },
+    "viking-7b": {
+      "display_name": "Viking 7B",
+      "version": null,
+      "country": "FI",
+      "developer": "LumiOpen",
+      "official_org": "LumiOpen",
+      "regex": [
+        "^LumiOpen/Viking-7B$"
+      ]
+    },
+    "viking-13b": {
+      "display_name": "Viking 13B",
+      "version": null,
+      "country": "FI",
+      "developer": "LumiOpen",
+      "official_org": "LumiOpen",
+      "regex": [
+        "^LumiOpen/Viking-13B$"
+      ]
+    },
+    "viking-33b": {
+      "display_name": "Viking 33B",
+      "version": null,
+      "country": "FI",
+      "developer": "LumiOpen",
+      "official_org": "LumiOpen",
+      "regex": [
+        "^LumiOpen/Viking-33B$"
+      ]
+    },
+    "bggpt-7b-v0.1": {
+      "display_name": "BgGPT 7B v0.1",
+      "version": "0.1",
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-7B-Instruct-v0\\.1"
+      ]
+    },
+    "bggpt-7b-v0.2": {
+      "display_name": "BgGPT 7B v0.2",
+      "version": "0.2",
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-7B-Instruct-v0\\.2"
+      ]
+    },
+    "bggpt-gemma3-27b": {
+      "display_name": "BgGPT Gemma 3 27B",
+      "version": null,
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-Gemma-3-27B-IT"
+      ]
+    },
+    "bggpt-gemma3-12b": {
+      "display_name": "BgGPT Gemma 3 12B",
+      "version": null,
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-Gemma-3-12B-IT"
+      ]
+    },
+    "bggpt-gemma3-4b": {
+      "display_name": "BgGPT Gemma 3 4B",
+      "version": null,
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-Gemma-3-4B-IT"
+      ]
+    },
+    "bggpt-gemma2-27b": {
+      "display_name": "BgGPT Gemma 2 27B",
+      "version": "1.0",
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1\\.0"
+      ]
+    },
+    "bggpt-gemma2-9b": {
+      "display_name": "BgGPT Gemma 2 9B",
+      "version": "1.0",
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1\\.0"
+      ]
+    },
+    "bggpt-gemma2-2.6b": {
+      "display_name": "BgGPT Gemma 2 2.6B",
+      "version": "1.0",
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/BgGPT-Gemma-2-2\\.6B-IT-v1\\.0"
+      ]
+    },
+    "mamaylm-gemma3-27b-v2": {
+      "display_name": "MamayLM Gemma 3 27B v2.0",
+      "version": "2.0",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2\\.0"
+      ]
+    },
+    "mamaylm-gemma3-12b-v2": {
+      "display_name": "MamayLM Gemma 3 12B v2.0",
+      "version": "2.0",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2\\.0"
+      ]
+    },
+    "mamaylm-gemma3-12b-v1": {
+      "display_name": "MamayLM Gemma 3 12B v1.0",
+      "version": "1.0",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1\\.0"
+      ]
+    },
+    "mamaylm-gemma3-4b-v1": {
+      "display_name": "MamayLM Gemma 3 4B v1.0",
+      "version": "1.0",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1\\.0"
+      ]
+    },
+    "mamaylm-gemma2-9b-v0.1": {
+      "display_name": "MamayLM Gemma 2 9B v0.1",
+      "version": "0.1",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "regex": [
+        "^INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0\\.1"
+      ]
+    },
+    "meltemi-7b-v1.5": {
+      "display_name": "Meltemi 7B v1.5",
+      "version": "1.5",
+      "country": "GR",
+      "developer": "ILSP",
+      "official_org": "ilsp",
+      "regex": [
+        "^ilsp/Meltemi-7B-v1\\.5",
+        "^ilsp/Meltemi-7B-Instruct-v1\\.5"
+      ]
+    },
+    "meltemi-7b-v1": {
+      "display_name": "Meltemi 7B v1",
+      "version": "1",
+      "country": "GR",
+      "developer": "ILSP",
+      "official_org": "ilsp",
+      "regex": [
+        "^ilsp/Meltemi-7B-v1(?:$|-)",
+        "^ilsp/Meltemi-7B-Instruct-v1(?:$|-)"
+      ]
+    },
+    "llama-krikri-8b": {
+      "display_name": "Llama-Krikri 8B",
+      "version": null,
+      "country": "GR",
+      "developer": "ILSP",
+      "official_org": "ilsp",
+      "regex": [
+        "^ilsp/[Ll]lama-Krikri-8B"
+      ]
+    },
+    "occiglot-7b-eu5": {
+      "display_name": "Occiglot 7B EU5",
+      "version": null,
+      "country": "EU",
+      "developer": "occiglot",
+      "official_org": "occiglot",
+      "regex": [
+        "^occiglot/occiglot-7b-eu5"
+      ]
+    },
+    "occiglot-7b-bilingual": {
+      "display_name": "Occiglot 7B (bilingual)",
+      "version": null,
+      "country": "EU",
+      "developer": "occiglot",
+      "official_org": "occiglot",
+      "regex": [
+        "^occiglot/occiglot-7b-(?:de|es|fr|it)-en"
+      ]
+    },
+    "croissantllm-base": {
+      "display_name": "CroissantLLM Base",
+      "version": null,
+      "country": "FR",
+      "developer": "croissantllm",
+      "official_org": "croissantllm",
+      "regex": [
+        "^croissantllm/CroissantLLMBase"
+      ]
+    },
+    "croissantllm-chat-v0.1": {
+      "display_name": "CroissantLLM Chat v0.1",
+      "version": "0.1",
+      "country": "FR",
+      "developer": "croissantllm",
+      "official_org": "croissantllm",
+      "regex": [
+        "^croissantllm/CroissantLLMChat-v0\\.1"
+      ]
+    },
+    "gams3-12b": {
+      "display_name": "GaMS3 12B",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/GaMS3-12B"
+      ]
+    },
+    "gams2-27b": {
+      "display_name": "GaMS2 27B",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/GaMS2-27B"
+      ]
+    },
+    "gams-27b": {
+      "display_name": "GaMS 27B",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/GaMS-27B"
+      ]
+    },
+    "gams-9b": {
+      "display_name": "GaMS 9B",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/GaMS-9B"
+      ]
+    },
+    "gams-2b": {
+      "display_name": "GaMS 2B",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/GaMS-2B"
+      ]
+    },
+    "gams-1b": {
+      "display_name": "GaMS 1B",
+      "version": null,
+      "country": "SI",
+      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
+      "official_org": "cjvt",
+      "regex": [
+        "^cjvt/(?:OPT_)?GaMS-1B"
+      ]
+    },
+    "soofi-s-instruct-preview": {
+      "display_name": "Soofi S Instruct Preview",
+      "version": "preview",
+      "country": "DE",
+      "developer": "Soofi Project",
+      "official_org": "Soofi-Project",
+      "regex": [
+        "^Soofi-Project/Soofi-S-Instruct-Preview"
+      ]
+    },
+    "soofi-s-rhine-preview": {
+      "display_name": "Soofi S Rhine Preview",
+      "version": "preview",
+      "country": "DE",
+      "developer": "Soofi Project",
+      "official_org": "Soofi-Project",
+      "regex": [
+        "^Soofi-Project/Soofi-S-Rhine-Preview"
+      ]
+    },
+    "soofi-s-isar-preview": {
+      "display_name": "Soofi S Isar Preview",
+      "version": "preview",
+      "country": "DE",
+      "developer": "Soofi Project",
+      "official_org": "Soofi-Project",
+      "regex": [
+        "^Soofi-Project/Soofi-S-Isar-Preview"
+      ]
+    },
+    "soofi-s-base": {
+      "display_name": "Soofi S Base",
+      "version": null,
+      "country": "DE",
+      "developer": "Soofi Project",
+      "official_org": "Soofi-Project",
+      "regex": [
+        "^Soofi-Project/Soofi-S-Base"
+      ]
+    },
+    "domyn-small-v1.0": {
+      "display_name": "Domyn Small v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "regex": [
+        "^domyn/Domyn-Small-v1\\.0"
+      ]
+    },
+    "maestrale-chat-v0.4": {
+      "display_name": "Maestrale Chat v0.4",
+      "version": "0.4",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/maestrale-chat-v0\\.4"
+      ]
+    },
+    "maestrale-chat-v0.3": {
+      "display_name": "Maestrale Chat v0.3",
+      "version": "0.3",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/maestrale-chat-v0\\.3"
+      ]
+    },
+    "maestrale-chat-v0.2": {
+      "display_name": "Maestrale Chat v0.2",
+      "version": "0.2",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/maestrale-chat-v0\\.2"
+      ]
+    },
+    "maestrale-chat-v0.1": {
+      "display_name": "Maestrale Chat v0.1",
+      "version": "0.1",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/maestrale-chat-v0\\.1"
+      ]
+    },
+    "minerva-chat-v0.1": {
+      "display_name": "Minerva Chat v0.1",
+      "version": "0.1",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/minerva-chat-v0\\.1"
+      ]
+    },
+    "zagreus-0.4b-ita": {
+      "display_name": "Zagreus 0.4B (ITA)",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/zagreus-0\\.4B-ita"
+      ]
+    },
+    "zagreus-0.4b-fra": {
+      "display_name": "Zagreus 0.4B (FRA)",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/zagreus-0\\.4B-fra"
+      ]
+    },
+    "zagreus-0.4b-spa": {
+      "display_name": "Zagreus 0.4B (SPA)",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/zagreus-0\\.4B-spa"
+      ]
+    },
+    "zagreus-0.4b-por": {
+      "display_name": "Zagreus 0.4B (POR)",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/zagreus-0\\.4B-por"
+      ]
+    },
+    "open-zagreus-0.4b": {
+      "display_name": "Open Zagreus 0.4B",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/open-zagreus-0\\.4B"
+      ]
+    },
+    "nesso-4b": {
+      "display_name": "Nesso 4B",
+      "version": null,
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/nesso-4B"
+      ]
+    },
+    "nesso-0.4b-agentic": {
+      "display_name": "Nesso 0.4B Agentic",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/nesso-0\\.4B-agentic"
+      ]
+    },
+    "nesso-0.4b-instruct": {
+      "display_name": "Nesso 0.4B Instruct",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/nesso-0\\.4B-instruct"
+      ]
+    },
+    "emma-5-boost": {
+      "display_name": "Emma 5 Boost",
+      "version": null,
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "regex": [
+        "^mii-llm/emma-5-boost"
+      ]
+    },
+    "pleias-3b-preview": {
+      "display_name": "Pleias 3B Preview",
+      "version": "preview",
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-3b-Preview"
+      ]
+    },
+    "pleias-1.2b-preview": {
+      "display_name": "Pleias 1.2B Preview",
+      "version": "preview",
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-1\\.2b-Preview"
+      ]
+    },
+    "pleias-350m-preview": {
+      "display_name": "Pleias 350M Preview",
+      "version": "preview",
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-350m-Preview"
+      ]
+    },
+    "baguettotron": {
+      "display_name": "Baguettotron",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Baguettotron"
+      ]
+    },
+    "monad": {
+      "display_name": "Monad",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Monad"
+      ]
+    },
+    "pleias-pico": {
+      "display_name": "Pleias Pico",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-Pico"
+      ]
+    },
+    "pleias-nano": {
+      "display_name": "Pleias Nano",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-Nano"
+      ]
+    },
+    "pleias-rag-1b": {
+      "display_name": "Pleias RAG 1B",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-RAG-1B"
+      ]
+    },
+    "pleias-rag-350m": {
+      "display_name": "Pleias RAG 350M",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-RAG-350M"
+      ]
+    },
+    "pleias-slm-rag": {
+      "display_name": "Pleias SLM RAG",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/Pleias-SLM-RAG"
+      ]
+    },
+    "ocronos": {
+      "display_name": "OCRonos",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "regex": [
+        "^PleIAs/OCRonos(?:$|-)"
+      ]
+    }
+  }
+}
