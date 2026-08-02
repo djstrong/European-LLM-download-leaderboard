@@ -26,6 +26,11 @@ DEFAULT_METRICS_DIR = REPO_ROOT / "data" / "metrics"
 DEFAULT_OUTPUT_DIR = REPO_ROOT / "output"
 EXPAND = ["downloads", "downloadsAllTime", "safetensors", "gguf"]
 
+# Smoothing constant C in momentum = downloads_30d / (downloads_all_time + C).
+# Chosen so that orgs/rows with only a few thousand all-time downloads don't
+# produce a misleadingly huge ratio purely from having little history yet.
+DEFAULT_MOMENTUM_SMOOTHING = 100_000.0
+
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
@@ -40,6 +45,17 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--concurrency", type=int, default=8)
     p.add_argument("--max-retries", type=int, default=3, help="Retries after first failure")
     p.add_argument("--retry-base-seconds", type=float, default=1.0)
+    p.add_argument(
+        "--momentum-smoothing",
+        type=float,
+        default=DEFAULT_MOMENTUM_SMOOTHING,
+        help=(
+            "Additive smoothing constant C in momentum = downloads_30d / "
+            "(downloads_all_time + C). Higher C damps noise from low-volume "
+            "rows/orgs so a handful of downloads on a brand-new repo can't look "
+            "like infinite momentum. Default: %(default)s"
+        ),
+    )
     p.add_argument(
         "--allow-partial",
         action="store_true",
@@ -239,10 +255,32 @@ def previous_snapshot_path(snapshots_dir: Path, snapshot_date: str) -> Path | No
     return snapshots_dir / f"{chosen}.json"
 
 
+def momentum_score(downloads_30d: int, downloads_all_time: int, smoothing: float) -> float:
+    """Recency ratio, damped for low-volume noise.
+
+    momentum = downloads_30d / (downloads_all_time + C)
+
+    A raw downloads_30d / downloads_all_time ratio lets a repo with a handful
+    of total downloads (e.g. a brand-new upload) look like it has "infinite"
+    or near-100% momentum. Adding a smoothing constant C in the denominator
+    requires a meaningful download volume before the ratio can get large,
+    so momentum reflects sustained recent pull, not sample-size noise.
+    """
+    return downloads_30d / (downloads_all_time + smoothing)
+
+
+def assign_rank_by(entries: list[dict[str, Any]], *, key: str, rank_field: str, tie_key: str) -> None:
+    ordered = sorted(entries, key=lambda e: (-e[key], e[tie_key]))
+    for rank, entry in enumerate(ordered, start=1):
+        entry[rank_field] = rank
+
+
 def build_leaderboard(
     manifest: dict,
     snapshot: dict,
     previous: dict | None,
+    *,
+    momentum_smoothing: float,
 ) -> dict[str, Any]:
     prev_rows = (previous or {}).get("rows") or {}
     entries = []
@@ -263,6 +301,12 @@ def build_leaderboard(
                 "official_org": meta.get("official_org"),
                 "total_downloads_30d": agg["total_downloads_30d"],
                 "total_downloads_all_time": agg["total_downloads_all_time"],
+                "momentum_score": round(
+                    momentum_score(
+                        agg["total_downloads_30d"], agg["total_downloads_all_time"], momentum_smoothing
+                    ),
+                    6,
+                ),
                 "parameters": agg.get("parameters"),
                 "parameters_source_repo": agg.get("parameters_source_repo"),
                 "repo_count": agg["repo_count"],
@@ -275,13 +319,76 @@ def build_leaderboard(
     entries.sort(key=lambda e: (-e["total_downloads_30d"], e["row_id"]))
     for rank, entry in enumerate(entries, start=1):
         entry["rank"] = rank
+    assign_rank_by(entries, key="momentum_score", rank_field="momentum_rank", tie_key="row_id")
 
     return {
         "generated_at": snapshot["fetched_at"],
         "snapshot_date": snapshot["snapshot_date"],
         "manifest_content_hash": snapshot["manifest_content_hash"],
         "ranking_metric": "total_downloads_30d",
+        "momentum_smoothing": momentum_smoothing,
         "rows": entries,
+    }
+
+
+def build_org_leaderboard(entries: list[dict[str, Any]], *, momentum_smoothing: float) -> dict[str, Any]:
+    """Aggregate row-level leaderboard entries by official_org."""
+    orgs: dict[str, dict[str, Any]] = {}
+    for entry in entries:
+        org = entry.get("official_org")
+        if not org:
+            continue
+        agg = orgs.setdefault(
+            org,
+            {
+                "official_org": org,
+                "developer": entry.get("developer"),
+                "country": entry.get("country"),
+                "total_downloads_30d": 0,
+                "total_downloads_all_time": 0,
+                "model_count": 0,
+                "complete": True,
+                "top_model_row_id": None,
+                "top_model_display_name": None,
+                "top_model_downloads_30d": -1,
+                "top_model_downloads_all_time": None,
+                "top_model_overall_rank": None,
+            },
+        )
+        agg["total_downloads_30d"] += entry["total_downloads_30d"]
+        agg["total_downloads_all_time"] += entry["total_downloads_all_time"]
+        agg["model_count"] += 1
+        if not entry.get("complete", True):
+            agg["complete"] = False
+        if entry["total_downloads_30d"] > agg["top_model_downloads_30d"]:
+            agg["top_model_row_id"] = entry["row_id"]
+            agg["top_model_display_name"] = entry["display_name"]
+            agg["top_model_downloads_30d"] = entry["total_downloads_30d"]
+            agg["top_model_downloads_all_time"] = entry["total_downloads_all_time"]
+            agg["top_model_overall_rank"] = entry.get("rank")
+
+    org_entries = list(orgs.values())
+    for agg in org_entries:
+        agg["momentum_score"] = round(
+            momentum_score(agg["total_downloads_30d"], agg["total_downloads_all_time"], momentum_smoothing),
+            6,
+        )
+
+    org_entries.sort(key=lambda e: (-e["total_downloads_30d"], e["official_org"]))
+    for rank, entry in enumerate(org_entries, start=1):
+        entry["rank"] = rank
+    assign_rank_by(org_entries, key="momentum_score", rank_field="momentum_rank", tie_key="official_org")
+    assign_rank_by(
+        org_entries,
+        key="top_model_downloads_30d",
+        rank_field="rank_by_top_model",
+        tie_key="official_org",
+    )
+
+    return {
+        "ranking_metric": "total_downloads_30d",
+        "momentum_smoothing": momentum_smoothing,
+        "rows": org_entries,
     }
 
 
@@ -297,6 +404,8 @@ def write_leaderboard_csv(path: Path, leaderboard: dict) -> None:
         "official_org",
         "total_downloads_30d",
         "total_downloads_all_time",
+        "momentum_score",
+        "momentum_rank",
         "parameters",
         "parameters_source_repo",
         "repo_count",
@@ -307,6 +416,33 @@ def write_leaderboard_csv(path: Path, leaderboard: dict) -> None:
         writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         for row in leaderboard["rows"]:
+            writer.writerow(row)
+
+
+def write_org_leaderboard_csv(path: Path, org_leaderboard: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames = [
+        "rank",
+        "official_org",
+        "developer",
+        "country",
+        "total_downloads_30d",
+        "total_downloads_all_time",
+        "momentum_score",
+        "momentum_rank",
+        "model_count",
+        "complete",
+        "top_model_row_id",
+        "top_model_display_name",
+        "top_model_downloads_30d",
+        "top_model_downloads_all_time",
+        "top_model_overall_rank",
+        "rank_by_top_model",
+    ]
+    with path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        for row in org_leaderboard["rows"]:
             writer.writerow(row)
 
 
@@ -392,13 +528,23 @@ def main() -> None:
 
     prev_path = previous_snapshot_path(snapshots_dir, snapshot_date)
     previous = load_json(prev_path) if prev_path and prev_path.is_file() else None
-    leaderboard = build_leaderboard(manifest, snapshot, previous)
+    leaderboard = build_leaderboard(
+        manifest, snapshot, previous, momentum_smoothing=args.momentum_smoothing
+    )
     out_json = args.output_dir / "leaderboard.json"
     out_csv = args.output_dir / "leaderboard.csv"
     write_json(out_json, leaderboard)
     write_leaderboard_csv(out_csv, leaderboard)
     if not args.quiet:
         print(f"Wrote {out_json} and {out_csv}", file=sys.stderr)
+
+    org_leaderboard = build_org_leaderboard(leaderboard["rows"], momentum_smoothing=args.momentum_smoothing)
+    out_orgs_json = args.output_dir / "leaderboard_orgs.json"
+    out_orgs_csv = args.output_dir / "leaderboard_orgs.csv"
+    write_json(out_orgs_json, org_leaderboard)
+    write_org_leaderboard_csv(out_orgs_csv, org_leaderboard)
+    if not args.quiet:
+        print(f"Wrote {out_orgs_json} and {out_orgs_csv}", file=sys.stderr)
         print(
             f"Done: {len(repos)} ok, {len(fetch_errors)} errors, "
             f"top={leaderboard['rows'][0]['display_name'] if leaderboard['rows'] else 'n/a'}",

@@ -43,6 +43,7 @@ jobs:
             --allow-partial
           python scripts/render_leaderboard_md.py \
             --input output/leaderboard.json \
+            --orgs-input output/leaderboard_orgs.json \
             --output README.md
 
       - name: Commit metrics and leaderboard

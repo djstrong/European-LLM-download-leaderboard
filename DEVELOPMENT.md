@@ -89,6 +89,31 @@ Useful flags:
 | `--max-retries` | `3` | Retries after first failure (backoff + jitter; honors `Retry-After`) |
 | `--allow-partial` | off | Write outputs and exit 0 even if some repos fail |
 | `--token` / `HF_TOKEN` | unset | Recommended to reduce 429s |
+| `--momentum-smoothing` | `100000` | Smoothing constant `C` in the momentum formula below |
+
+### Momentum metric
+
+Each row (and each organization rollup) gets a `momentum_score`:
+
+```text
+momentum = downloads_30d / (downloads_all_time + C)   # C = --momentum-smoothing, default 100,000
+```
+
+A raw `downloads_30d / downloads_all_time` ratio lets a brand-new repo with a
+handful of total downloads look like it has near-100%/"infinite" momentum,
+which is just sample-size noise, not real signal. Adding a smoothing constant
+`C` to the denominator means a row needs a meaningful download volume before
+the ratio can get large, so a high momentum score reflects sustained recent
+pull relative to genuine lifetime traffic — not a fluke from a tiny sample.
+Both `rank` (by `total_downloads_30d`) and `momentum_rank` (by
+`momentum_score`) are included per row/org so you can sort either way.
+
+### Org rollup fields
+
+Each entry in `leaderboard_orgs.json` covers one `official_org` and includes:
+
+- `total_downloads_30d` / `total_downloads_all_time` / `momentum_score` — **summed** across every model version the org publishes, with `rank` / `momentum_rank` for that sum.
+- `top_model_row_id` / `top_model_display_name` / `top_model_downloads_30d` / `top_model_downloads_all_time` / `top_model_overall_rank` — the org's single **best individual model** (no summing), i.e. their biggest hit, plus that model's rank in the main per-model leaderboard. `rank_by_top_model` ranks orgs against each other on this metric.
 
 ## Storage layout
 
@@ -101,8 +126,10 @@ data/
     snapshots/YYYY-MM-DD.json   # per-repo + per-row point-in-time
     timeseries.jsonl            # one compact line per fetch run
 output/
-  leaderboard.json              # ranked current view
+  leaderboard.json              # ranked current view, per model row (incl. momentum_score)
   leaderboard.csv
+  leaderboard_orgs.json         # same downloads rolled up per official_org (incl. momentum_score)
+  leaderboard_orgs.csv
 README.md                       # Markdown leaderboard (CI + render_leaderboard_md.py)
 ```
 
@@ -111,10 +138,15 @@ README.md                       # Markdown leaderboard (CI + render_leaderboard_
 ```bash
 python scripts/render_leaderboard_md.py \
   --input output/leaderboard.json \
+  --orgs-input output/leaderboard_orgs.json \
   --output README.md
 ```
 
-Optional: `--limit 50` for a shorter table. CI runs this in `.github/workflows/fetch.yml` and commits `README.md`.
+Adds a "Momentum" column to the per-model table plus an "Organizations"
+section (org-level totals + a "Top by momentum" table). The org section is
+skipped automatically if `--orgs-input` is missing. Optional: `--limit 50`
+for a shorter model table. CI runs this in `.github/workflows/fetch.yml` and
+commits `README.md`.
 
 ### Historical data caveat
 
@@ -145,4 +177,5 @@ python scripts/fetch_download_stats.py --concurrency 8 --allow-partial
 python scripts/render_leaderboard_md.py   # writes README.md
 ```
 
-Inspect `README.md`, `output/leaderboard.json`, or `output/leaderboard.csv`.
+Inspect `README.md`, `output/leaderboard.json`/`.csv`, or
+`output/leaderboard_orgs.json`/`.csv`.
