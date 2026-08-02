@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:57:03Z",
+  "generated_at": "2026-08-02T14:48:53Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
   "config_content_hash": "sha256:7c8254f868219794d82db7b1d1602648ff505ce071c31504ac03efd38979a1f2",
@@ -29,7 +29,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:e2653836a90112ef9c08973a0f9c60b7f258a8c59def35bee4664d97d2dc3dd3",
+  "manifest_content_hash": "sha256:bee47f951fdce98ca5f69c4669d205ddd27e7fd1065656bdc98987879c74d7c5",
   "rows": {
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
@@ -89,6 +89,7 @@
         "speakleash/Bielik-11B-v2.5-Instruct-AWQ",
         "speakleash/Bielik-11B-v2.5-Instruct-FP8-Dynamic",
         "speakleash/Bielik-11B-v2.5-Instruct-GGUF",
+        "speakleash/Bielik-11B-v2.5-Instruct-RC042025",
         "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit"
       ]
     },
@@ -2698,6 +2699,7 @@
     "speakleash/Bielik-11B-v2.5-Instruct-AWQ",
     "speakleash/Bielik-11B-v2.5-Instruct-FP8-Dynamic",
     "speakleash/Bielik-11B-v2.5-Instruct-GGUF",
+    "speakleash/Bielik-11B-v2.5-Instruct-RC042025",
     "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit",
     "speakleash/Bielik-11B-v2.6-Instruct",
     "speakleash/Bielik-11B-v2.6-Instruct-AWQ",
