@@ -72,16 +72,19 @@ def chart_top_models_30d(rows: list[dict], out_dir: Path, *, top_n: int, snapsho
 
 def chart_orgs_best_single_model(org_rows: list[dict], out_dir: Path, *, snapshot_date: str | None) -> None:
     ordered = sorted(org_rows, key=lambda r: r.get("top_model_downloads_30d") or 0)
-    labels = [r["official_org"] for r in ordered]
+    labels = [
+        r.get("top_model_display_name") or r.get("top_model_row_id") or r["official_org"]
+        for r in ordered
+    ]
     values = [r.get("top_model_downloads_30d") or 0 for r in ordered]
 
     fig_h = max(4.0, 0.32 * len(ordered) + 1.5)
-    fig, ax = plt.subplots(figsize=(10, fig_h))
+    fig, ax = plt.subplots(figsize=(11, fig_h))
     ax.barh(labels, values, color=BAR_COLOR)
-    ax.set_xlabel("Downloads (last 30 days, best single model per org)")
+    ax.set_xlabel("Downloads (last 30 days)")
     set_title_with_snapshot(
         ax,
-        "Organizations by best single model (30-day downloads)",
+        "Best single model per organization (30-day downloads)",
         snapshot_date,
     )
     ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, _: f"{x:,.0f}"))
