@@ -32,6 +32,19 @@ def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+def normalize_hf_token(token: str | None) -> str | None:
+    """Return a usable HF token, or None if missing/blank.
+
+    GitHub Actions sets ``HF_TOKEN: ${{ secrets.HF_TOKEN }}`` to an empty string
+    when the secret is unset, which would otherwise send ``Authorization: Bearer ``
+    and crash httpx with ``Illegal header value``.
+    """
+    if token is None:
+        return None
+    token = token.strip()
+    return token or None
+
+
 def sha256_hex(data: bytes | str) -> str:
     if isinstance(data, str):
         data = data.encode("utf-8")

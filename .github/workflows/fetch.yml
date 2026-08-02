@@ -32,6 +32,8 @@ jobs:
             echo "Missing data/manifest/latest.json — run the Resolve workflow first"
             exit 1
           fi
+          # Missing secret becomes ""; unset so we do not send "Authorization: Bearer "
+          if [ -z "${HF_TOKEN:-}" ]; then unset HF_TOKEN; fi
           python scripts/fetch_download_stats.py \
             --manifest data/manifest/latest.json \
             --metrics-dir data/metrics \

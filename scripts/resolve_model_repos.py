@@ -19,6 +19,7 @@ from leaderboard_common import (
     compute_manifest_content_hash,
     die,
     load_json,
+    normalize_hf_token,
     organizations_to_scan,
     sha256_hex,
     utc_now_iso,
@@ -198,7 +199,7 @@ def main() -> None:
 
     models = active_models(config)
     orgs = organizations_to_scan(config, models)
-    api = HfApi(token=args.token)
+    api = HfApi(token=normalize_hf_token(args.token))
 
     org_repos: dict[str, list[str]] = {}
     for org in orgs:

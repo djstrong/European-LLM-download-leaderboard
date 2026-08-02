@@ -33,6 +33,8 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          # Missing secret becomes ""; unset so we do not send "Authorization: Bearer "
+          if [ -z "${HF_TOKEN:-}" ]; then unset HF_TOKEN; fi
           python scripts/resolve_model_repos.py \
             --config european-llm-hf-download-leaderboard.json \
             --out data/manifest/latest.json \

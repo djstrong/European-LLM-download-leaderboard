@@ -18,7 +18,7 @@ from typing import Any
 from huggingface_hub import HfApi
 from huggingface_hub.utils import HfHubHTTPError, RepositoryNotFoundError
 
-from leaderboard_common import die, load_json, utc_now_iso, write_json
+from leaderboard_common import die, load_json, normalize_hf_token, utc_now_iso, write_json
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_MANIFEST = REPO_ROOT / "data" / "manifest" / "latest.json"
@@ -350,7 +350,7 @@ def main() -> None:
     snapshots_dir = args.metrics_dir / "snapshots"
     snapshots_dir.mkdir(parents=True, exist_ok=True)
 
-    api = HfApi(token=args.token)
+    api = HfApi(token=normalize_hf_token(args.token))
     if not args.quiet:
         print(
             f"Fetching stats for {len(repo_ids)} repos "
