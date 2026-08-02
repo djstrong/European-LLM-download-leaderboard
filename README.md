@@ -193,7 +193,7 @@ Same downloads, aggregated across every model version an organization publishes.
 | 23 | [domyn](https://huggingface.co/domyn) | Domyn | IT | 976 | 4,451 | 1 | 0.9% |
 | 24 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | Aleph Alpha | DE | 363 | 75,144 | 1 | 0.2% |
 
-### Top 10 by best single model
+### By best single model
 
 Ranked by each organization's single highest-downloading model (no summing across versions) — who has the biggest individual hit.
 
@@ -209,10 +209,24 @@ Ranked by each organization's single highest-downloading model (no summing acros
 | 8 | [ilsp](https://huggingface.co/ilsp) | Llama-Krikri 8B | 6,311 | 94,133 | 41 |
 | 9 | [cjvt](https://huggingface.co/cjvt) | GaMS3 12B | 6,217 | 56,931 | 42 |
 | 10 | [openGPT-X](https://huggingface.co/openGPT-X) | Teuken 7B v0.6 | 4,767 | 660,351 | 49 |
+| 11 | [sapienzanlp](https://huggingface.co/sapienzanlp) | Minerva 7B v1.0 | 4,742 | 123,338 | 50 |
+| 12 | [mii-llm](https://huggingface.co/mii-llm) | Maestrale Chat v0.4 | 4,417 | 141,617 | 52 |
+| 13 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | Llama-PLLuM 70B (2512) | 3,632 | 10,946 | 54 |
+| 14 | [occiglot](https://huggingface.co/occiglot) | Occiglot 7B (bilingual) | 3,582 | 363,908 | 55 |
+| 15 | [LeoLM](https://huggingface.co/LeoLM) | LeoLM HessianAI 7B | 3,239 | 798,104 | 58 |
+| 16 | [Almawave](https://huggingface.co/Almawave) | Velvet 14B | 3,110 | 60,442 | 59 |
+| 17 | [Soofi-Project](https://huggingface.co/Soofi-Project) | Soofi S Instruct Preview | 1,783 | 6,140 | 73 |
+| 18 | [LumiOpen](https://huggingface.co/LumiOpen) | Llama-Poro 2 8B | 1,696 | 38,524 | 76 |
+| 19 | [Voicelab](https://huggingface.co/Voicelab) | TRURL 2 7B | 1,655 | 298,250 | 79 |
+| 20 | [openeurollm](https://huggingface.co/openeurollm) | OpenEuroLLM Prelude | 1,633 | 1,633 | 82 |
+| 21 | [OPI-PG](https://huggingface.co/OPI-PG) | Qra 1B | 1,628 | 154,792 | 83 |
+| 22 | [croissantllm](https://huggingface.co/croissantllm) | CroissantLLM Base | 1,101 | 55,107 | 94 |
+| 23 | [domyn](https://huggingface.co/domyn) | Domyn Small v1.0 | 976 | 4,451 | 96 |
+| 24 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | Pharia-1-LLM-7B-control | 363 | 75,144 | 116 |
 
-### Top 10 by momentum
+### By momentum
 
-Momentum highlights orgs whose recent downloads are large *relative to their lifetime total* — i.e. accelerating adoption, not legacy long-tail traffic from an old release.
+Sorted by momentum (highest first). Momentum highlights orgs whose recent downloads are large *relative to their lifetime total* — i.e. accelerating adoption, not legacy long-tail traffic from an old release.
 
 | Momentum rank | Organization | Momentum | Downloads (30d) | All-time | Downloads rank |
 | ---: | --- | ---: | ---: | ---: | ---: |
@@ -226,6 +240,20 @@ Momentum highlights orgs whose recent downloads are large *relative to their lif
 | 8 | [BSC-LT](https://huggingface.co/BSC-LT) | 3.4% | 47,026 | 1,278,429 | 5 |
 | 9 | [mii-llm](https://huggingface.co/mii-llm) | 3.3% | 14,417 | 334,973 | 8 |
 | 10 | [cjvt](https://huggingface.co/cjvt) | 3.2% | 8,670 | 173,125 | 10 |
+| 11 | [ilsp](https://huggingface.co/ilsp) | 2.6% | 7,116 | 175,974 | 12 |
+| 12 | [CYFRAGOVPL](https://huggingface.co/CYFRAGOVPL) | 2.6% | 11,574 | 352,233 | 9 |
+| 13 | [Almawave](https://huggingface.co/Almawave) | 2.5% | 6,043 | 141,881 | 13 |
+| 14 | [sapienzanlp](https://huggingface.co/sapienzanlp) | 2.1% | 4,742 | 123,338 | 14 |
+| 15 | [openeurollm](https://huggingface.co/openeurollm) | 1.6% | 1,633 | 1,633 | 22 |
+| 16 | [domyn](https://huggingface.co/domyn) | 0.9% | 976 | 4,451 | 23 |
+| 17 | [openGPT-X](https://huggingface.co/openGPT-X) | 0.9% | 8,525 | 837,418 | 11 |
+| 18 | [OPI-PG](https://huggingface.co/OPI-PG) | 0.8% | 4,638 | 479,317 | 15 |
+| 19 | [croissantllm](https://huggingface.co/croissantllm) | 0.7% | 1,805 | 148,568 | 21 |
+| 20 | [LumiOpen](https://huggingface.co/LumiOpen) | 0.6% | 2,858 | 401,289 | 20 |
+| 21 | [occiglot](https://huggingface.co/occiglot) | 0.5% | 4,121 | 684,392 | 16 |
+| 22 | [Voicelab](https://huggingface.co/Voicelab) | 0.4% | 3,282 | 651,138 | 19 |
+| 23 | [LeoLM](https://huggingface.co/LeoLM) | 0.3% | 3,764 | 1,155,072 | 18 |
+| 24 | [Aleph-Alpha](https://huggingface.co/Aleph-Alpha) | 0.2% | 363 | 75,144 | 24 |
 
 ## Notes
 

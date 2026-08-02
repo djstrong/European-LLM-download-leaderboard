@@ -13,7 +13,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = REPO_ROOT / "output" / "leaderboard.json"
 DEFAULT_ORGS_INPUT = REPO_ROOT / "output" / "leaderboard_orgs.json"
 DEFAULT_OUTPUT = REPO_ROOT / "README.md"
-TOP_ORG_SECTION_LIMIT = 10
 
 
 def parse_args() -> argparse.Namespace:
@@ -103,8 +102,8 @@ def render_org_table(org_rows: list[dict]) -> list[str]:
     return lines
 
 
-def render_top_model_table(org_rows: list[dict], *, limit: int) -> list[str]:
-    ranked = sorted(org_rows, key=lambda r: r.get("rank_by_top_model", 10**9))[:limit]
+def render_top_model_table(org_rows: list[dict]) -> list[str]:
+    ranked = sorted(org_rows, key=lambda r: r.get("rank_by_top_model", 10**9))
     lines = [
         "| Rank | Organization | Best model | Downloads (30d) | All-time | Overall model rank |",
         "| ---: | --- | --- | ---: | ---: | ---: |",
@@ -127,8 +126,8 @@ def render_top_model_table(org_rows: list[dict], *, limit: int) -> list[str]:
     return lines
 
 
-def render_momentum_table(org_rows: list[dict], *, limit: int) -> list[str]:
-    ranked = sorted(org_rows, key=lambda r: r.get("momentum_rank", 10**9))[:limit]
+def render_momentum_table(org_rows: list[dict]) -> list[str]:
+    ranked = sorted(org_rows, key=lambda r: r.get("momentum_rank", 10**9))
     lines = [
         "| Momentum rank | Organization | Momentum | Downloads (30d) | All-time | Downloads rank |",
         "| ---: | --- | ---: | ---: | ---: | ---: |",
@@ -223,27 +222,27 @@ def render_markdown(
         lines.extend(
             [
                 "",
-                f"### Top {min(TOP_ORG_SECTION_LIMIT, len(org_rows))} by best single model",
+                "### By best single model",
                 "",
                 "Ranked by each organization's single highest-downloading model "
                 "(no summing across versions) — who has the biggest individual hit.",
                 "",
             ]
         )
-        lines.extend(render_top_model_table(org_rows, limit=TOP_ORG_SECTION_LIMIT))
+        lines.extend(render_top_model_table(org_rows))
 
         lines.extend(
             [
                 "",
-                f"### Top {min(TOP_ORG_SECTION_LIMIT, len(org_rows))} by momentum",
+                "### By momentum",
                 "",
-                "Momentum highlights orgs whose recent downloads are large *relative to their "
-                "lifetime total* — i.e. accelerating adoption, not legacy long-tail traffic from "
-                "an old release.",
+                "Sorted by momentum (highest first). Momentum highlights orgs whose recent downloads "
+                "are large *relative to their lifetime total* — i.e. accelerating adoption, not legacy "
+                "long-tail traffic from an old release.",
                 "",
             ]
         )
-        lines.extend(render_momentum_table(org_rows, limit=TOP_ORG_SECTION_LIMIT))
+        lines.extend(render_momentum_table(org_rows))
 
     lines.extend(
         [
