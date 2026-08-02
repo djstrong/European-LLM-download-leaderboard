@@ -41,6 +41,10 @@ jobs:
             --concurrency 8 \
             --max-retries 3 \
             --allow-partial
+          python scripts/render_charts.py \
+            --input output/leaderboard.json \
+            --orgs-input output/leaderboard_orgs.json \
+            --out-dir docs/charts
           python scripts/render_leaderboard_md.py \
             --input output/leaderboard.json \
             --orgs-input output/leaderboard_orgs.json \
@@ -50,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/metrics/ output/ README.md
+          git add data/metrics/ output/ README.md docs/charts/
           if git diff --staged --quiet; then
             echo "No metrics/leaderboard changes to commit"
           else

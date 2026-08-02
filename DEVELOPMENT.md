@@ -143,10 +143,28 @@ python scripts/render_leaderboard_md.py \
 ```
 
 Adds a "Momentum" column to the per-model table plus an "Organizations"
-section (org-level totals + a "Top by momentum" table). The org section is
+section (org-level totals + by best single model + by momentum tables). The org section is
 skipped automatically if `--orgs-input` is missing. Optional: `--limit 50`
 for a shorter model table. CI runs this in `.github/workflows/fetch.yml` and
 commits `README.md`.
+
+### 4. Render charts (PNG)
+
+```bash
+python scripts/render_charts.py \
+  --input output/leaderboard.json \
+  --orgs-input output/leaderboard_orgs.json \
+  --out-dir docs/charts
+```
+
+Writes two PNGs under `docs/charts/` (embedded in `README.md` via `render_leaderboard_md.py`):
+
+| File | Description |
+|------|-------------|
+| `top-models-30d.png` | Horizontal bar, top 20 models by 30d downloads |
+| `orgs-best-single-model-30d.png` | All orgs, best single model per org |
+
+CI runs this after fetch in `.github/workflows/fetch.yml`.
 
 ### Historical data caveat
 
@@ -159,7 +177,7 @@ Independent workflows (fetch does **not** wait for resolve):
 | Workflow | Triggers | Commits |
 |----------|----------|---------|
 | [`.github/workflows/resolve.yml`](.github/workflows/resolve.yml) | Push to config / resolve script, weekly cron, manual | `data/manifest/` |
-| [`.github/workflows/fetch.yml`](.github/workflows/fetch.yml) | Daily cron, manual | `data/metrics/`, `output/`, `README.md` |
+| [`.github/workflows/fetch.yml`](.github/workflows/fetch.yml) | Daily cron, manual | `data/metrics/`, `output/`, `docs/charts/`, `README.md` |
 
 Optional repository secret: `HF_TOKEN` (public models work without it; token reduces rate limits).
 
@@ -174,6 +192,7 @@ pip install -r requirements.txt
 
 python scripts/resolve_model_repos.py --audit --diff
 python scripts/fetch_download_stats.py --concurrency 8 --allow-partial
+python scripts/render_charts.py
 python scripts/render_leaderboard_md.py   # writes README.md
 ```
 

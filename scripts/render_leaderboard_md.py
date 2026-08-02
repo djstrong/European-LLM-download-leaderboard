@@ -172,6 +172,12 @@ def render_markdown(
         f"- **Rows:** {len(rows)}"
         + (f" (of {len(leaderboard.get('rows') or [])})" if limit is not None else ""),
         "",
+        "## Charts",
+        "",
+        "![Top models by 30-day downloads](docs/charts/top-models-30d.png)",
+        "",
+        "![Organizations by best single model (30-day downloads)](docs/charts/orgs-best-single-model-30d.png)",
+        "",
         "| Rank | Model | Country | Developer | Org | Downloads (30d) | Δ 30d | All-time | Momentum | Params | Repos |",
         "| ---: | --- | :---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
