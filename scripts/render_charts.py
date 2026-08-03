@@ -70,25 +70,38 @@ def chart_top_models_30d(rows: list[dict], out_dir: Path, *, top_n: int, snapsho
     save_fig(out_dir / "top-models-30d.png")
 
 
-def chart_orgs_best_single_model(org_rows: list[dict], out_dir: Path, *, snapshot_date: str | None) -> None:
+def chart_orgs_best_single_model(
+    org_rows: list[dict],
+    out_dir: Path,
+    *,
+    snapshot_date: str | None,
+    log_scale: bool = False,
+) -> None:
     ordered = sorted(org_rows, key=lambda r: r.get("top_model_downloads_30d") or 0)
     labels = [
         r.get("top_model_display_name") or r.get("top_model_row_id") or r["official_org"]
         for r in ordered
     ]
-    values = [r.get("top_model_downloads_30d") or 0 for r in ordered]
+    raw_values = [r.get("top_model_downloads_30d") or 0 for r in ordered]
+    values = [max(v, 1) for v in raw_values] if log_scale else raw_values
 
     fig_h = max(4.0, 0.32 * len(ordered) + 1.5)
     fig, ax = plt.subplots(figsize=(11, fig_h))
     ax.barh(labels, values, color=BAR_COLOR)
-    ax.set_xlabel("Downloads (last 30 days)")
-    set_title_with_snapshot(
-        ax,
-        "Best single model per organization (30-day downloads)",
-        snapshot_date,
-    )
+    if log_scale:
+        ax.set_xscale("log")
+        xlabel = "Downloads (last 30 days, log scale)"
+        title = "Best single model per organization (30-day downloads, log scale)"
+        out_name = "orgs-best-single-model-30d-log.png"
+    else:
+        xlabel = "Downloads (last 30 days)"
+        title = "Best single model per organization (30-day downloads)"
+        out_name = "orgs-best-single-model-30d.png"
+
+    ax.set_xlabel(xlabel)
+    set_title_with_snapshot(ax, title, snapshot_date)
     ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda x, _: f"{x:,.0f}"))
-    save_fig(out_dir / "orgs-best-single-model-30d.png")
+    save_fig(out_dir / out_name)
 
 
 def main() -> None:
@@ -111,7 +124,8 @@ def main() -> None:
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
     chart_top_models_30d(rows, args.out_dir, top_n=args.top_models, snapshot_date=snapshot_date)
-    chart_orgs_best_single_model(org_rows, args.out_dir, snapshot_date=snapshot_date)
+    chart_orgs_best_single_model(org_rows, args.out_dir, snapshot_date=snapshot_date, log_scale=False)
+    chart_orgs_best_single_model(org_rows, args.out_dir, snapshot_date=snapshot_date, log_scale=True)
 
 
 if __name__ == "__main__":

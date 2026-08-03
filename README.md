@@ -5,6 +5,14 @@
 - **Ranking metric:** `total_downloads_30d` (last 30 days, summed across official format variants)
 - **Rows:** 154
 
+## Charts
+
+![Top models by 30-day downloads](docs/charts/top-models-30d.png)
+
+![Organizations by best single model (30-day downloads)](docs/charts/orgs-best-single-model-30d.png)
+
+![Best single model per organization (30-day downloads, log scale)](docs/charts/orgs-best-single-model-30d-log.png)
+
 | Rank | Model | Country | Developer | Org | Downloads (30d) | Δ 30d | All-time | Momentum | Params | Repos |
 | ---: | --- | :---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | 1 | Mistral 7B v0.3 | FR | Mistral AI | [mistralai](https://huggingface.co/mistralai) | 5,263,920 | — | 51,645,283 | 10.2% | 7.25B | 2 |
@@ -162,8 +170,6 @@
 | 153 | Emma 5 Boost | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 8 | — | 8 | 0.0% | 1.39B | 1 |
 | 154 | Zagreus 0.4B (SPA) | IT | mii-llm | [mii-llm](https://huggingface.co/mii-llm) | 7 | — | 55 | 0.0% | 437.8M | 1 |
 
-![Top models by 30-day downloads](docs/charts/top-models-30d.png)
-
 ## Organizations
 
 Same downloads, aggregated across every model version an organization publishes.
@@ -198,8 +204,6 @@ Same downloads, aggregated across every model version an organization publishes.
 ### By best single model
 
 Ranked by each organization's single highest-downloading model (no summing across versions) — who has the biggest individual hit.
-
-![Organizations by best single model (30-day downloads)](docs/charts/orgs-best-single-model-30d.png)
 
 | Rank | Organization | Best model | Downloads (30d) | All-time | Overall model rank |
 | ---: | --- | --- | ---: | ---: | ---: |

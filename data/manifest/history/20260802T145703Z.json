@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T21:50:28Z",
+  "generated_at": "2026-08-02T14:57:03Z",
   "config_version": 2,
   "config_path": "european-llm-hf-download-leaderboard.json",
-  "config_content_hash": "sha256:1a209b835d91c5e52a873e1c2ea445ed9cb2f3da12c5981f1db5d6ead7406dd2",
+  "config_content_hash": "sha256:7c8254f868219794d82db7b1d1602648ff505ce071c31504ac03efd38979a1f2",
   "organizations_scanned": [
     "Aleph-Alpha",
     "Almawave",
@@ -14,7 +14,6 @@
     "OPI-PG",
     "PleIAs",
     "Soofi-Project",
-    "TildeAI",
     "Voicelab",
     "cjvt",
     "croissantllm",
@@ -30,7 +29,7 @@
     "swiss-ai",
     "utter-project"
   ],
-  "manifest_content_hash": "sha256:720bf2e269e20f7bf35ec769df0fbdc903b28ed0dafae888c5c972e39bf92359",
+  "manifest_content_hash": "sha256:e2653836a90112ef9c08973a0f9c60b7f258a8c59def35bee4664d97d2dc3dd3",
   "rows": {
     "bielik-11b-v3.0": {
       "display_name": "Bielik-11B v3.0",
@@ -90,7 +89,6 @@
         "speakleash/Bielik-11B-v2.5-Instruct-AWQ",
         "speakleash/Bielik-11B-v2.5-Instruct-FP8-Dynamic",
         "speakleash/Bielik-11B-v2.5-Instruct-GGUF",
-        "speakleash/Bielik-11B-v2.5-Instruct-RC042025",
         "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit"
       ]
     },
@@ -1516,50 +1514,6 @@
         "cjvt/OPT_GaMS-1B-Chat"
       ]
     },
-    "tildeopen-30b": {
-      "display_name": "TildeOpen 30B",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen-30b"
-      ]
-    },
-    "tildeopen-30b-64k": {
-      "display_name": "TildeOpen 30B (64k)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen-30b-64k"
-      ]
-    },
-    "tildeopen-15b-wmt26-cs-de": {
-      "display_name": "TildeOpen 15B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
-        "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-      ]
-    },
-    "tildeopen-8b-wmt26-cs-de": {
-      "display_name": "TildeOpen 8B WMT26 (cs-de)",
-      "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "repos": [
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
-      ]
-    },
     "soofi-s-instruct-preview": {
       "display_name": "Soofi S Instruct Preview",
       "version": "preview",
@@ -2351,8 +2305,7 @@
       "speakleash/Bielik-PL-11B-v3.0-Instruct"
     ],
     "swiss-ai": [
-      "swiss-ai/apertus-pretrain-toxicity",
-      "swiss-ai/wavtokenizer-large-unify-40token"
+      "swiss-ai/apertus-pretrain-toxicity"
     ],
     "utter-project": [
       "utter-project/EuroFilter-v1",
@@ -2543,14 +2496,6 @@
     "Soofi-Project/Soofi-S-Rhine-Preview-EntQuant-4bit",
     "Soofi-Project/Soofi-S-Rhine-Preview-FP8",
     "Soofi-Project/Soofi-S-Rhine-Preview-GGUF",
-    "TildeAI/TildeOpen-30b",
-    "TildeAI/TildeOpen-30b-64k",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
-    "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
-    "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn",
     "Voicelab/trurl-2-13b",
     "Voicelab/trurl-2-13b-8bit",
     "Voicelab/trurl-2-13b-academic",
@@ -2753,7 +2698,6 @@
     "speakleash/Bielik-11B-v2.5-Instruct-AWQ",
     "speakleash/Bielik-11B-v2.5-Instruct-FP8-Dynamic",
     "speakleash/Bielik-11B-v2.5-Instruct-GGUF",
-    "speakleash/Bielik-11B-v2.5-Instruct-RC042025",
     "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit",
     "speakleash/Bielik-11B-v2.6-Instruct",
     "speakleash/Bielik-11B-v2.6-Instruct-AWQ",

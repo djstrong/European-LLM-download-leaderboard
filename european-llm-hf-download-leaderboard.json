@@ -1263,6 +1263,46 @@
         "^cjvt/(?:OPT_)?GaMS-1B"
       ]
     },
+    "tildeopen-30b": {
+      "display_name": "TildeOpen 30B",
+      "version": null,
+      "country": "LV",
+      "developer": "Tilde",
+      "official_org": "TildeAI",
+      "regex": [
+        "^TildeAI/TildeOpen-30b$"
+      ]
+    },
+    "tildeopen-30b-64k": {
+      "display_name": "TildeOpen 30B (64k)",
+      "version": null,
+      "country": "LV",
+      "developer": "Tilde",
+      "official_org": "TildeAI",
+      "regex": [
+        "^TildeAI/TildeOpen-30b-64k"
+      ]
+    },
+    "tildeopen-15b-wmt26-cs-de": {
+      "display_name": "TildeOpen 15B WMT26 (cs-de)",
+      "version": null,
+      "country": "LV",
+      "developer": "Tilde",
+      "official_org": "TildeAI",
+      "regex": [
+        "^TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de"
+      ]
+    },
+    "tildeopen-8b-wmt26-cs-de": {
+      "display_name": "TildeOpen 8B WMT26 (cs-de)",
+      "version": null,
+      "country": "LV",
+      "developer": "Tilde",
+      "official_org": "TildeAI",
+      "regex": [
+        "^TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de"
+      ]
+    },
     "soofi-s-instruct-preview": {
       "display_name": "Soofi S Instruct Preview",
       "version": "preview",

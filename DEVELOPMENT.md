@@ -157,12 +157,13 @@ python scripts/render_charts.py \
   --out-dir docs/charts
 ```
 
-Writes two PNGs under `docs/charts/` (embedded in `README.md` via `render_leaderboard_md.py`):
+Writes three PNGs under `docs/charts/` (embedded in `README.md` via `render_leaderboard_md.py`):
 
 | File | Description |
 |------|-------------|
 | `top-models-30d.png` | Horizontal bar, top 20 models by 30d downloads |
-| `orgs-best-single-model-30d.png` | All orgs, best single model per org |
+| `orgs-best-single-model-30d.png` | All orgs, best single model per org (model names on axis, linear scale) |
+| `orgs-best-single-model-30d-log.png` | Same data, log-scale x-axis |
 
 CI runs this after fetch in `.github/workflows/fetch.yml`.
 

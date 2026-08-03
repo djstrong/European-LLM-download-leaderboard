@@ -178,6 +178,8 @@ def render_markdown(
         "",
         "![Organizations by best single model (30-day downloads)](docs/charts/orgs-best-single-model-30d.png)",
         "",
+        "![Best single model per organization (30-day downloads, log scale)](docs/charts/orgs-best-single-model-30d-log.png)",
+        "",
         "| Rank | Model | Country | Developer | Org | Downloads (30d) | Δ 30d | All-time | Momentum | Params | Repos |",
         "| ---: | --- | :---: | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
