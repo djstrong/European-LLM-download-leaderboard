@@ -1,26 +1,26 @@
 rank,official_org,developer,country,total_downloads_30d,total_downloads_all_time,momentum_score,momentum_rank,model_count,complete,top_model_row_id,top_model_display_name,top_model_downloads_30d,top_model_downloads_all_time,top_model_overall_rank,rank_by_top_model
-1,mistralai,Mistral AI,FR,12169722,282899309,0.043003,5,30,True,mistral-7b-v0.3,Mistral 7B v0.3,5175991,51933115,1,1
-2,speakleash,SpeakLeash / ACK Cyfronet AGH,PL,903407,5801385,0.153084,1,12,True,bielik-11b-v3.0,Bielik-11B v3.0,733671,3728851,6,2
-3,swiss-ai,swiss-ai,CH,437049,3512459,0.120984,2,7,True,apertus-8b-2509,Apertus 8B (2509),376906,3078348,9,3
-4,utter-project,utter-project,EU,100441,1740981,0.054558,4,11,True,eurollm-9b-instruct,EuroLLM-9B-Instruct,40164,446827,25,5
-5,BSC-LT,BSC-LT,ES,48453,1280967,0.035086,7,5,True,salamandra-7b-instruct,Salamandra 7B Instruct,40420,621942,24,4
-6,PleIAs,PleIAs,FR,30990,360222,0.067337,3,11,True,pleias-3b-preview,Pleias 3B Preview,8345,54318,36,6
-7,INSAIT-Institute,INSAIT,UA,24262,512488,0.039612,6,13,True,mamaylm-gemma3-12b-v2,MamayLM Gemma 3 12B v2.0,7800,14266,40,7
-8,mii-llm,mii-llm,IT,14820,336149,0.033979,8,14,True,maestrale-chat-v0.4,Maestrale Chat v0.4,4457,141928,53,12
-9,CYFRAGOVPL,CYFRAGOVPL / PLLuM consortium,PL,11757,353037,0.025952,11,10,True,llama-pllum-70b-2512,Llama-PLLuM 70B (2512),3660,10994,56,15
-10,cjvt,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",SI,8779,173509,0.032098,10,6,True,gams3-12b,GaMS3 12B,6339,57175,42,8
-11,openGPT-X,openGPT-X,DE,8750,838032,0.009328,18,3,True,teuken-7b-v0.6,Teuken 7B v0.6,4954,660691,49,10
-12,ilsp,ILSP,GR,7107,176170,0.025734,12,3,True,llama-krikri-8b,Llama-Krikri 8B,6322,94270,43,9
-13,Almawave,Almawave,IT,5855,142292,0.024165,14,2,True,velvet-14b,Velvet 14B,2947,60658,63,17
-14,TildeAI,Tilde,LV,4959,98494,0.024983,13,4,True,tildeopen-30b,TildeOpen 30B,4418,96519,54,13
-15,sapienzanlp,SapienzaNLP,IT,4804,123635,0.021481,15,1,True,minerva-7b-v1.0,Minerva 7B v1.0,4804,123635,51,11
-16,OPI-PG,OPI-PG,PL,4603,479730,0.00794,20,3,True,qra-1b,Qra 1B,1622,154936,84,21
-17,occiglot,occiglot,EU,4405,684896,0.005612,22,2,True,occiglot-7b-bilingual,Occiglot 7B (bilingual),3770,364310,55,14
-18,Soofi-Project,Soofi Project,DE,3824,13157,0.033794,9,4,True,soofi-s-instruct-preview,Soofi S Instruct Preview,1614,6182,85,22
-19,LeoLM,LeoLM,DE,3532,1155256,0.002814,24,4,True,leo-hessianai-7b,LeoLM HessianAI 7B,3040,798229,61,16
-20,LumiOpen,LumiOpen,FI,3525,402017,0.007022,21,6,True,llama-poro-2-8b,Llama-Poro 2 8B,2292,39129,70,18
-21,Voicelab,Voicelab,PL,3309,651485,0.004403,23,2,True,trurl-2-7b,TRURL 2 7B,1704,298454,79,19
-22,croissantllm,croissantllm,FR,1989,148836,0.007993,19,2,True,croissantllm-base,CroissantLLM Base,1174,55235,95,24
+1,mistralai,Mistral AI,FR,11830576,283608295,0.0417,5,30,True,mistral-7b-v0.3,Mistral 7B v0.3,5088436,52423836,1,1
+2,speakleash,SpeakLeash / ACK Cyfronet AGH,PL,866654,5838176,0.145946,1,12,True,bielik-11b-v3.0,Bielik-11B v3.0,706903,3763889,6,2
+3,swiss-ai,swiss-ai,CH,437917,3528770,0.120679,2,7,True,apertus-8b-2509,Apertus 8B (2509),378136,3092360,9,3
+4,utter-project,utter-project,EU,95625,1744846,0.051834,4,11,True,eurollm-9b-instruct,EuroLLM-9B-Instruct,39820,447919,23,4
+5,BSC-LT,BSC-LT,ES,47383,1283552,0.034247,6,5,True,salamandra-7b-instruct,Salamandra 7B Instruct,39065,623467,24,5
+6,PleIAs,PleIAs,FR,29116,362295,0.062981,3,11,True,pleias-3b-preview,Pleias 3B Preview,7736,54874,37,6
+7,INSAIT-Institute,INSAIT,BG,20515,512916,0.033471,7,13,True,bggpt-gemma3-4b,BgGPT Gemma 3 4B,5744,12644,43,9
+8,mii-llm,mii-llm,IT,14551,336691,0.033321,8,14,True,maestrale-chat-v0.4,Maestrale Chat v0.4,4319,142078,53,13
+9,CYFRAGOVPL,CYFRAGOVPL / PLLuM consortium,PL,11756,353579,0.025918,11,10,True,llama-pllum-70b-2512,Llama-PLLuM 70B (2512),3643,10999,56,15
+10,cjvt,"CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",SI,8659,173865,0.031618,9,6,True,gams3-12b,GaMS3 12B,6339,57446,41,7
+11,openGPT-X,openGPT-X,DE,8530,838419,0.00909,18,3,True,teuken-7b-v0.6,Teuken 7B v0.6,4888,660956,48,10
+12,ilsp,ILSP,GR,7002,176369,0.025336,12,3,True,llama-krikri-8b,Llama-Krikri 8B,6250,94433,42,8
+13,Almawave,Almawave,IT,5665,142491,0.023362,14,2,True,velvet-14b,Velvet 14B,2844,60758,62,17
+14,TildeAI,Tilde,LV,4869,98582,0.024519,13,4,True,tildeopen-30b,TildeOpen 30B,4350,96605,52,12
+15,sapienzanlp,SapienzaNLP,IT,4801,123948,0.021438,15,1,True,minerva-7b-v1.0,Minerva 7B v1.0,4801,123948,49,11
+16,OPI-PG,OPI-PG,PL,4449,479796,0.007673,20,3,True,qra-1b,Qra 1B,1525,154958,88,23
+17,occiglot,occiglot,EU,4352,685117,0.005543,22,2,True,occiglot-7b-bilingual,Occiglot 7B (bilingual),3666,364479,55,14
+18,Soofi-Project,Soofi Project,DE,3576,13269,0.031571,10,4,True,soofi-s-instruct-preview,Soofi S Instruct Preview,1574,6186,86,22
+19,LumiOpen,LumiOpen,FI,3575,402183,0.007119,21,6,True,llama-poro-2-8b,Llama-Poro 2 8B,2330,39205,68,18
+20,LeoLM,LeoLM,DE,3475,1155265,0.002768,24,4,True,leo-hessianai-7b,LeoLM HessianAI 7B,2991,798234,60,16
+21,Voicelab,Voicelab,PL,3250,651533,0.004324,23,2,True,trurl-2-7b,TRURL 2 7B,1676,298479,78,19
+22,croissantllm,croissantllm,FR,2018,148936,0.008107,19,2,True,croissantllm-base,CroissantLLM Base,1152,55240,96,24
 23,openeurollm,openeurollm,EU,1644,1644,0.016174,16,1,True,openeurollm-prelude,OpenEuroLLM Prelude,1644,1644,82,20
-24,domyn,Domyn,IT,1578,5071,0.015018,17,1,True,domyn-small-v1.0,Domyn Small v1.0,1578,5071,88,23
-25,Aleph-Alpha,Aleph Alpha,DE,340,75152,0.001941,25,1,True,pharia-7b-control,Pharia-1-LLM-7B-control,340,75152,121,25
+24,domyn,Domyn,IT,1602,5121,0.01524,17,1,True,domyn-small-v1.0,Domyn Small v1.0,1602,5121,85,21
+25,Aleph-Alpha,Aleph Alpha,DE,329,75156,0.001878,25,1,True,pharia-7b-control,Pharia-1-LLM-7B-control,329,75156,120,25
