@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T07:22:34Z",
-  "snapshot_date": "2026-08-07",
+  "generated_at": "2026-08-08T07:00:13Z",
+  "snapshot_date": "2026-08-08",
   "manifest_content_hash": "sha256:eae0992b3d96634cc0c11811b2dc2a0833ba25f64339f3f3047724d7c675a629",
   "ranking_metric": "total_downloads_30d",
   "momentum_smoothing": 100000.0,
@@ -12,20 +12,20 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 5088436,
-      "total_downloads_all_time": 52423836,
-      "momentum_score": 0.096879,
+      "total_downloads_30d": 5060563,
+      "total_downloads_all_time": 52585181,
+      "momentum_score": 0.096053,
       "parameters": 7248023552,
       "parameters_source_repo": "mistralai/Mistral-7B-Instruct-v0.3",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -27873,
       "repos": [
         "mistralai/Mistral-7B-Instruct-v0.3",
         "mistralai/Mistral-7B-v0.3"
       ],
       "rank": 1,
-      "momentum_rank": 11
+      "momentum_rank": 9
     },
     {
       "row_id": "mistral-7b-v0.2",
@@ -34,19 +34,19 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 1239633,
-      "total_downloads_all_time": 61808327,
-      "momentum_score": 0.020024,
+      "total_downloads_30d": 1195938,
+      "total_downloads_all_time": 61835934,
+      "momentum_score": 0.019309,
       "parameters": 7241732096,
       "parameters_source_repo": "mistralai/Mistral-7B-Instruct-v0.2",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -43695,
       "repos": [
         "mistralai/Mistral-7B-Instruct-v0.2"
       ],
       "rank": 2,
-      "momentum_rank": 47
+      "momentum_rank": 49
     },
     {
       "row_id": "mistral-7b-v0.1",
@@ -62,13 +62,13 @@
       "parameters_source_repo": "mistralai/Mistral-7B-Instruct-v0.1",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": -8227,
+      "delta_downloads_30d": 0,
       "repos": [
         "mistralai/Mistral-7B-Instruct-v0.1",
         "mistralai/Mistral-7B-v0.1"
       ],
       "rank": 3,
-      "momentum_rank": 48
+      "momentum_rank": 47
     },
     {
       "row_id": "mixtral-8x7b-v0.1",
@@ -84,13 +84,13 @@
       "parameters_source_repo": "mistralai/Mixtral-8x7B-Instruct-v0.1",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": -16503,
+      "delta_downloads_30d": 0,
       "repos": [
         "mistralai/Mixtral-8x7B-Instruct-v0.1",
         "mistralai/Mixtral-8x7B-v0.1"
       ],
       "rank": 4,
-      "momentum_rank": 39
+      "momentum_rank": 38
     },
     {
       "row_id": "ministral-3-3b-2512",
@@ -99,14 +99,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 763029,
-      "total_downloads_all_time": 4795557,
-      "momentum_score": 0.155862,
+      "total_downloads_30d": 729424,
+      "total_downloads_all_time": 4805736,
+      "momentum_score": 0.148688,
       "parameters": 4251743232,
       "parameters_source_repo": "mistralai/Ministral-3-3B-Base-2512",
       "repo_count": 7,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -33605,
       "repos": [
         "mistralai/Ministral-3-3B-Base-2512",
         "mistralai/Ministral-3-3B-Instruct-2512",
@@ -126,14 +126,14 @@
       "country": "PL",
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
-      "total_downloads_30d": 706903,
-      "total_downloads_all_time": 3763889,
-      "momentum_score": 0.182951,
+      "total_downloads_30d": 700836,
+      "total_downloads_all_time": 3778803,
+      "momentum_score": 0.180684,
       "parameters": 11339190972,
       "parameters_source_repo": "speakleash/Bielik-11B-v3.0-Instruct-awq",
       "repo_count": 8,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -6067,
       "repos": [
         "speakleash/Bielik-11B-v3-Base-20250730",
         "speakleash/Bielik-11B-v3.0-DFlash",
@@ -154,14 +154,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 563848,
-      "total_downloads_all_time": 15433560,
-      "momentum_score": 0.036299,
+      "total_downloads_30d": 553686,
+      "total_downloads_all_time": 15440849,
+      "momentum_score": 0.035628,
       "parameters": 12247782400,
       "parameters_source_repo": "mistralai/Mistral-Nemo-Base-2407",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -10162,
       "repos": [
         "mistralai/Mistral-Nemo-Base-2407",
         "mistralai/Mistral-Nemo-Instruct-2407",
@@ -177,14 +177,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 399217,
-      "total_downloads_all_time": 8118563,
-      "momentum_score": 0.048575,
+      "total_downloads_30d": 401192,
+      "total_downloads_all_time": 8132089,
+      "momentum_score": 0.048735,
       "parameters": 8019808256,
       "parameters_source_repo": "mistralai/Ministral-8B-Instruct-2410",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 1975,
       "repos": [
         "mistralai/Ministral-8B-Instruct-2410"
       ],
@@ -198,20 +198,20 @@
       "country": "CH",
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
-      "total_downloads_30d": 378136,
-      "total_downloads_all_time": 3092360,
-      "momentum_score": 0.11845,
+      "total_downloads_30d": 390813,
+      "total_downloads_all_time": 3108994,
+      "momentum_score": 0.121787,
       "parameters": 8053338176,
       "parameters_source_repo": "swiss-ai/Apertus-8B-2509",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 12677,
       "repos": [
         "swiss-ai/Apertus-8B-2509",
         "swiss-ai/Apertus-8B-Instruct-2509"
       ],
       "rank": 9,
-      "momentum_rank": 8
+      "momentum_rank": 6
     },
     {
       "row_id": "mistral-small-3.2-2506",
@@ -220,14 +220,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 307460,
-      "total_downloads_all_time": 5079301,
-      "momentum_score": 0.059363,
+      "total_downloads_30d": 312176,
+      "total_downloads_all_time": 5087841,
+      "momentum_score": 0.060175,
       "parameters": 24011361280,
       "parameters_source_repo": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 4716,
       "repos": [
         "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
       ],
@@ -241,14 +241,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 295752,
-      "total_downloads_all_time": 4079819,
-      "momentum_score": 0.070757,
+      "total_downloads_30d": 292822,
+      "total_downloads_all_time": 4082786,
+      "momentum_score": 0.070006,
       "parameters": 24011361280,
       "parameters_source_repo": "mistralai/Mistral-Small-3.1-24B-Base-2503",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -2930,
       "repos": [
         "mistralai/Mistral-Small-3.1-24B-Base-2503",
         "mistralai/Mistral-Small-3.1-24B-Instruct-2503"
@@ -263,14 +263,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 272407,
-      "total_downloads_all_time": 2796857,
-      "momentum_score": 0.094035,
+      "total_downloads_30d": 271137,
+      "total_downloads_all_time": 2801352,
+      "momentum_score": 0.093452,
       "parameters": 13945032240,
       "parameters_source_repo": "mistralai/Ministral-3-14B-Instruct-2512",
       "repo_count": 6,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1270,
       "repos": [
         "mistralai/Ministral-3-14B-Base-2512",
         "mistralai/Ministral-3-14B-Instruct-2512",
@@ -280,7 +280,7 @@
         "mistralai/Ministral-3-14B-Reasoning-2512-GGUF"
       ],
       "rank": 12,
-      "momentum_rank": 12
+      "momentum_rank": 10
     },
     {
       "row_id": "devstral-small-2-2512",
@@ -289,19 +289,19 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 215376,
-      "total_downloads_all_time": 2310262,
-      "momentum_score": 0.089358,
+      "total_downloads_30d": 213678,
+      "total_downloads_all_time": 2321056,
+      "momentum_score": 0.088258,
       "parameters": 24011361840,
       "parameters_source_repo": "mistralai/Devstral-Small-2-24B-Instruct-2512",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1698,
       "repos": [
         "mistralai/Devstral-Small-2-24B-Instruct-2512"
       ],
       "rank": 13,
-      "momentum_rank": 13
+      "momentum_rank": 12
     },
     {
       "row_id": "mistral-small-4-2603",
@@ -310,14 +310,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 176236,
-      "total_downloads_all_time": 556085,
-      "momentum_score": 0.268618,
+      "total_downloads_30d": 170086,
+      "total_downloads_all_time": 557627,
+      "momentum_score": 0.258636,
       "parameters": 119401317952,
       "parameters_source_repo": "mistralai/Mistral-Small-4-119B-2603",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -6150,
       "repos": [
         "mistralai/Mistral-Small-4-119B-2603",
         "mistralai/Mistral-Small-4-119B-2603-NVFP4",
@@ -333,14 +333,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 145727,
-      "total_downloads_all_time": 1721334,
-      "momentum_score": 0.080011,
+      "total_downloads_30d": 139113,
+      "total_downloads_all_time": 1725531,
+      "momentum_score": 0.076204,
       "parameters": 8918026716,
       "parameters_source_repo": "mistralai/Ministral-3-8B-Instruct-2512",
       "repo_count": 6,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -6614,
       "repos": [
         "mistralai/Ministral-3-8B-Base-2512",
         "mistralai/Ministral-3-8B-Instruct-2512",
@@ -350,7 +350,7 @@
         "mistralai/Ministral-3-8B-Reasoning-2512-GGUF"
       ],
       "rank": 15,
-      "momentum_rank": 16
+      "momentum_rank": 17
     },
     {
       "row_id": "devstral-small-2507",
@@ -359,14 +359,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 119881,
-      "total_downloads_all_time": 546610,
-      "momentum_score": 0.185399,
+      "total_downloads_30d": 118630,
+      "total_downloads_all_time": 547139,
+      "momentum_score": 0.183315,
       "parameters": 23572403200,
       "parameters_source_repo": "mistralai/Devstral-Small-2507",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1251,
       "repos": [
         "mistralai/Devstral-Small-2507",
         "mistralai/Devstral-Small-2507_gguf"
@@ -381,14 +381,14 @@
       "country": "PL",
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
-      "total_downloads_30d": 103794,
-      "total_downloads_all_time": 748034,
-      "momentum_score": 0.122394,
+      "total_downloads_30d": 103496,
+      "total_downloads_all_time": 748328,
+      "momentum_score": 0.122,
       "parameters": 11253994172,
       "parameters_source_repo": "speakleash/Bielik-11B-v2.3-Instruct-W4A16",
       "repo_count": 10,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -298,
       "repos": [
         "speakleash/Bielik-11B-v2.3-Instruct",
         "speakleash/Bielik-11B-v2.3-Instruct-4bit-ov",
@@ -402,7 +402,7 @@
         "speakleash/Bielik-11B-v2.3-Instruct-W8A8-fp8"
       ],
       "rank": 17,
-      "momentum_rank": 6
+      "momentum_rank": 5
     },
     {
       "row_id": "mistral-medium-3.5-128b",
@@ -411,20 +411,20 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 98702,
-      "total_downloads_all_time": 874650,
-      "momentum_score": 0.101269,
-      "parameters": 127704211408,
+      "total_downloads_30d": 90000,
+      "total_downloads_all_time": 874951,
+      "momentum_score": 0.092312,
+      "parameters": 127704210176,
       "parameters_source_repo": "mistralai/Mistral-Medium-3.5-128B",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -8702,
       "repos": [
         "mistralai/Mistral-Medium-3.5-128B",
         "mistralai/Mistral-Medium-3.5-128B-EAGLE"
       ],
       "rank": 18,
-      "momentum_rank": 10
+      "momentum_rank": 11
     },
     {
       "row_id": "mixtral-8x22b-v0.1",
@@ -433,14 +433,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 85622,
-      "total_downloads_all_time": 11120776,
-      "momentum_score": 0.007631,
+      "total_downloads_30d": 84950,
+      "total_downloads_all_time": 11122189,
+      "momentum_score": 0.00757,
       "parameters": 140630071296,
       "parameters_source_repo": "mistralai/Mixtral-8x22B-Instruct-v0.1",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": -729,
+      "delta_downloads_30d": -672,
       "repos": [
         "mistralai/Mixtral-8x22B-Instruct-v0.1",
         "mistralai/Mixtral-8x22B-v0.1"
@@ -455,14 +455,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 74729,
-      "total_downloads_all_time": 7459667,
-      "momentum_score": 0.009885,
+      "total_downloads_30d": 72679,
+      "total_downloads_all_time": 7460195,
+      "momentum_score": 0.009613,
       "parameters": 23572403200,
       "parameters_source_repo": "mistralai/Mistral-Small-24B-Base-2501",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -2050,
       "repos": [
         "mistralai/Mistral-Small-24B-Base-2501",
         "mistralai/Mistral-Small-24B-Instruct-2501"
@@ -477,20 +477,20 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 49348,
-      "total_downloads_all_time": 579482,
-      "momentum_score": 0.072626,
+      "total_downloads_30d": 50439,
+      "total_downloads_all_time": 581337,
+      "momentum_score": 0.074029,
       "parameters": 23572403200,
       "parameters_source_repo": "mistralai/Magistral-Small-2506",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 1091,
       "repos": [
         "mistralai/Magistral-Small-2506",
         "mistralai/Magistral-Small-2506_gguf"
       ],
       "rank": 21,
-      "momentum_rank": 20
+      "momentum_rank": 19
     },
     {
       "row_id": "devstral-2-2512",
@@ -499,19 +499,19 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 48916,
-      "total_downloads_all_time": 321348,
-      "momentum_score": 0.116094,
+      "total_downloads_30d": 46836,
+      "total_downloads_all_time": 321823,
+      "momentum_score": 0.111032,
       "parameters": 125025989840,
       "parameters_source_repo": "mistralai/Devstral-2-123B-Instruct-2512",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -2080,
       "repos": [
         "mistralai/Devstral-2-123B-Instruct-2512"
       ],
       "rank": 22,
-      "momentum_rank": 9
+      "momentum_rank": 8
     },
     {
       "row_id": "eurollm-9b-instruct",
@@ -520,19 +520,19 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 39820,
-      "total_downloads_all_time": 447919,
-      "momentum_score": 0.072675,
+      "total_downloads_30d": 39880,
+      "total_downloads_all_time": 448259,
+      "momentum_score": 0.072739,
       "parameters": 9152319488,
       "parameters_source_repo": "utter-project/EuroLLM-9B-Instruct",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 60,
       "repos": [
         "utter-project/EuroLLM-9B-Instruct"
       ],
       "rank": 23,
-      "momentum_rank": 19
+      "momentum_rank": 20
     },
     {
       "row_id": "salamandra-7b-instruct",
@@ -541,14 +541,14 @@
       "country": "ES",
       "developer": "BSC-LT",
       "official_org": "BSC-LT",
-      "total_downloads_30d": 39065,
-      "total_downloads_all_time": 623467,
-      "momentum_score": 0.053997,
+      "total_downloads_30d": 39011,
+      "total_downloads_all_time": 624490,
+      "momentum_score": 0.053846,
       "parameters": 7769280512,
       "parameters_source_repo": "BSC-LT/salamandra-7b-instruct-fp8",
       "repo_count": 8,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -54,
       "repos": [
         "BSC-LT/salamandra-7b-instruct",
         "BSC-LT/salamandra-7b-instruct-2606",
@@ -569,14 +569,14 @@
       "country": "CH",
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
-      "total_downloads_30d": 38829,
-      "total_downloads_all_time": 405658,
-      "momentum_score": 0.076789,
+      "total_downloads_30d": 38234,
+      "total_downloads_all_time": 406318,
+      "momentum_score": 0.075514,
       "parameters": 70599864480,
       "parameters_source_repo": "swiss-ai/Apertus-70B-2509",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -595,
       "repos": [
         "swiss-ai/Apertus-70B-2509",
         "swiss-ai/Apertus-70B-Instruct-2509"
@@ -591,19 +591,19 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 37497,
-      "total_downloads_all_time": 5124153,
-      "momentum_score": 0.007178,
+      "total_downloads_30d": 37903,
+      "total_downloads_all_time": 5125001,
+      "momentum_score": 0.007254,
       "parameters": 22247282688,
       "parameters_source_repo": "mistralai/Codestral-22B-v0.1",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 406,
       "repos": [
         "mistralai/Codestral-22B-v0.1"
       ],
       "rank": 26,
-      "momentum_rank": 87
+      "momentum_rank": 86
     },
     {
       "row_id": "magistral-small-2509",
@@ -612,45 +612,20 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 35238,
-      "total_downloads_all_time": 302897,
-      "momentum_score": 0.087462,
+      "total_downloads_30d": 35272,
+      "total_downloads_all_time": 303028,
+      "momentum_score": 0.087517,
       "parameters": 24011361280,
       "parameters_source_repo": "mistralai/Magistral-Small-2509",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 34,
       "repos": [
         "mistralai/Magistral-Small-2509",
         "mistralai/Magistral-Small-2509-GGUF"
       ],
       "rank": 27,
-      "momentum_rank": 14
-    },
-    {
-      "row_id": "bielik-minitron-7b-v3.0",
-      "display_name": "Bielik-Minitron 7B v3.0",
-      "version": "3.0",
-      "country": "PL",
-      "developer": "SpeakLeash / ACK Cyfronet AGH",
-      "official_org": "speakleash",
-      "total_downloads_30d": 32193,
-      "total_downloads_all_time": 120352,
-      "momentum_score": 0.146098,
-      "parameters": 7479201792,
-      "parameters_source_repo": "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
-      "repo_count": 5,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
-        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF",
-        "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct"
-      ],
-      "rank": 28,
-      "momentum_rank": 5
+      "momentum_rank": 13
     },
     {
       "row_id": "eurollm-9b-instruct-2512",
@@ -659,19 +634,44 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 22732,
-      "total_downloads_all_time": 90153,
-      "momentum_score": 0.119546,
+      "total_downloads_30d": 22515,
+      "total_downloads_all_time": 90483,
+      "momentum_score": 0.1182,
       "parameters": 9152319488,
       "parameters_source_repo": "utter-project/EuroLLM-9B-Instruct-2512",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -217,
       "repos": [
         "utter-project/EuroLLM-9B-Instruct-2512"
       ],
-      "rank": 29,
+      "rank": 28,
       "momentum_rank": 7
+    },
+    {
+      "row_id": "bielik-minitron-7b-v3.0",
+      "display_name": "Bielik-Minitron 7B v3.0",
+      "version": "3.0",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "total_downloads_30d": 18612,
+      "total_downloads_all_time": 120420,
+      "momentum_score": 0.084439,
+      "parameters": 7479201792,
+      "parameters_source_repo": "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
+      "repo_count": 5,
+      "complete": true,
+      "delta_downloads_30d": -13581,
+      "repos": [
+        "speakleash/Bielik-Minitron-7B-v3.0-DFlash",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-FP8-Dynamic",
+        "speakleash/Bielik-Minitron-7B-v3.0-Instruct-GGUF",
+        "speakleash/Bielik-PL-Minitron-7B-v3.0-Instruct"
+      ],
+      "rank": 29,
+      "momentum_rank": 15
     },
     {
       "row_id": "mistral-large-instruct-2411",
@@ -680,19 +680,19 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 12143,
-      "total_downloads_all_time": 4909237,
-      "momentum_score": 0.002424,
+      "total_downloads_30d": 12182,
+      "total_downloads_all_time": 4909438,
+      "momentum_score": 0.002432,
       "parameters": 122610069504,
       "parameters_source_repo": "mistralai/Mistral-Large-Instruct-2411",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 39,
       "repos": [
         "mistralai/Mistral-Large-Instruct-2411"
       ],
       "rank": 30,
-      "momentum_rank": 116
+      "momentum_rank": 115
     },
     {
       "row_id": "mathstral-7b-v0.1",
@@ -701,19 +701,19 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 11607,
-      "total_downloads_all_time": 5272830,
-      "momentum_score": 0.00216,
+      "total_downloads_30d": 11574,
+      "total_downloads_all_time": 5272848,
+      "momentum_score": 0.002154,
       "parameters": 7248023552,
       "parameters_source_repo": "mistralai/Mathstral-7B-v0.1",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -33,
       "repos": [
         "mistralai/Mathstral-7B-v0.1"
       ],
       "rank": 31,
-      "momentum_rank": 119
+      "momentum_rank": 118
     },
     {
       "row_id": "mistral-large-3-2512",
@@ -722,14 +722,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 11540,
-      "total_downloads_all_time": 48316,
-      "momentum_score": 0.077807,
+      "total_downloads_30d": 11571,
+      "total_downloads_all_time": 48524,
+      "momentum_score": 0.077907,
       "parameters": null,
       "parameters_source_repo": null,
       "repo_count": 5,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 31,
       "repos": [
         "mistralai/Mistral-Large-3-675B-Base-2512",
         "mistralai/Mistral-Large-3-675B-Instruct-2512",
@@ -738,7 +738,7 @@
         "mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4"
       ],
       "rank": 32,
-      "momentum_rank": 17
+      "momentum_rank": 16
     },
     {
       "row_id": "eurollm-1.7b-instruct",
@@ -747,19 +747,40 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 9958,
-      "total_downloads_all_time": 661915,
-      "momentum_score": 0.01307,
+      "total_downloads_30d": 9973,
+      "total_downloads_all_time": 662129,
+      "momentum_score": 0.013086,
       "parameters": 1656850432,
       "parameters_source_repo": "utter-project/EuroLLM-1.7B-Instruct",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 15,
       "repos": [
         "utter-project/EuroLLM-1.7B-Instruct"
       ],
       "rank": 33,
       "momentum_rank": 64
+    },
+    {
+      "row_id": "apertus-v1.5-8b",
+      "display_name": "Apertus v1.5 8B",
+      "version": "1.5",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "total_downloads_30d": 9336,
+      "total_downloads_all_time": 9336,
+      "momentum_score": 0.085388,
+      "parameters": 8903547555,
+      "parameters_source_repo": "swiss-ai/Apertus-v1.5-8B",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": 75,
+      "repos": [
+        "swiss-ai/Apertus-v1.5-8B"
+      ],
+      "rank": 34,
+      "momentum_rank": 14
     },
     {
       "row_id": "bielik-7b-v0.1",
@@ -768,14 +789,14 @@
       "country": "PL",
       "developer": "SpeakLeash",
       "official_org": "speakleash",
-      "total_downloads_30d": 9264,
-      "total_downloads_all_time": 488760,
-      "momentum_score": 0.015735,
+      "total_downloads_30d": 9229,
+      "total_downloads_all_time": 488844,
+      "momentum_score": 0.015673,
       "parameters": 7243108352,
       "parameters_source_repo": "speakleash/Bielik-7B-Instruct-v0.1-GPTQ",
       "repo_count": 8,
       "complete": true,
-      "delta_downloads_30d": -81,
+      "delta_downloads_30d": -35,
       "repos": [
         "speakleash/Bielik-7B-Instruct-v0.1",
         "speakleash/Bielik-7B-Instruct-v0.1-3bit-HQQ",
@@ -786,29 +807,8 @@
         "speakleash/Bielik-7B-Instruct-v0.1-MLX",
         "speakleash/Bielik-7B-v0.1"
       ],
-      "rank": 34,
-      "momentum_rank": 56
-    },
-    {
-      "row_id": "apertus-v1.5-8b",
-      "display_name": "Apertus v1.5 8B",
-      "version": "1.5",
-      "country": "CH",
-      "developer": "swiss-ai",
-      "official_org": "swiss-ai",
-      "total_downloads_30d": 9261,
-      "total_downloads_all_time": 9261,
-      "momentum_score": 0.08476,
-      "parameters": 8903547555,
-      "parameters_source_repo": "swiss-ai/Apertus-v1.5-8B",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "swiss-ai/Apertus-v1.5-8B"
-      ],
       "rank": 35,
-      "momentum_rank": 15
+      "momentum_rank": 57
     },
     {
       "row_id": "eurollm-22b-instruct-2512",
@@ -817,19 +817,19 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 8281,
-      "total_downloads_all_time": 193453,
-      "momentum_score": 0.028219,
+      "total_downloads_30d": 8263,
+      "total_downloads_all_time": 193601,
+      "momentum_score": 0.028144,
       "parameters": 22637328384,
       "parameters_source_repo": "utter-project/EuroLLM-22B-Instruct-2512",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -18,
       "repos": [
         "utter-project/EuroLLM-22B-Instruct-2512"
       ],
       "rank": 36,
-      "momentum_rank": 38
+      "momentum_rank": 37
     },
     {
       "row_id": "pleias-3b-preview",
@@ -838,14 +838,14 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 7736,
-      "total_downloads_all_time": 54874,
-      "momentum_score": 0.04995,
+      "total_downloads_30d": 7753,
+      "total_downloads_all_time": 54928,
+      "momentum_score": 0.050043,
       "parameters": 3211926528,
       "parameters_source_repo": "PleIAs/Pleias-3b-Preview",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 17,
       "repos": [
         "PleIAs/Pleias-3b-Preview"
       ],
@@ -859,14 +859,14 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 7661,
-      "total_downloads_all_time": 59363,
-      "momentum_score": 0.048073,
+      "total_downloads_30d": 7694,
+      "total_downloads_all_time": 59432,
+      "momentum_score": 0.048259,
       "parameters": 1195468800,
       "parameters_source_repo": "PleIAs/Pleias-1.2b-Preview",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 33,
       "repos": [
         "PleIAs/Pleias-1.2b-Preview"
       ],
@@ -880,14 +880,14 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 7628,
-      "total_downloads_all_time": 60482,
-      "momentum_score": 0.047532,
+      "total_downloads_30d": 7654,
+      "total_downloads_all_time": 60545,
+      "momentum_score": 0.047675,
       "parameters": 353424384,
       "parameters_source_repo": "PleIAs/Pleias-350m-Preview",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 26,
       "repos": [
         "PleIAs/Pleias-350m-Preview"
       ],
@@ -901,19 +901,19 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 7465,
-      "total_downloads_all_time": 186325,
-      "momentum_score": 0.026072,
+      "total_downloads_30d": 7452,
+      "total_downloads_all_time": 186426,
+      "momentum_score": 0.026017,
       "parameters": null,
       "parameters_source_repo": null,
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -13,
       "repos": [
         "utter-project/EuroLLM-1.7B"
       ],
       "rank": 40,
-      "momentum_rank": 40
+      "momentum_rank": 39
     },
     {
       "row_id": "gams3-12b",
@@ -922,14 +922,14 @@
       "country": "SI",
       "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
       "official_org": "cjvt",
-      "total_downloads_30d": 6339,
-      "total_downloads_all_time": 57446,
-      "momentum_score": 0.040261,
+      "total_downloads_30d": 6259,
+      "total_downloads_all_time": 57531,
+      "momentum_score": 0.039732,
       "parameters": 11766034176,
       "parameters_source_repo": "cjvt/GaMS3-12B",
       "repo_count": 4,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -80,
       "repos": [
         "cjvt/GaMS3-12B",
         "cjvt/GaMS3-12B-GRPO-Translator",
@@ -946,14 +946,14 @@
       "country": "GR",
       "developer": "ILSP",
       "official_org": "ilsp",
-      "total_downloads_30d": 6250,
-      "total_downloads_all_time": 94433,
-      "momentum_score": 0.032145,
+      "total_downloads_30d": 6167,
+      "total_downloads_all_time": 94507,
+      "momentum_score": 0.031706,
       "parameters": 8420895380,
       "parameters_source_repo": "ilsp/Llama-Krikri-8B-Instruct-bnb-4bit",
       "repo_count": 5,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -83,
       "repos": [
         "ilsp/Llama-Krikri-8B-Base",
         "ilsp/Llama-Krikri-8B-Instruct",
@@ -962,30 +962,7 @@
         "ilsp/Llama-Krikri-8B-Instruct-v1.5"
       ],
       "rank": 42,
-      "momentum_rank": 34
-    },
-    {
-      "row_id": "bggpt-gemma3-4b",
-      "display_name": "BgGPT Gemma 3 4B",
-      "version": null,
-      "country": "BG",
-      "developer": "INSAIT",
-      "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 5744,
-      "total_downloads_all_time": 12644,
-      "momentum_score": 0.050993,
-      "parameters": 4325147468,
-      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16",
-      "repo_count": 3,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "INSAIT-Institute/BgGPT-Gemma-3-4B-IT",
-        "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF",
-        "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16"
-      ],
-      "rank": 43,
-      "momentum_rank": 24
+      "momentum_rank": 33
     },
     {
       "row_id": "salamandra-2b",
@@ -994,14 +971,14 @@
       "country": "ES",
       "developer": "BSC-LT",
       "official_org": "BSC-LT",
-      "total_downloads_30d": 5737,
-      "total_downloads_all_time": 132152,
-      "momentum_score": 0.024712,
+      "total_downloads_30d": 5808,
+      "total_downloads_all_time": 132338,
+      "momentum_score": 0.024998,
       "parameters": 2253997056,
       "parameters_source_repo": "BSC-LT/salamandra-2b-base-fp8",
       "repo_count": 7,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 71,
       "repos": [
         "BSC-LT/salamandra-2b",
         "BSC-LT/salamandra-2b-base-fp8",
@@ -1011,8 +988,31 @@
         "BSC-LT/salamandra-2b-instruct-fp8",
         "BSC-LT/salamandra-2b-instruct-gptq"
       ],
+      "rank": 43,
+      "momentum_rank": 40
+    },
+    {
+      "row_id": "bggpt-gemma3-4b",
+      "display_name": "BgGPT Gemma 3 4B",
+      "version": null,
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "total_downloads_30d": 5739,
+      "total_downloads_all_time": 12654,
+      "momentum_score": 0.050944,
+      "parameters": 4325147468,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16",
+      "repo_count": 3,
+      "complete": true,
+      "delta_downloads_30d": -5,
+      "repos": [
+        "INSAIT-Institute/BgGPT-Gemma-3-4B-IT",
+        "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GGUF",
+        "INSAIT-Institute/BgGPT-Gemma-3-4B-IT-GPTQ-W4A16"
+      ],
       "rank": 44,
-      "momentum_rank": 41
+      "momentum_rank": 24
     },
     {
       "row_id": "mistral-small-instruct-2409",
@@ -1021,62 +1021,19 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 5331,
-      "total_downloads_all_time": 5368397,
-      "momentum_score": 0.000975,
+      "total_downloads_30d": 5532,
+      "total_downloads_all_time": 5368775,
+      "momentum_score": 0.001012,
       "parameters": 22247282688,
       "parameters_source_repo": "mistralai/Mistral-Small-Instruct-2409",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 201,
       "repos": [
         "mistralai/Mistral-Small-Instruct-2409"
       ],
       "rank": 45,
-      "momentum_rank": 140
-    },
-    {
-      "row_id": "apertus-v1.5-70b",
-      "display_name": "Apertus v1.5 70B",
-      "version": "1.5",
-      "country": "CH",
-      "developer": "swiss-ai",
-      "official_org": "swiss-ai",
-      "total_downloads_30d": 4961,
-      "total_downloads_all_time": 4961,
-      "momentum_score": 0.047265,
-      "parameters": 72005819139,
-      "parameters_source_repo": "swiss-ai/Apertus-v1.5-70B",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "swiss-ai/Apertus-v1.5-70B"
-      ],
-      "rank": 46,
-      "momentum_rank": 29
-    },
-    {
-      "row_id": "devstral-small-2505",
-      "display_name": "Devstral Small (2505)",
-      "version": "2505",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "total_downloads_30d": 4893,
-      "total_downloads_all_time": 896487,
-      "momentum_score": 0.00491,
-      "parameters": 23572403200,
-      "parameters_source_repo": "mistralai/Devstral-Small-2505",
-      "repo_count": 2,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "mistralai/Devstral-Small-2505",
-        "mistralai/Devstral-Small-2505_gguf"
-      ],
-      "rank": 47,
-      "momentum_rank": 98
+      "momentum_rank": 139
     },
     {
       "row_id": "teuken-7b-v0.6",
@@ -1085,20 +1042,41 @@
       "country": "DE",
       "developer": "openGPT-X",
       "official_org": "openGPT-X",
-      "total_downloads_30d": 4888,
-      "total_downloads_all_time": 660956,
-      "momentum_score": 0.006423,
+      "total_downloads_30d": 4993,
+      "total_downloads_all_time": 661100,
+      "momentum_score": 0.00656,
       "parameters": 7453544448,
       "parameters_source_repo": "openGPT-X/Teuken-7B-base-v0.6",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 105,
       "repos": [
         "openGPT-X/Teuken-7B-base-v0.6",
         "openGPT-X/Teuken-7B-instruct-v0.6"
       ],
-      "rank": 48,
+      "rank": 46,
       "momentum_rank": 88
+    },
+    {
+      "row_id": "apertus-v1.5-70b",
+      "display_name": "Apertus v1.5 70B",
+      "version": "1.5",
+      "country": "CH",
+      "developer": "swiss-ai",
+      "official_org": "swiss-ai",
+      "total_downloads_30d": 4975,
+      "total_downloads_all_time": 4975,
+      "momentum_score": 0.047392,
+      "parameters": 72005819139,
+      "parameters_source_repo": "swiss-ai/Apertus-v1.5-70B",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": 14,
+      "repos": [
+        "swiss-ai/Apertus-v1.5-70B"
+      ],
+      "rank": 47,
+      "momentum_rank": 29
     },
     {
       "row_id": "minerva-7b-v1.0",
@@ -1107,20 +1085,20 @@
       "country": "IT",
       "developer": "SapienzaNLP",
       "official_org": "sapienzanlp",
-      "total_downloads_30d": 4801,
-      "total_downloads_all_time": 123948,
-      "momentum_score": 0.021438,
+      "total_downloads_30d": 4822,
+      "total_downloads_all_time": 124070,
+      "momentum_score": 0.02152,
       "parameters": 7399542784,
       "parameters_source_repo": "sapienzanlp/Minerva-7B-instruct-v1.0",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 21,
       "repos": [
         "sapienzanlp/Minerva-7B-base-v1.0",
         "sapienzanlp/Minerva-7B-instruct-v1.0",
         "sapienzanlp/Minerva-7B-instruct-v1.0-GGUF"
       ],
-      "rank": 49,
+      "rank": 48,
       "momentum_rank": 44
     },
     {
@@ -1130,18 +1108,18 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 4799,
-      "total_downloads_all_time": 5022174,
-      "momentum_score": 0.000937,
+      "total_downloads_30d": 4738,
+      "total_downloads_all_time": 5022262,
+      "momentum_score": 0.000925,
       "parameters": 122610069504,
       "parameters_source_repo": "mistralai/Mistral-Large-Instruct-2407",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -61,
       "repos": [
         "mistralai/Mistral-Large-Instruct-2407"
       ],
-      "rank": 50,
+      "rank": 49,
       "momentum_rank": 143
     },
     {
@@ -1151,14 +1129,14 @@
       "country": "PL",
       "developer": "SpeakLeash",
       "official_org": "speakleash",
-      "total_downloads_30d": 4526,
-      "total_downloads_all_time": 51001,
-      "momentum_score": 0.029973,
+      "total_downloads_30d": 4547,
+      "total_downloads_all_time": 51068,
+      "momentum_score": 0.030099,
       "parameters": 1597244928,
       "parameters_source_repo": "speakleash/Bielik-1.5B-v3.0-Instruct-FP8-Dynamic",
       "repo_count": 5,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 21,
       "repos": [
         "speakleash/Bielik-1.5B-v3",
         "speakleash/Bielik-1.5B-v3.0-Instruct",
@@ -1166,8 +1144,30 @@
         "speakleash/Bielik-1.5B-v3.0-Instruct-GGUF",
         "speakleash/Bielik-1.5B-v3.0-Instruct-MLX-8bit"
       ],
+      "rank": 50,
+      "momentum_rank": 35
+    },
+    {
+      "row_id": "devstral-small-2505",
+      "display_name": "Devstral Small (2505)",
+      "version": "2505",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "total_downloads_30d": 4539,
+      "total_downloads_all_time": 896559,
+      "momentum_score": 0.004555,
+      "parameters": 23572403200,
+      "parameters_source_repo": "mistralai/Devstral-Small-2505",
+      "repo_count": 2,
+      "complete": true,
+      "delta_downloads_30d": -354,
+      "repos": [
+        "mistralai/Devstral-Small-2505",
+        "mistralai/Devstral-Small-2505_gguf"
+      ],
       "rank": 51,
-      "momentum_rank": 36
+      "momentum_rank": 100
     },
     {
       "row_id": "tildeopen-30b",
@@ -1176,14 +1176,14 @@
       "country": "LV",
       "developer": "Tilde",
       "official_org": "TildeAI",
-      "total_downloads_30d": 4350,
-      "total_downloads_all_time": 96605,
-      "momentum_score": 0.022126,
+      "total_downloads_30d": 4311,
+      "total_downloads_all_time": 96633,
+      "momentum_score": 0.021924,
       "parameters": 30677882880,
       "parameters_source_repo": "TildeAI/TildeOpen-30b",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -39,
       "repos": [
         "TildeAI/TildeOpen-30b"
       ],
@@ -1197,14 +1197,14 @@
       "country": "IT",
       "developer": "mii-llm",
       "official_org": "mii-llm",
-      "total_downloads_30d": 4322,
-      "total_downloads_all_time": 142081,
-      "momentum_score": 0.017854,
+      "total_downloads_30d": 4280,
+      "total_downloads_all_time": 142160,
+      "momentum_score": 0.017674,
       "parameters": 7241748480,
       "parameters_source_repo": "mii-llm/maestrale-chat-v0.4-alpha-sft",
       "repo_count": 4,
       "complete": true,
-      "delta_downloads_30d": 3,
+      "delta_downloads_30d": -42,
       "repos": [
         "mii-llm/maestrale-chat-v0.4-alpha-sft",
         "mii-llm/maestrale-chat-v0.4-alpha-sft-GGUF",
@@ -1213,28 +1213,6 @@
       ],
       "rank": 53,
       "momentum_rank": 50
-    },
-    {
-      "row_id": "mamaylm-gemma3-12b-v2",
-      "display_name": "MamayLM Gemma 3 12B v2.0",
-      "version": "2.0",
-      "country": "UA",
-      "developer": "INSAIT",
-      "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 4037,
-      "total_downloads_all_time": 14275,
-      "momentum_score": 0.035327,
-      "parameters": 12187325040,
-      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0",
-      "repo_count": 2,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0",
-        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0-GGUF"
-      ],
-      "rank": 54,
-      "momentum_rank": 32
     },
     {
       "row_id": "occiglot-7b-bilingual",
@@ -1261,8 +1239,8 @@
         "occiglot/occiglot-7b-it-en",
         "occiglot/occiglot-7b-it-en-instruct"
       ],
-      "rank": 55,
-      "momentum_rank": 81
+      "rank": 54,
+      "momentum_rank": 82
     },
     {
       "row_id": "llama-pllum-70b-2512",
@@ -1271,20 +1249,20 @@
       "country": "PL",
       "developer": "CYFRAGOVPL / PLLuM consortium",
       "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 3643,
-      "total_downloads_all_time": 10999,
-      "momentum_score": 0.03282,
+      "total_downloads_30d": 3650,
+      "total_downloads_all_time": 11017,
+      "momentum_score": 0.032878,
       "parameters": 70553755648,
       "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-70B-chat-2512",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 7,
       "repos": [
         "CYFRAGOVPL/Llama-PLLuM-70B-chat-2512",
         "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2512"
       ],
-      "rank": 56,
-      "momentum_rank": 33
+      "rank": 55,
+      "momentum_rank": 32
     },
     {
       "row_id": "zagreus-0.4b-ita",
@@ -1293,19 +1271,19 @@
       "country": "IT",
       "developer": "mii-llm",
       "official_org": "mii-llm",
-      "total_downloads_30d": 3311,
-      "total_downloads_all_time": 4003,
-      "momentum_score": 0.031836,
+      "total_downloads_30d": 3279,
+      "total_downloads_all_time": 4046,
+      "momentum_score": 0.031515,
       "parameters": 437760960,
       "parameters_source_repo": "mii-llm/zagreus-0.4B-ita",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -32,
       "repos": [
         "mii-llm/zagreus-0.4B-ita"
       ],
-      "rank": 57,
-      "momentum_rank": 35
+      "rank": 56,
+      "momentum_rank": 34
     },
     {
       "row_id": "apertus-v1.1-0.5b",
@@ -1314,14 +1292,14 @@
       "country": "CH",
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
-      "total_downloads_30d": 3124,
-      "total_downloads_all_time": 7313,
-      "momentum_score": 0.029111,
+      "total_downloads_30d": 3200,
+      "total_downloads_all_time": 7393,
+      "momentum_score": 0.029797,
       "parameters": 572567080,
       "parameters_source_repo": "swiss-ai/Apertus-v1.1-0.5B-Instruct",
       "repo_count": 5,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 76,
       "repos": [
         "swiss-ai/Apertus-v1.1-0.5B",
         "swiss-ai/Apertus-v1.1-0.5B-Instruct",
@@ -1329,8 +1307,8 @@
         "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT4",
         "swiss-ai/Apertus-v1.1-0.5B-Instruct-MLX-INT6"
       ],
-      "rank": 58,
-      "momentum_rank": 37
+      "rank": 57,
+      "momentum_rank": 36
     },
     {
       "row_id": "bielik-11b-v2.2",
@@ -1339,14 +1317,14 @@
       "country": "PL",
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
-      "total_downloads_30d": 3076,
-      "total_downloads_all_time": 155586,
-      "momentum_score": 0.012035,
+      "total_downloads_30d": 3025,
+      "total_downloads_all_time": 155638,
+      "momentum_score": 0.011833,
       "parameters": 11170947072,
       "parameters_source_repo": "speakleash/Bielik-11B-v2.2-Instruct-Quanto-8bit",
       "repo_count": 16,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -51,
       "repos": [
         "speakleash/Bielik-11B-v2.2-Instruct",
         "speakleash/Bielik-11B-v2.2-Instruct-AWQ",
@@ -1365,8 +1343,8 @@
         "speakleash/Bielik-11B-v2.2-Instruct-W8A8",
         "speakleash/Bielik-11B-v2.2-Instruct-onnx-fp16"
       ],
-      "rank": 59,
-      "momentum_rank": 67
+      "rank": 58,
+      "momentum_rank": 66
     },
     {
       "row_id": "leo-hessianai-7b",
@@ -1382,14 +1360,14 @@
       "parameters_source_repo": null,
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": -96,
+      "delta_downloads_30d": 0,
       "repos": [
         "LeoLM/leo-hessianai-7b",
         "LeoLM/leo-hessianai-7b-chat",
         "LeoLM/leo-hessianai-7b-chat-bilingual"
       ],
-      "rank": 60,
-      "momentum_rank": 109
+      "rank": 59,
+      "momentum_rank": 110
     },
     {
       "row_id": "monad",
@@ -1398,18 +1376,18 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 2894,
-      "total_downloads_all_time": 30344,
-      "momentum_score": 0.022203,
+      "total_downloads_30d": 2891,
+      "total_downloads_all_time": 30372,
+      "momentum_score": 0.022175,
       "parameters": 56656128,
       "parameters_source_repo": "PleIAs/Monad",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -3,
       "repos": [
         "PleIAs/Monad"
       ],
-      "rank": 61,
+      "rank": 60,
       "momentum_rank": 42
     },
     {
@@ -1419,18 +1397,18 @@
       "country": "IT",
       "developer": "Almawave",
       "official_org": "Almawave",
-      "total_downloads_30d": 2844,
-      "total_downloads_all_time": 60758,
-      "momentum_score": 0.017691,
+      "total_downloads_30d": 2804,
+      "total_downloads_all_time": 60807,
+      "momentum_score": 0.017437,
       "parameters": 14080271360,
       "parameters_source_repo": "Almawave/Velvet-14B",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -40,
       "repos": [
         "Almawave/Velvet-14B"
       ],
-      "rank": 62,
+      "rank": 61,
       "momentum_rank": 51
     },
     {
@@ -1440,19 +1418,62 @@
       "country": "IT",
       "developer": "Almawave",
       "official_org": "Almawave",
-      "total_downloads_30d": 2821,
-      "total_downloads_all_time": 81733,
-      "momentum_score": 0.015523,
+      "total_downloads_30d": 2782,
+      "total_downloads_all_time": 81785,
+      "momentum_score": 0.015304,
       "parameters": 2223097856,
       "parameters_source_repo": "Almawave/Velvet-2B",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -39,
       "repos": [
         "Almawave/Velvet-2B"
       ],
+      "rank": 62,
+      "momentum_rank": 59
+    },
+    {
+      "row_id": "mamaylm-gemma3-12b-v2",
+      "display_name": "MamayLM Gemma 3 12B v2.0",
+      "version": "2.0",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "total_downloads_30d": 2750,
+      "total_downloads_all_time": 14286,
+      "momentum_score": 0.024062,
+      "parameters": 12187325040,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0",
+      "repo_count": 2,
+      "complete": true,
+      "delta_downloads_30d": -1287,
+      "repos": [
+        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0",
+        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0-GGUF"
+      ],
       "rank": 63,
-      "momentum_rank": 57
+      "momentum_rank": 41
+    },
+    {
+      "row_id": "minerva-chat-v0.1",
+      "display_name": "Minerva Chat v0.1",
+      "version": "0.1",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "total_downloads_30d": 2718,
+      "total_downloads_all_time": 84731,
+      "momentum_score": 0.014713,
+      "parameters": 2894246400,
+      "parameters_source_repo": "mii-llm/minerva-chat-v0.1-alpha-sft",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": -29,
+      "repos": [
+        "mii-llm/minerva-chat-v0.1-alpha-sft"
+      ],
+      "rank": 64,
+      "momentum_rank": 62
     },
     {
       "row_id": "bielik-11b-v2.6",
@@ -1461,14 +1482,14 @@
       "country": "PL",
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
-      "total_downloads_30d": 2752,
-      "total_downloads_all_time": 170362,
-      "momentum_score": 0.010179,
+      "total_downloads_30d": 2706,
+      "total_downloads_all_time": 170446,
+      "momentum_score": 0.010006,
       "parameters": 11510465240,
       "parameters_source_repo": "speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit",
       "repo_count": 7,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -46,
       "repos": [
         "speakleash/Bielik-11B-v2.6-Instruct",
         "speakleash/Bielik-11B-v2.6-Instruct-AWQ",
@@ -1478,54 +1499,8 @@
         "speakleash/Bielik-11B-v2.6-Instruct-MLX-8bit",
         "speakleash/Bielik-11B-v2.6-Instruct-bnb-4bit"
       ],
-      "rank": 64,
-      "momentum_rank": 70
-    },
-    {
-      "row_id": "minerva-chat-v0.1",
-      "display_name": "Minerva Chat v0.1",
-      "version": "0.1",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "total_downloads_30d": 2747,
-      "total_downloads_all_time": 84676,
-      "momentum_score": 0.014875,
-      "parameters": 2894246400,
-      "parameters_source_repo": "mii-llm/minerva-chat-v0.1-alpha-sft",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "mii-llm/minerva-chat-v0.1-alpha-sft"
-      ],
       "rank": 65,
-      "momentum_rank": 61
-    },
-    {
-      "row_id": "bielik-4.5b-v3.0",
-      "display_name": "Bielik-4.5B v3.0",
-      "version": "3.0",
-      "country": "PL",
-      "developer": "SpeakLeash",
-      "official_org": "speakleash",
-      "total_downloads_30d": 2523,
-      "total_downloads_all_time": 246284,
-      "momentum_score": 0.007286,
-      "parameters": 4758980608,
-      "parameters_source_repo": "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic",
-      "repo_count": 5,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "speakleash/Bielik-4.5B-v3",
-        "speakleash/Bielik-4.5B-v3.0-Instruct",
-        "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic",
-        "speakleash/Bielik-4.5B-v3.0-Instruct-GGUF",
-        "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-8bit"
-      ],
-      "rank": 66,
-      "momentum_rank": 85
+      "momentum_rank": 71
     },
     {
       "row_id": "eurollm-22b-2512",
@@ -1534,19 +1509,44 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 2488,
-      "total_downloads_all_time": 18850,
-      "momentum_score": 0.020934,
+      "total_downloads_30d": 2481,
+      "total_downloads_all_time": 18901,
+      "momentum_score": 0.020866,
       "parameters": 22637328384,
       "parameters_source_repo": "utter-project/EuroLLM-22B-2512",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -7,
       "repos": [
         "utter-project/EuroLLM-22B-2512"
       ],
-      "rank": 67,
+      "rank": 66,
       "momentum_rank": 45
+    },
+    {
+      "row_id": "bielik-4.5b-v3.0",
+      "display_name": "Bielik-4.5B v3.0",
+      "version": "3.0",
+      "country": "PL",
+      "developer": "SpeakLeash",
+      "official_org": "speakleash",
+      "total_downloads_30d": 2451,
+      "total_downloads_all_time": 246320,
+      "momentum_score": 0.007077,
+      "parameters": 4758980608,
+      "parameters_source_repo": "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic",
+      "repo_count": 5,
+      "complete": true,
+      "delta_downloads_30d": -72,
+      "repos": [
+        "speakleash/Bielik-4.5B-v3",
+        "speakleash/Bielik-4.5B-v3.0-Instruct",
+        "speakleash/Bielik-4.5B-v3.0-Instruct-FP8-Dynamic",
+        "speakleash/Bielik-4.5B-v3.0-Instruct-GGUF",
+        "speakleash/Bielik-4.5B-v3.0-Instruct-MLX-8bit"
+      ],
+      "rank": 67,
+      "momentum_rank": 87
     },
     {
       "row_id": "llama-poro-2-8b",
@@ -1555,14 +1555,14 @@
       "country": "FI",
       "developer": "LumiOpen",
       "official_org": "LumiOpen",
-      "total_downloads_30d": 2330,
-      "total_downloads_all_time": 39205,
-      "momentum_score": 0.016738,
+      "total_downloads_30d": 2353,
+      "total_downloads_all_time": 39238,
+      "momentum_score": 0.016899,
       "parameters": 8031309824,
       "parameters_source_repo": "LumiOpen/Llama-Poro-2-8B-Long-Math-Reasoning-RL-Preview",
       "repo_count": 7,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 23,
       "repos": [
         "LumiOpen/Llama-Poro-2-8B-Instruct",
         "LumiOpen/Llama-Poro-2-8B-Long-Base",
@@ -1576,53 +1576,27 @@
       "momentum_rank": 53
     },
     {
-      "row_id": "pllum-12b-2412",
-      "display_name": "PLLuM 12B (2412)",
-      "version": "2412",
-      "country": "PL",
-      "developer": "CYFRAGOVPL / PLLuM consortium",
-      "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 2311,
-      "total_downloads_all_time": 173435,
-      "momentum_score": 0.008452,
-      "parameters": 12247782400,
-      "parameters_source_repo": "CYFRAGOVPL/PLLuM-12B-base-2412",
-      "repo_count": 6,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "CYFRAGOVPL/PLLuM-12B-base-2412",
-        "CYFRAGOVPL/PLLuM-12B-chat-2412",
-        "CYFRAGOVPL/PLLuM-12B-instruct-2412",
-        "CYFRAGOVPL/PLLuM-12B-nc-base-2412",
-        "CYFRAGOVPL/PLLuM-12B-nc-chat-2412",
-        "CYFRAGOVPL/PLLuM-12B-nc-instruct-2412"
-      ],
-      "rank": 69,
-      "momentum_rank": 76
-    },
-    {
       "row_id": "bggpt-gemma3-12b",
       "display_name": "BgGPT Gemma 3 12B",
       "version": null,
       "country": "BG",
       "developer": "INSAIT",
       "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 2300,
-      "total_downloads_all_time": 216047,
-      "momentum_score": 0.007277,
+      "total_downloads_30d": 2304,
+      "total_downloads_all_time": 216057,
+      "momentum_score": 0.00729,
       "parameters": 12187325040,
       "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-3-12B-IT",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 4,
       "repos": [
         "INSAIT-Institute/BgGPT-Gemma-3-12B-IT",
         "INSAIT-Institute/BgGPT-Gemma-3-12B-IT-GGUF",
         "INSAIT-Institute/BgGPT-Gemma-3-12B-IT-GPTQ-W4A16"
       ],
-      "rank": 70,
-      "momentum_rank": 86
+      "rank": 69,
+      "momentum_rank": 85
     },
     {
       "row_id": "euromoe-2.6b-2512",
@@ -1632,8 +1606,8 @@
       "developer": "utter-project",
       "official_org": "utter-project",
       "total_downloads_30d": 2269,
-      "total_downloads_all_time": 30361,
-      "momentum_score": 0.017406,
+      "total_downloads_all_time": 30420,
+      "momentum_score": 0.017398,
       "parameters": 2611528704,
       "parameters_source_repo": "utter-project/EuroMoE-2.6B-A0.6B-2512",
       "repo_count": 3,
@@ -1644,8 +1618,34 @@
         "utter-project/EuroMoE-2.6B-A0.6B-Instruct-2512",
         "utter-project/EuroMoE-2.6B-A0.6B-Instruct-Preview"
       ],
-      "rank": 71,
+      "rank": 70,
       "momentum_rank": 52
+    },
+    {
+      "row_id": "pllum-12b-2412",
+      "display_name": "PLLuM 12B (2412)",
+      "version": "2412",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "total_downloads_30d": 2251,
+      "total_downloads_all_time": 173461,
+      "momentum_score": 0.008232,
+      "parameters": 12247782400,
+      "parameters_source_repo": "CYFRAGOVPL/PLLuM-12B-base-2412",
+      "repo_count": 6,
+      "complete": true,
+      "delta_downloads_30d": -60,
+      "repos": [
+        "CYFRAGOVPL/PLLuM-12B-base-2412",
+        "CYFRAGOVPL/PLLuM-12B-chat-2412",
+        "CYFRAGOVPL/PLLuM-12B-instruct-2412",
+        "CYFRAGOVPL/PLLuM-12B-nc-base-2412",
+        "CYFRAGOVPL/PLLuM-12B-nc-chat-2412",
+        "CYFRAGOVPL/PLLuM-12B-nc-instruct-2412"
+      ],
+      "rank": 71,
+      "momentum_rank": 78
     },
     {
       "row_id": "mamaylm-gemma3-27b-v2",
@@ -1654,14 +1654,14 @@
       "country": "UA",
       "developer": "INSAIT",
       "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 2204,
-      "total_downloads_all_time": 5772,
-      "momentum_score": 0.020837,
+      "total_downloads_30d": 2205,
+      "total_downloads_all_time": 5779,
+      "momentum_score": 0.020845,
       "parameters": 28842037282,
       "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0-FP8-dynamic",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 1,
       "repos": [
         "INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0",
         "INSAIT-Institute/MamayLM-Gemma-3-27B-IT-v2.0-FP8-dynamic",
@@ -1677,14 +1677,14 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 2032,
-      "total_downloads_all_time": 35119,
-      "momentum_score": 0.015039,
+      "total_downloads_30d": 2040,
+      "total_downloads_all_time": 35153,
+      "momentum_score": 0.015094,
       "parameters": 320956992,
       "parameters_source_repo": "PleIAs/Baguettotron",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 8,
       "repos": [
         "PleIAs/Baguettotron",
         "PleIAs/Baguettotron-GGUF"
@@ -1699,14 +1699,14 @@
       "country": "CH",
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
-      "total_downloads_30d": 1993,
-      "total_downloads_all_time": 4863,
-      "momentum_score": 0.019006,
+      "total_downloads_30d": 2036,
+      "total_downloads_all_time": 4911,
+      "momentum_score": 0.019407,
       "parameters": 3825361968,
       "parameters_source_repo": "swiss-ai/Apertus-v1.1-4B",
       "repo_count": 5,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 43,
       "repos": [
         "swiss-ai/Apertus-v1.1-4B",
         "swiss-ai/Apertus-v1.1-4B-Instruct",
@@ -1715,7 +1715,7 @@
         "swiss-ai/Apertus-v1.1-4B-Instruct-MLX-INT6"
       ],
       "rank": 74,
-      "momentum_rank": 49
+      "momentum_rank": 48
     },
     {
       "row_id": "teuken-7b-v0.4-research",
@@ -1725,8 +1725,8 @@
       "developer": "openGPT-X",
       "official_org": "openGPT-X",
       "total_downloads_30d": 1961,
-      "total_downloads_all_time": 74632,
-      "momentum_score": 0.011229,
+      "total_downloads_all_time": 74687,
+      "momentum_score": 0.011226,
       "parameters": 7452725248,
       "parameters_source_repo": "openGPT-X/Teuken-7B-instruct-research-v0.4",
       "repo_count": 1,
@@ -1739,49 +1739,49 @@
       "momentum_rank": 68
     },
     {
+      "row_id": "domyn-small-v1.0",
+      "display_name": "Domyn Small v1.0",
+      "version": "1.0",
+      "country": "IT",
+      "developer": "Domyn",
+      "official_org": "domyn",
+      "total_downloads_30d": 1714,
+      "total_downloads_all_time": 5237,
+      "momentum_score": 0.016287,
+      "parameters": 9815334912,
+      "parameters_source_repo": "domyn/Domyn-Small-v1.0",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": 112,
+      "repos": [
+        "domyn/Domyn-Small-v1.0"
+      ],
+      "rank": 76,
+      "momentum_rank": 54
+    },
+    {
       "row_id": "gams-9b",
       "display_name": "GaMS 9B",
       "version": null,
       "country": "SI",
       "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
       "official_org": "cjvt",
-      "total_downloads_30d": 1782,
-      "total_downloads_all_time": 45757,
-      "momentum_score": 0.012226,
+      "total_downloads_30d": 1713,
+      "total_downloads_all_time": 45789,
+      "momentum_score": 0.01175,
       "parameters": 9241705984,
       "parameters_source_repo": "cjvt/GaMS-9B",
       "repo_count": 4,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -69,
       "repos": [
         "cjvt/GaMS-9B",
         "cjvt/GaMS-9B-Instruct",
         "cjvt/GaMS-9B-Instruct-Lex",
         "cjvt/GaMS-9B-Instruct-Nemotron"
       ],
-      "rank": 76,
-      "momentum_rank": 66
-    },
-    {
-      "row_id": "teuken-7b-v0.4-commercial",
-      "display_name": "Teuken 7B v0.4 (commercial)",
-      "version": "0.4",
-      "country": "DE",
-      "developer": "openGPT-X",
-      "official_org": "openGPT-X",
-      "total_downloads_30d": 1681,
-      "total_downloads_all_time": 102831,
-      "momentum_score": 0.008288,
-      "parameters": 7452725248,
-      "parameters_source_repo": "openGPT-X/Teuken-7B-instruct-commercial-v0.4",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "openGPT-X/Teuken-7B-instruct-commercial-v0.4"
-      ],
       "rank": 77,
-      "momentum_rank": 78
+      "momentum_rank": 67
     },
     {
       "row_id": "pllum-4b-2512",
@@ -1790,43 +1790,42 @@
       "country": "PL",
       "developer": "CYFRAGOVPL / PLLuM consortium",
       "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 1675,
-      "total_downloads_all_time": 4240,
-      "momentum_score": 0.016069,
+      "total_downloads_30d": 1679,
+      "total_downloads_all_time": 4330,
+      "momentum_score": 0.016093,
       "parameters": 4300079472,
       "parameters_source_repo": "CYFRAGOVPL/PLLuM-4B-base-2512",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 4,
       "repos": [
         "CYFRAGOVPL/PLLuM-4B-base-2512",
         "CYFRAGOVPL/PLLuM-4B-chat-2512",
         "CYFRAGOVPL/PLLuM-4B-instruct-2512"
       ],
       "rank": 78,
-      "momentum_rank": 55
+      "momentum_rank": 56
     },
     {
-      "row_id": "mamaylm-gemma2-9b-v0.1",
-      "display_name": "MamayLM Gemma 2 9B v0.1",
-      "version": "0.1",
-      "country": "UA",
-      "developer": "INSAIT",
-      "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 1658,
-      "total_downloads_all_time": 20909,
-      "momentum_score": 0.013713,
-      "parameters": 9241705984,
-      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1",
-      "repo_count": 2,
+      "row_id": "teuken-7b-v0.4-commercial",
+      "display_name": "Teuken 7B v0.4 (commercial)",
+      "version": "0.4",
+      "country": "DE",
+      "developer": "openGPT-X",
+      "official_org": "openGPT-X",
+      "total_downloads_30d": 1662,
+      "total_downloads_all_time": 102862,
+      "momentum_score": 0.008193,
+      "parameters": 7452725248,
+      "parameters_source_repo": "openGPT-X/Teuken-7B-instruct-commercial-v0.4",
+      "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -19,
       "repos": [
-        "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1",
-        "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1-GGUF"
+        "openGPT-X/Teuken-7B-instruct-commercial-v0.4"
       ],
       "rank": 79,
-      "momentum_rank": 63
+      "momentum_rank": 79
     },
     {
       "row_id": "trurl-2-7b",
@@ -1842,13 +1841,13 @@
       "parameters_source_repo": "Voicelab/trurl-2-7b-8bit",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": -18,
+      "delta_downloads_30d": 0,
       "repos": [
         "Voicelab/trurl-2-7b",
         "Voicelab/trurl-2-7b-8bit"
       ],
       "rank": 80,
-      "momentum_rank": 101
+      "momentum_rank": 102
     },
     {
       "row_id": "bggpt-7b-v0.2",
@@ -1864,13 +1863,13 @@
       "parameters_source_repo": "INSAIT-Institute/BgGPT-7B-Instruct-v0.2",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": -20,
+      "delta_downloads_30d": 0,
       "repos": [
         "INSAIT-Institute/BgGPT-7B-Instruct-v0.2",
         "INSAIT-Institute/BgGPT-7B-Instruct-v0.2-GGUF"
       ],
       "rank": 81,
-      "momentum_rank": 80
+      "momentum_rank": 81
     },
     {
       "row_id": "openeurollm-prelude",
@@ -1879,19 +1878,41 @@
       "country": "EU",
       "developer": "openeurollm",
       "official_org": "openeurollm",
-      "total_downloads_30d": 1644,
-      "total_downloads_all_time": 1644,
-      "momentum_score": 0.016174,
+      "total_downloads_30d": 1651,
+      "total_downloads_all_time": 1651,
+      "momentum_score": 0.016242,
       "parameters": null,
       "parameters_source_repo": null,
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 7,
       "repos": [
         "openeurollm/prelude"
       ],
       "rank": 82,
-      "momentum_rank": 54
+      "momentum_rank": 55
+    },
+    {
+      "row_id": "mamaylm-gemma2-9b-v0.1",
+      "display_name": "MamayLM Gemma 2 9B v0.1",
+      "version": "0.1",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "total_downloads_30d": 1643,
+      "total_downloads_all_time": 20912,
+      "momentum_score": 0.013588,
+      "parameters": 9241705984,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1",
+      "repo_count": 2,
+      "complete": true,
+      "delta_downloads_30d": -15,
+      "repos": [
+        "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1",
+        "INSAIT-Institute/MamayLM-Gemma-2-9B-IT-v0.1-GGUF"
+      ],
+      "rank": 83,
+      "momentum_rank": 63
     },
     {
       "row_id": "apertus-v1.1-1.5b",
@@ -1900,14 +1921,14 @@
       "country": "CH",
       "developer": "swiss-ai",
       "official_org": "swiss-ai",
-      "total_downloads_30d": 1613,
-      "total_downloads_all_time": 4354,
-      "momentum_score": 0.015457,
+      "total_downloads_30d": 1631,
+      "total_downloads_all_time": 4379,
+      "momentum_score": 0.015626,
       "parameters": 1510019104,
       "parameters_source_repo": "swiss-ai/Apertus-v1.1-1.5B",
       "repo_count": 6,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 18,
       "repos": [
         "swiss-ai/Apertus-v1.1-1.5B",
         "swiss-ai/Apertus-v1.1-1.5B-Instruct",
@@ -1916,7 +1937,7 @@
         "swiss-ai/Apertus-v1.1-1.5B-Instruct-MLX-INT6",
         "swiss-ai/Apertus-v1.1-1.5B-Instruct-vLLM-NVFP4A16"
       ],
-      "rank": 83,
+      "rank": 84,
       "momentum_rank": 58
     },
     {
@@ -1926,40 +1947,19 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 1608,
-      "total_downloads_all_time": 29409,
-      "momentum_score": 0.012426,
+      "total_downloads_30d": 1584,
+      "total_downloads_all_time": 29438,
+      "momentum_score": 0.012238,
       "parameters": 22637328384,
       "parameters_source_repo": "utter-project/EuroLLM-22B-Instruct-Preview",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -24,
       "repos": [
         "utter-project/EuroLLM-22B-Instruct-Preview"
       ],
-      "rank": 84,
-      "momentum_rank": 65
-    },
-    {
-      "row_id": "domyn-small-v1.0",
-      "display_name": "Domyn Small v1.0",
-      "version": "1.0",
-      "country": "IT",
-      "developer": "Domyn",
-      "official_org": "domyn",
-      "total_downloads_30d": 1602,
-      "total_downloads_all_time": 5121,
-      "momentum_score": 0.01524,
-      "parameters": 9815334912,
-      "parameters_source_repo": "domyn/Domyn-Small-v1.0",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "domyn/Domyn-Small-v1.0"
-      ],
       "rank": 85,
-      "momentum_rank": 59
+      "momentum_rank": 65
     },
     {
       "row_id": "soofi-s-instruct-preview",
@@ -1968,14 +1968,14 @@
       "country": "DE",
       "developer": "Soofi Project",
       "official_org": "Soofi-Project",
-      "total_downloads_30d": 1574,
-      "total_downloads_all_time": 6186,
-      "momentum_score": 0.014823,
+      "total_downloads_30d": 1576,
+      "total_downloads_all_time": 6206,
+      "momentum_score": 0.014839,
       "parameters": 31591508800,
       "parameters_source_repo": "Soofi-Project/Soofi-S-Instruct-Preview-FP8",
       "repo_count": 6,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 2,
       "repos": [
         "Soofi-Project/Soofi-S-Instruct-Preview",
         "Soofi-Project/Soofi-S-Instruct-Preview-EntQuant-2bit",
@@ -1985,7 +1985,7 @@
         "Soofi-Project/Soofi-S-Instruct-Preview-GGUF"
       ],
       "rank": 86,
-      "momentum_rank": 62
+      "momentum_rank": 61
     },
     {
       "row_id": "trurl-2-13b",
@@ -2001,14 +2001,14 @@
       "parameters_source_repo": null,
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": -17,
+      "delta_downloads_30d": 0,
       "repos": [
         "Voicelab/trurl-2-13b",
         "Voicelab/trurl-2-13b-8bit",
         "Voicelab/trurl-2-13b-academic"
       ],
       "rank": 87,
-      "momentum_rank": 108
+      "momentum_rank": 109
     },
     {
       "row_id": "qra-1b",
@@ -2024,7 +2024,7 @@
       "parameters_source_repo": "OPI-PG/Qra-1b",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": -21,
+      "delta_downloads_30d": 0,
       "repos": [
         "OPI-PG/Qra-1b"
       ],
@@ -2045,12 +2045,12 @@
       "parameters_source_repo": "OPI-PG/Qra-7b",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": -17,
+      "delta_downloads_30d": 0,
       "repos": [
         "OPI-PG/Qra-7b"
       ],
       "rank": 89,
-      "momentum_rank": 97
+      "momentum_rank": 96
     },
     {
       "row_id": "qra-13b",
@@ -2066,7 +2066,7 @@
       "parameters_source_repo": "OPI-PG/Qra-13b",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": -21,
+      "delta_downloads_30d": 0,
       "repos": [
         "OPI-PG/Qra-13b"
       ],
@@ -2080,14 +2080,14 @@
       "country": "IT",
       "developer": "mii-llm",
       "official_org": "mii-llm",
-      "total_downloads_30d": 1403,
-      "total_downloads_all_time": 50739,
-      "momentum_score": 0.009307,
+      "total_downloads_30d": 1384,
+      "total_downloads_all_time": 50765,
+      "momentum_score": 0.00918,
       "parameters": 7241748480,
       "parameters_source_repo": "mii-llm/maestrale-chat-v0.3-alpha-GGUF",
       "repo_count": 5,
       "complete": true,
-      "delta_downloads_30d": 1,
+      "delta_downloads_30d": -19,
       "repos": [
         "mii-llm/maestrale-chat-v0.3-alpha-GGUF",
         "mii-llm/maestrale-chat-v0.3-alpha-sft",
@@ -2112,7 +2112,7 @@
       "parameters_source_repo": "mii-llm/maestrale-chat-v0.2-alpha-sft",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": -18,
+      "delta_downloads_30d": 0,
       "repos": [
         "mii-llm/maestrale-chat-v0.2-alpha-sft"
       ],
@@ -2126,14 +2126,14 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 1322,
-      "total_downloads_all_time": 148872,
-      "momentum_score": 0.005312,
+      "total_downloads_30d": 1321,
+      "total_downloads_all_time": 148882,
+      "momentum_score": 0.005308,
       "parameters": 23572403200,
       "parameters_source_repo": "mistralai/Magistral-Small-2507",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1,
       "repos": [
         "mistralai/Magistral-Small-2507",
         "mistralai/Magistral-Small-2507-GGUF"
@@ -2148,14 +2148,14 @@
       "country": "PL",
       "developer": "CYFRAGOVPL / PLLuM consortium",
       "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 1272,
-      "total_downloads_all_time": 16522,
-      "momentum_score": 0.010916,
+      "total_downloads_30d": 1271,
+      "total_downloads_all_time": 16527,
+      "momentum_score": 0.010907,
       "parameters": 12247782400,
       "parameters_source_repo": "CYFRAGOVPL/PLLuM-12B-base-2512",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1,
       "repos": [
         "CYFRAGOVPL/PLLuM-12B-base-2512",
         "CYFRAGOVPL/PLLuM-12B-chat-2512",
@@ -2172,8 +2172,8 @@
       "developer": "BSC-LT",
       "official_org": "BSC-LT",
       "total_downloads_30d": 1214,
-      "total_downloads_all_time": 46448,
-      "momentum_score": 0.00829,
+      "total_downloads_all_time": 46475,
+      "momentum_score": 0.008288,
       "parameters": 7768117248,
       "parameters_source_repo": "BSC-LT/salamandra-7b",
       "repo_count": 1,
@@ -2184,6 +2184,28 @@
       ],
       "rank": 95,
       "momentum_rank": 77
+    },
+    {
+      "row_id": "alia-40b-instruct-2601",
+      "display_name": "ALIA 40B Instruct (2601)",
+      "version": "2601",
+      "country": "ES",
+      "developer": "BSC-LT",
+      "official_org": "BSC-LT",
+      "total_downloads_30d": 1150,
+      "total_downloads_all_time": 31564,
+      "momentum_score": 0.008741,
+      "parameters": 40433885248,
+      "parameters_source_repo": "BSC-LT/ALIA-40b-instruct-2601-GGUF",
+      "repo_count": 2,
+      "complete": true,
+      "delta_downloads_30d": 125,
+      "repos": [
+        "BSC-LT/ALIA-40b-instruct-2601",
+        "BSC-LT/ALIA-40b-instruct-2601-GGUF"
+      ],
+      "rank": 96,
+      "momentum_rank": 75
     },
     {
       "row_id": "croissantllm-base",
@@ -2199,36 +2221,14 @@
       "parameters_source_repo": "croissantllm/CroissantLLMBase-GGUF",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": -14,
+      "delta_downloads_30d": 0,
       "repos": [
         "croissantllm/CroissantLLMBase",
         "croissantllm/CroissantLLMBase-GGML",
         "croissantllm/CroissantLLMBase-GGUF"
       ],
-      "rank": 96,
-      "momentum_rank": 84
-    },
-    {
-      "row_id": "alia-40b-instruct-2601",
-      "display_name": "ALIA 40B Instruct (2601)",
-      "version": "2601",
-      "country": "ES",
-      "developer": "BSC-LT",
-      "official_org": "BSC-LT",
-      "total_downloads_30d": 1025,
-      "total_downloads_all_time": 31429,
-      "momentum_score": 0.007799,
-      "parameters": 40433885248,
-      "parameters_source_repo": "BSC-LT/ALIA-40b-instruct-2601-GGUF",
-      "repo_count": 2,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "BSC-LT/ALIA-40b-instruct-2601",
-        "BSC-LT/ALIA-40b-instruct-2601-GGUF"
-      ],
       "rank": 97,
-      "momentum_rank": 82
+      "momentum_rank": 84
     },
     {
       "row_id": "llama-pllum-8b-2512",
@@ -2237,21 +2237,21 @@
       "country": "PL",
       "developer": "CYFRAGOVPL / PLLuM consortium",
       "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 1021,
-      "total_downloads_all_time": 2553,
-      "momentum_score": 0.009956,
+      "total_downloads_30d": 1073,
+      "total_downloads_all_time": 2611,
+      "momentum_score": 0.010457,
       "parameters": 8030285824,
       "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 52,
       "repos": [
         "CYFRAGOVPL/Llama-PLLuM-8B-base-2512",
         "CYFRAGOVPL/Llama-PLLuM-8B-chat-2512",
         "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2512"
       ],
       "rank": 98,
-      "momentum_rank": 71
+      "momentum_rank": 70
     },
     {
       "row_id": "mamaylm-gemma3-4b-v1",
@@ -2260,20 +2260,20 @@
       "country": "UA",
       "developer": "INSAIT",
       "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 1015,
-      "total_downloads_all_time": 16583,
-      "momentum_score": 0.008706,
+      "total_downloads_30d": 996,
+      "total_downloads_all_time": 16592,
+      "momentum_score": 0.008543,
       "parameters": 4300079472,
       "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -19,
       "repos": [
         "INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0",
         "INSAIT-Institute/MamayLM-Gemma-3-4B-IT-v1.0-GGUF"
       ],
       "rank": 99,
-      "momentum_rank": 75
+      "momentum_rank": 76
     },
     {
       "row_id": "croissantllm-chat-v0.1",
@@ -2289,7 +2289,7 @@
       "parameters_source_repo": "croissantllm/CroissantLLMChat-v0.1",
       "repo_count": 8,
       "complete": true,
-      "delta_downloads_30d": 52,
+      "delta_downloads_30d": 0,
       "repos": [
         "croissantllm/CroissantLLMChat-v0.1",
         "croissantllm/CroissantLLMChat-v0.1-GGML",
@@ -2301,7 +2301,7 @@
         "croissantllm/CroissantLLMChat-v0.1-q4f32_1-MLC"
       ],
       "rank": 100,
-      "momentum_rank": 99
+      "momentum_rank": 98
     },
     {
       "row_id": "soofi-s-rhine-preview",
@@ -2327,7 +2327,7 @@
         "Soofi-Project/Soofi-S-Rhine-Preview-GGUF"
       ],
       "rank": 101,
-      "momentum_rank": 79
+      "momentum_rank": 80
     },
     {
       "row_id": "bielik-11b-v2.0",
@@ -2337,8 +2337,8 @@
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
       "total_downloads_30d": 722,
-      "total_downloads_all_time": 19847,
-      "momentum_score": 0.006024,
+      "total_downloads_all_time": 19867,
+      "momentum_score": 0.006023,
       "parameters": 11168796672,
       "parameters_source_repo": "speakleash/Bielik-11B-v2.0-Instruct",
       "repo_count": 5,
@@ -2368,36 +2368,13 @@
       "parameters_source_repo": "occiglot/occiglot-7b-eu5-instruct",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 36,
+      "delta_downloads_30d": 0,
       "repos": [
         "occiglot/occiglot-7b-eu5",
         "occiglot/occiglot-7b-eu5-instruct"
       ],
       "rank": 103,
-      "momentum_rank": 127
-    },
-    {
-      "row_id": "llama-pllum-8b-2412",
-      "display_name": "Llama-PLLuM 8B (2412)",
-      "version": "2412",
-      "country": "PL",
-      "developer": "CYFRAGOVPL / PLLuM consortium",
-      "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 676,
-      "total_downloads_all_time": 69094,
-      "momentum_score": 0.003998,
-      "parameters": 8030277632,
-      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-8B-chat-2412",
-      "repo_count": 3,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "CYFRAGOVPL/Llama-PLLuM-8B-base-2412",
-        "CYFRAGOVPL/Llama-PLLuM-8B-chat-2412",
-        "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2412"
-      ],
-      "rank": 104,
-      "momentum_rank": 104
+      "momentum_rank": 126
     },
     {
       "row_id": "eurollm-9b-base",
@@ -2406,19 +2383,42 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 662,
-      "total_downloads_all_time": 78933,
-      "momentum_score": 0.0037,
+      "total_downloads_30d": 667,
+      "total_downloads_all_time": 78955,
+      "momentum_score": 0.003727,
       "parameters": 9152319488,
       "parameters_source_repo": "utter-project/EuroLLM-9B",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 5,
       "repos": [
         "utter-project/EuroLLM-9B"
       ],
-      "rank": 105,
+      "rank": 104,
       "momentum_rank": 107
+    },
+    {
+      "row_id": "llama-pllum-8b-2412",
+      "display_name": "Llama-PLLuM 8B (2412)",
+      "version": "2412",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "total_downloads_30d": 663,
+      "total_downloads_all_time": 69101,
+      "momentum_score": 0.003921,
+      "parameters": 8030277632,
+      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-8B-chat-2412",
+      "repo_count": 3,
+      "complete": true,
+      "delta_downloads_30d": -13,
+      "repos": [
+        "CYFRAGOVPL/Llama-PLLuM-8B-base-2412",
+        "CYFRAGOVPL/Llama-PLLuM-8B-chat-2412",
+        "CYFRAGOVPL/Llama-PLLuM-8B-instruct-2412"
+      ],
+      "rank": 105,
+      "momentum_rank": 105
     },
     {
       "row_id": "nesso-0.4b-agentic",
@@ -2427,14 +2427,14 @@
       "country": "IT",
       "developer": "mii-llm",
       "official_org": "mii-llm",
-      "total_downloads_30d": 621,
-      "total_downloads_all_time": 1999,
-      "momentum_score": 0.006088,
+      "total_downloads_30d": 627,
+      "total_downloads_all_time": 2030,
+      "momentum_score": 0.006145,
       "parameters": 560898240,
       "parameters_source_repo": "mii-llm/nesso-0.4B-agentic",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 6,
       "repos": [
         "mii-llm/nesso-0.4B-agentic",
         "mii-llm/nesso-0.4B-agentic-GGUF"
@@ -2464,145 +2464,49 @@
       "momentum_rank": 90
     },
     {
-      "row_id": "mamaylm-gemma3-12b-v1",
-      "display_name": "MamayLM Gemma 3 12B v1.0",
-      "version": "1.0",
-      "country": "UA",
-      "developer": "INSAIT",
-      "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 587,
-      "total_downloads_all_time": 41642,
-      "momentum_score": 0.004144,
-      "parameters": 12187325040,
-      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0",
-      "repo_count": 2,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0",
-        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF"
-      ],
-      "rank": 108,
-      "momentum_rank": 102
-    },
-    {
-      "row_id": "soofi-s-isar-preview",
-      "display_name": "Soofi S Isar Preview",
-      "version": "preview",
-      "country": "DE",
-      "developer": "Soofi Project",
-      "official_org": "Soofi-Project",
-      "total_downloads_30d": 569,
-      "total_downloads_all_time": 4909,
-      "momentum_score": 0.005424,
-      "parameters": 31591508800,
-      "parameters_source_repo": "Soofi-Project/Soofi-S-Isar-Preview-FP8",
-      "repo_count": 6,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "Soofi-Project/Soofi-S-Isar-Preview",
-        "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-2bit",
-        "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-3bit",
-        "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-4bit",
-        "Soofi-Project/Soofi-S-Isar-Preview-FP8",
-        "Soofi-Project/Soofi-S-Isar-Preview-GGUF"
-      ],
-      "rank": 109,
-      "momentum_rank": 94
-    },
-    {
       "row_id": "bggpt-gemma3-27b",
       "display_name": "BgGPT Gemma 3 27B",
       "version": null,
       "country": "BG",
       "developer": "INSAIT",
       "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 559,
-      "total_downloads_all_time": 5738,
-      "momentum_score": 0.005287,
+      "total_downloads_30d": 564,
+      "total_downloads_all_time": 5754,
+      "momentum_score": 0.005333,
       "parameters": 27432406640,
       "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-3-27B-IT",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 5,
       "repos": [
         "INSAIT-Institute/BgGPT-Gemma-3-27B-IT",
         "INSAIT-Institute/BgGPT-Gemma-3-27B-IT-GGUF",
         "INSAIT-Institute/BgGPT-Gemma-3-27B-IT-GPTQ-W4A16"
       ],
-      "rank": 110,
-      "momentum_rank": 96
+      "rank": 108,
+      "momentum_rank": 94
     },
     {
-      "row_id": "bielik-11b-v2.1",
-      "display_name": "Bielik-11B v2.1",
-      "version": "2.1",
-      "country": "PL",
-      "developer": "SpeakLeash / ACK Cyfronet AGH",
-      "official_org": "speakleash",
-      "total_downloads_30d": 489,
-      "total_downloads_all_time": 28233,
-      "momentum_score": 0.003813,
-      "parameters": 11168796672,
-      "parameters_source_repo": "speakleash/Bielik-11B-v2.1-Instruct",
-      "repo_count": 5,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "speakleash/Bielik-11B-v2.1-Instruct",
-        "speakleash/Bielik-11B-v2.1-Instruct-FP8",
-        "speakleash/Bielik-11B-v2.1-Instruct-GGUF",
-        "speakleash/Bielik-11B-v2.1-Instruct-GGUF-IQ-Imatrix",
-        "speakleash/Bielik-11B-v2.1-Instruct-GPTQ"
-      ],
-      "rank": 111,
-      "momentum_rank": 105
-    },
-    {
-      "row_id": "pllum-12b-nc-2507",
-      "display_name": "PLLuM 12B nc (2507)",
-      "version": "2507",
-      "country": "PL",
-      "developer": "CYFRAGOVPL / PLLuM consortium",
-      "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 488,
-      "total_downloads_all_time": 5893,
-      "momentum_score": 0.004608,
-      "parameters": 12247802880,
-      "parameters_source_repo": "CYFRAGOVPL/PLLuM-12b-nc-chat-2507",
-      "repo_count": 3,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "CYFRAGOVPL/PLLuM-12b-nc-base-2507",
-        "CYFRAGOVPL/PLLuM-12b-nc-chat-2507",
-        "CYFRAGOVPL/PLLuM-12b-nc-instruct-2507"
-      ],
-      "rank": 112,
-      "momentum_rank": 100
-    },
-    {
-      "row_id": "nesso-4b",
-      "display_name": "Nesso 4B",
-      "version": null,
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "total_downloads_30d": 415,
-      "total_downloads_all_time": 1724,
-      "momentum_score": 0.00408,
-      "parameters": 4022468096,
-      "parameters_source_repo": "mii-llm/nesso-4B",
+      "row_id": "mamaylm-gemma3-12b-v1",
+      "display_name": "MamayLM Gemma 3 12B v1.0",
+      "version": "1.0",
+      "country": "UA",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "total_downloads_30d": 562,
+      "total_downloads_all_time": 41650,
+      "momentum_score": 0.003968,
+      "parameters": 12187325040,
+      "parameters_source_repo": "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -25,
       "repos": [
-        "mii-llm/nesso-4B",
-        "mii-llm/nesso-4B-GGUF"
+        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0",
+        "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v1.0-GGUF"
       ],
-      "rank": 113,
-      "momentum_rank": 103
+      "rank": 109,
+      "momentum_rank": 104
     },
     {
       "row_id": "llama-poro-2-70b",
@@ -2611,89 +2515,117 @@
       "country": "FI",
       "developer": "LumiOpen",
       "official_org": "LumiOpen",
-      "total_downloads_30d": 404,
-      "total_downloads_all_time": 36896,
-      "momentum_score": 0.002951,
+      "total_downloads_30d": 549,
+      "total_downloads_all_time": 37046,
+      "momentum_score": 0.004006,
       "parameters": 70553706496,
       "parameters_source_repo": "LumiOpen/Llama-Poro-2-70B-Instruct",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 145,
       "repos": [
         "LumiOpen/Llama-Poro-2-70B-Instruct",
         "LumiOpen/Llama-Poro-2-70B-SFT",
         "LumiOpen/Llama-Poro-2-70B-base"
       ],
-      "rank": 114,
-      "momentum_rank": 111
+      "rank": 110,
+      "momentum_rank": 103
     },
     {
-      "row_id": "leanstral-1.5",
-      "display_name": "Leanstral 1.5 (119B-A6B)",
-      "version": "1.5",
-      "country": "FR",
-      "developer": "Mistral AI",
-      "official_org": "mistralai",
-      "total_downloads_30d": 381,
-      "total_downloads_all_time": 615,
-      "momentum_score": 0.003787,
-      "parameters": null,
-      "parameters_source_repo": null,
-      "repo_count": 1,
+      "row_id": "soofi-s-isar-preview",
+      "display_name": "Soofi S Isar Preview",
+      "version": "preview",
+      "country": "DE",
+      "developer": "Soofi Project",
+      "official_org": "Soofi-Project",
+      "total_downloads_30d": 532,
+      "total_downloads_all_time": 4909,
+      "momentum_score": 0.005071,
+      "parameters": 31591508800,
+      "parameters_source_repo": "Soofi-Project/Soofi-S-Isar-Preview-FP8",
+      "repo_count": 6,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -37,
       "repos": [
-        "mistralai/Leanstral-1.5-119B-A6B"
+        "Soofi-Project/Soofi-S-Isar-Preview",
+        "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-2bit",
+        "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-3bit",
+        "Soofi-Project/Soofi-S-Isar-Preview-EntQuant-4bit",
+        "Soofi-Project/Soofi-S-Isar-Preview-FP8",
+        "Soofi-Project/Soofi-S-Isar-Preview-GGUF"
       ],
-      "rank": 115,
+      "rank": 111,
+      "momentum_rank": 97
+    },
+    {
+      "row_id": "bielik-11b-v2.1",
+      "display_name": "Bielik-11B v2.1",
+      "version": "2.1",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "total_downloads_30d": 486,
+      "total_downloads_all_time": 28242,
+      "momentum_score": 0.00379,
+      "parameters": 11168796672,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2.1-Instruct",
+      "repo_count": 5,
+      "complete": true,
+      "delta_downloads_30d": -3,
+      "repos": [
+        "speakleash/Bielik-11B-v2.1-Instruct",
+        "speakleash/Bielik-11B-v2.1-Instruct-FP8",
+        "speakleash/Bielik-11B-v2.1-Instruct-GGUF",
+        "speakleash/Bielik-11B-v2.1-Instruct-GGUF-IQ-Imatrix",
+        "speakleash/Bielik-11B-v2.1-Instruct-GPTQ"
+      ],
+      "rank": 112,
       "momentum_rank": 106
     },
     {
-      "row_id": "meltemi-7b-v1.5",
-      "display_name": "Meltemi 7B v1.5",
-      "version": "1.5",
-      "country": "GR",
-      "developer": "ILSP",
-      "official_org": "ilsp",
-      "total_downloads_30d": 378,
-      "total_downloads_all_time": 38256,
-      "momentum_score": 0.002734,
-      "parameters": 7482445824,
-      "parameters_source_repo": "ilsp/Meltemi-7B-Instruct-v1.5",
-      "repo_count": 2,
+      "row_id": "pllum-12b-nc-2507",
+      "display_name": "PLLuM 12B nc (2507)",
+      "version": "2507",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "total_downloads_30d": 484,
+      "total_downloads_all_time": 5893,
+      "momentum_score": 0.004571,
+      "parameters": 12247802880,
+      "parameters_source_repo": "CYFRAGOVPL/PLLuM-12b-nc-chat-2507",
+      "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -4,
       "repos": [
-        "ilsp/Meltemi-7B-Instruct-v1.5",
-        "ilsp/Meltemi-7B-v1.5"
+        "CYFRAGOVPL/PLLuM-12b-nc-base-2507",
+        "CYFRAGOVPL/PLLuM-12b-nc-chat-2507",
+        "CYFRAGOVPL/PLLuM-12b-nc-instruct-2507"
       ],
-      "rank": 116,
-      "momentum_rank": 113
+      "rank": 113,
+      "momentum_rank": 99
     },
     {
-      "row_id": "meltemi-7b-v1",
-      "display_name": "Meltemi 7B v1",
-      "version": "1",
-      "country": "GR",
-      "developer": "ILSP",
-      "official_org": "ilsp",
-      "total_downloads_30d": 374,
-      "total_downloads_all_time": 43680,
-      "momentum_score": 0.002603,
-      "parameters": 7702227842,
-      "parameters_source_repo": "ilsp/Meltemi-7B-Instruct-v1-BnB-4bit",
-      "repo_count": 5,
+      "row_id": "nesso-4b",
+      "display_name": "Nesso 4B",
+      "version": null,
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "total_downloads_30d": 438,
+      "total_downloads_all_time": 1747,
+      "momentum_score": 0.004305,
+      "parameters": 4022468096,
+      "parameters_source_repo": "mii-llm/nesso-4B",
+      "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 23,
       "repos": [
-        "ilsp/Meltemi-7B-Instruct-v1",
-        "ilsp/Meltemi-7B-Instruct-v1-AWQ",
-        "ilsp/Meltemi-7B-Instruct-v1-BnB-4bit",
-        "ilsp/Meltemi-7B-Instruct-v1-GGUF",
-        "ilsp/Meltemi-7B-v1"
+        "mii-llm/nesso-4B",
+        "mii-llm/nesso-4B-GGUF"
       ],
-      "rank": 117,
-      "momentum_rank": 114
+      "rank": 114,
+      "momentum_rank": 101
     },
     {
       "row_id": "poro-34b",
@@ -2702,22 +2634,68 @@
       "country": "FI",
       "developer": "LumiOpen",
       "official_org": "LumiOpen",
-      "total_downloads_30d": 368,
-      "total_downloads_all_time": 226159,
-      "momentum_score": 0.001128,
+      "total_downloads_30d": 427,
+      "total_downloads_all_time": 226225,
+      "momentum_score": 0.001309,
       "parameters": 35134453760,
       "parameters_source_repo": "LumiOpen/Poro-34B-chat-GGUF",
       "repo_count": 4,
       "complete": true,
-      "delta_downloads_30d": 4,
+      "delta_downloads_30d": 59,
       "repos": [
         "LumiOpen/Poro-34B",
         "LumiOpen/Poro-34B-chat",
         "LumiOpen/Poro-34B-chat-GGUF",
         "LumiOpen/Poro-34B-chat-OpenAssistant"
       ],
-      "rank": 118,
-      "momentum_rank": 137
+      "rank": 115,
+      "momentum_rank": 134
+    },
+    {
+      "row_id": "meltemi-7b-v1",
+      "display_name": "Meltemi 7B v1",
+      "version": "1",
+      "country": "GR",
+      "developer": "ILSP",
+      "official_org": "ilsp",
+      "total_downloads_30d": 382,
+      "total_downloads_all_time": 43688,
+      "momentum_score": 0.002659,
+      "parameters": 7702227842,
+      "parameters_source_repo": "ilsp/Meltemi-7B-Instruct-v1-BnB-4bit",
+      "repo_count": 5,
+      "complete": true,
+      "delta_downloads_30d": 8,
+      "repos": [
+        "ilsp/Meltemi-7B-Instruct-v1",
+        "ilsp/Meltemi-7B-Instruct-v1-AWQ",
+        "ilsp/Meltemi-7B-Instruct-v1-BnB-4bit",
+        "ilsp/Meltemi-7B-Instruct-v1-GGUF",
+        "ilsp/Meltemi-7B-v1"
+      ],
+      "rank": 116,
+      "momentum_rank": 113
+    },
+    {
+      "row_id": "leanstral-1.5",
+      "display_name": "Leanstral 1.5 (119B-A6B)",
+      "version": "1.5",
+      "country": "FR",
+      "developer": "Mistral AI",
+      "official_org": "mistralai",
+      "total_downloads_30d": 366,
+      "total_downloads_all_time": 623,
+      "momentum_score": 0.003637,
+      "parameters": null,
+      "parameters_source_repo": null,
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": -15,
+      "repos": [
+        "mistralai/Leanstral-1.5-119B-A6B"
+      ],
+      "rank": 117,
+      "momentum_rank": 108
     },
     {
       "row_id": "alia-40b-base",
@@ -2726,19 +2704,19 @@
       "country": "ES",
       "developer": "BSC-LT",
       "official_org": "BSC-LT",
-      "total_downloads_30d": 342,
-      "total_downloads_all_time": 450056,
-      "momentum_score": 0.000622,
+      "total_downloads_30d": 357,
+      "total_downloads_all_time": 450074,
+      "momentum_score": 0.000649,
       "parameters": 40433885184,
       "parameters_source_repo": "BSC-LT/ALIA-40b",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 15,
       "repos": [
         "BSC-LT/ALIA-40b"
       ],
-      "rank": 119,
-      "momentum_rank": 150
+      "rank": 118,
+      "momentum_rank": 149
     },
     {
       "row_id": "pharia-7b-control",
@@ -2747,22 +2725,43 @@
       "country": "DE",
       "developer": "Aleph Alpha",
       "official_org": "Aleph-Alpha",
-      "total_downloads_30d": 329,
-      "total_downloads_all_time": 75156,
-      "momentum_score": 0.001878,
+      "total_downloads_30d": 334,
+      "total_downloads_all_time": 75167,
+      "momentum_score": 0.001907,
       "parameters": 7041544704,
       "parameters_source_repo": "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf",
       "repo_count": 4,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 5,
       "repos": [
         "Aleph-Alpha/Pharia-1-LLM-7B-control",
         "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned",
         "Aleph-Alpha/Pharia-1-LLM-7B-control-aligned-hf",
         "Aleph-Alpha/Pharia-1-LLM-7B-control-hf"
       ],
+      "rank": 119,
+      "momentum_rank": 122
+    },
+    {
+      "row_id": "eurollm-9b-2512",
+      "display_name": "EuroLLM-9B (2512)",
+      "version": "2512",
+      "country": "EU",
+      "developer": "utter-project",
+      "official_org": "utter-project",
+      "total_downloads_30d": 321,
+      "total_downloads_all_time": 5476,
+      "momentum_score": 0.003043,
+      "parameters": 9152319488,
+      "parameters_source_repo": "utter-project/EuroLLM-9B-2512",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": 2,
+      "repos": [
+        "utter-project/EuroLLM-9B-2512"
+      ],
       "rank": 120,
-      "momentum_rank": 124
+      "momentum_rank": 111
     },
     {
       "row_id": "pllum-8x7b-2412",
@@ -2771,14 +2770,14 @@
       "country": "PL",
       "developer": "CYFRAGOVPL / PLLuM consortium",
       "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 321,
-      "total_downloads_all_time": 27959,
-      "momentum_score": 0.002509,
+      "total_downloads_30d": 319,
+      "total_downloads_all_time": 27960,
+      "momentum_score": 0.002493,
       "parameters": 46702817280,
       "parameters_source_repo": "CYFRAGOVPL/PLLuM-8x7B-chat-2412",
       "repo_count": 6,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -2,
       "repos": [
         "CYFRAGOVPL/PLLuM-8x7B-base-2412",
         "CYFRAGOVPL/PLLuM-8x7B-chat-2412",
@@ -2788,28 +2787,29 @@
         "CYFRAGOVPL/PLLuM-8x7B-nc-instruct-2412"
       ],
       "rank": 121,
-      "momentum_rank": 115
+      "momentum_rank": 114
     },
     {
-      "row_id": "eurollm-9b-2512",
-      "display_name": "EuroLLM-9B (2512)",
-      "version": "2512",
-      "country": "EU",
-      "developer": "utter-project",
-      "official_org": "utter-project",
-      "total_downloads_30d": 319,
-      "total_downloads_all_time": 5471,
-      "momentum_score": 0.003025,
-      "parameters": 9152319488,
-      "parameters_source_repo": "utter-project/EuroLLM-9B-2512",
-      "repo_count": 1,
+      "row_id": "meltemi-7b-v1.5",
+      "display_name": "Meltemi 7B v1.5",
+      "version": "1.5",
+      "country": "GR",
+      "developer": "ILSP",
+      "official_org": "ilsp",
+      "total_downloads_30d": 312,
+      "total_downloads_all_time": 38268,
+      "momentum_score": 0.002256,
+      "parameters": 7482445824,
+      "parameters_source_repo": "ilsp/Meltemi-7B-Instruct-v1.5",
+      "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -66,
       "repos": [
-        "utter-project/EuroLLM-9B-2512"
+        "ilsp/Meltemi-7B-Instruct-v1.5",
+        "ilsp/Meltemi-7B-v1.5"
       ],
       "rank": 122,
-      "momentum_rank": 110
+      "momentum_rank": 116
     },
     {
       "row_id": "pleias-pico",
@@ -2818,14 +2818,14 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 301,
-      "total_downloads_all_time": 4989,
-      "momentum_score": 0.002867,
+      "total_downloads_30d": 305,
+      "total_downloads_all_time": 4996,
+      "momentum_score": 0.002905,
       "parameters": 353424384,
       "parameters_source_repo": "PleIAs/Pleias-Pico",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 4,
       "repos": [
         "PleIAs/Pleias-Pico",
         "PleIAs/Pleias-Pico-GGUF"
@@ -2841,7 +2841,7 @@
       "developer": "CYFRAGOVPL / PLLuM consortium",
       "official_org": "CYFRAGOVPL",
       "total_downloads_30d": 260,
-      "total_downloads_all_time": 38264,
+      "total_downloads_all_time": 38265,
       "momentum_score": 0.00188,
       "parameters": 70553739264,
       "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-70B-chat-2412",
@@ -2863,20 +2863,20 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 259,
-      "total_downloads_all_time": 17286,
-      "momentum_score": 0.002208,
+      "total_downloads_30d": 260,
+      "total_downloads_all_time": 17296,
+      "momentum_score": 0.002217,
       "parameters": 1195468800,
       "parameters_source_repo": "PleIAs/Pleias-RAG-1B",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 1,
       "repos": [
         "PleIAs/Pleias-RAG-1B",
         "PleIAs/Pleias-RAG-1B-gguf"
       ],
       "rank": 125,
-      "momentum_rank": 118
+      "momentum_rank": 117
     },
     {
       "row_id": "bggpt-gemma2-9b",
@@ -2885,84 +2885,20 @@
       "country": "BG",
       "developer": "INSAIT",
       "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 247,
-      "total_downloads_all_time": 26503,
-      "momentum_score": 0.001953,
+      "total_downloads_30d": 249,
+      "total_downloads_all_time": 26505,
+      "momentum_score": 0.001968,
       "parameters": 9241705984,
       "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 2,
       "repos": [
         "INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0",
         "INSAIT-Institute/BgGPT-Gemma-2-9B-IT-v1.0-GGUF"
       ],
       "rank": 126,
       "momentum_rank": 121
-    },
-    {
-      "row_id": "nesso-0.4b-instruct",
-      "display_name": "Nesso 0.4B Instruct",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "total_downloads_30d": 238,
-      "total_downloads_all_time": 1014,
-      "momentum_score": 0.002356,
-      "parameters": 560898240,
-      "parameters_source_repo": "mii-llm/nesso-0.4B-instruct",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "mii-llm/nesso-0.4B-instruct"
-      ],
-      "rank": 127,
-      "momentum_rank": 117
-    },
-    {
-      "row_id": "bielik-11b-v2-base",
-      "display_name": "Bielik-11B v2 (base)",
-      "version": "2",
-      "country": "PL",
-      "developer": "SpeakLeash / ACK Cyfronet AGH",
-      "official_org": "speakleash",
-      "total_downloads_30d": 231,
-      "total_downloads_all_time": 41080,
-      "momentum_score": 0.001637,
-      "parameters": 11168796672,
-      "parameters_source_repo": "speakleash/Bielik-11B-v2",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "speakleash/Bielik-11B-v2"
-      ],
-      "rank": 128,
-      "momentum_rank": 128
-    },
-    {
-      "row_id": "pleias-rag-350m",
-      "display_name": "Pleias RAG 350M",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "total_downloads_30d": 217,
-      "total_downloads_all_time": 12937,
-      "momentum_score": 0.001921,
-      "parameters": 353424384,
-      "parameters_source_repo": "PleIAs/Pleias-RAG-350M",
-      "repo_count": 2,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "PleIAs/Pleias-RAG-350M",
-        "PleIAs/Pleias-RAG-350M-gguf"
-      ],
-      "rank": 129,
-      "momentum_rank": 122
     },
     {
       "row_id": "viking-7b",
@@ -2978,12 +2914,54 @@
       "parameters_source_repo": "LumiOpen/Viking-7B",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 4,
+      "delta_downloads_30d": 0,
       "repos": [
         "LumiOpen/Viking-7B"
       ],
-      "rank": 130,
-      "momentum_rank": 132
+      "rank": 127,
+      "momentum_rank": 130
+    },
+    {
+      "row_id": "bielik-11b-v2-base",
+      "display_name": "Bielik-11B v2 (base)",
+      "version": "2",
+      "country": "PL",
+      "developer": "SpeakLeash / ACK Cyfronet AGH",
+      "official_org": "speakleash",
+      "total_downloads_30d": 211,
+      "total_downloads_all_time": 41082,
+      "momentum_score": 0.001496,
+      "parameters": 11168796672,
+      "parameters_source_repo": "speakleash/Bielik-11B-v2",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": -20,
+      "repos": [
+        "speakleash/Bielik-11B-v2"
+      ],
+      "rank": 128,
+      "momentum_rank": 128
+    },
+    {
+      "row_id": "nesso-0.4b-instruct",
+      "display_name": "Nesso 0.4B Instruct",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "total_downloads_30d": 209,
+      "total_downloads_all_time": 1018,
+      "momentum_score": 0.002069,
+      "parameters": 560898240,
+      "parameters_source_repo": "mii-llm/nesso-0.4B-instruct",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": -29,
+      "repos": [
+        "mii-llm/nesso-0.4B-instruct"
+      ],
+      "rank": 129,
+      "momentum_rank": 119
     },
     {
       "row_id": "tildeopen-30b-64k",
@@ -2992,19 +2970,41 @@
       "country": "LV",
       "developer": "Tilde",
       "official_org": "TildeAI",
-      "total_downloads_30d": 209,
+      "total_downloads_30d": 207,
       "total_downloads_all_time": 1667,
-      "momentum_score": 0.002056,
+      "momentum_score": 0.002036,
       "parameters": 30677882880,
       "parameters_source_repo": "TildeAI/TildeOpen-30b-64k",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -2,
       "repos": [
         "TildeAI/TildeOpen-30b-64k"
       ],
-      "rank": 131,
+      "rank": 130,
       "momentum_rank": 120
+    },
+    {
+      "row_id": "pleias-rag-350m",
+      "display_name": "Pleias RAG 350M",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "total_downloads_30d": 204,
+      "total_downloads_all_time": 12938,
+      "momentum_score": 0.001806,
+      "parameters": 353424384,
+      "parameters_source_repo": "PleIAs/Pleias-RAG-350M",
+      "repo_count": 2,
+      "complete": true,
+      "delta_downloads_30d": -13,
+      "repos": [
+        "PleIAs/Pleias-RAG-350M",
+        "PleIAs/Pleias-RAG-350M-gguf"
+      ],
+      "rank": 131,
+      "momentum_rank": 125
     },
     {
       "row_id": "gams-27b",
@@ -3013,64 +3013,21 @@
       "country": "SI",
       "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
       "official_org": "cjvt",
-      "total_downloads_30d": 192,
+      "total_downloads_30d": 185,
       "total_downloads_all_time": 36210,
-      "momentum_score": 0.00141,
+      "momentum_score": 0.001358,
       "parameters": 27227128320,
       "parameters_source_repo": "cjvt/GaMS-27B",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -7,
       "repos": [
         "cjvt/GaMS-27B",
         "cjvt/GaMS-27B-Instruct",
         "cjvt/GaMS-27B-Instruct-Nemotron"
       ],
       "rank": 132,
-      "momentum_rank": 133
-    },
-    {
-      "row_id": "bggpt-gemma2-2.6b",
-      "display_name": "BgGPT Gemma 2 2.6B",
-      "version": "1.0",
-      "country": "BG",
-      "developer": "INSAIT",
-      "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 186,
-      "total_downloads_all_time": 21141,
-      "momentum_score": 0.001535,
-      "parameters": 2614341888,
-      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0",
-      "repo_count": 2,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0",
-        "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0-GGUF"
-      ],
-      "rank": 133,
-      "momentum_rank": 130
-    },
-    {
-      "row_id": "pleias-slm-rag",
-      "display_name": "Pleias SLM RAG",
-      "version": null,
-      "country": "FR",
-      "developer": "PleIAs",
-      "official_org": "PleIAs",
-      "total_downloads_30d": 185,
-      "total_downloads_all_time": 185,
-      "momentum_score": 0.001847,
-      "parameters": 320956992,
-      "parameters_source_repo": "PleIAs/Pleias-SLM-RAG",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "PleIAs/Pleias-SLM-RAG"
-      ],
-      "rank": 134,
-      "momentum_rank": 125
+      "momentum_rank": 132
     },
     {
       "row_id": "tildeopen-15b-wmt26-cs-de",
@@ -3092,8 +3049,8 @@
         "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16",
         "TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn"
       ],
-      "rank": 135,
-      "momentum_rank": 126
+      "rank": 133,
+      "momentum_rank": 124
     },
     {
       "row_id": "bggpt-7b-v0.1",
@@ -3114,7 +3071,29 @@
         "INSAIT-Institute/BgGPT-7B-Instruct-v0.1",
         "INSAIT-Institute/BgGPT-7B-Instruct-v0.1-GGUF"
       ],
-      "rank": 136,
+      "rank": 134,
+      "momentum_rank": 127
+    },
+    {
+      "row_id": "bggpt-gemma2-2.6b",
+      "display_name": "BgGPT Gemma 2 2.6B",
+      "version": "1.0",
+      "country": "BG",
+      "developer": "INSAIT",
+      "official_org": "INSAIT-Institute",
+      "total_downloads_30d": 180,
+      "total_downloads_all_time": 21145,
+      "momentum_score": 0.001486,
+      "parameters": 2614341888,
+      "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0",
+      "repo_count": 2,
+      "complete": true,
+      "delta_downloads_30d": -6,
+      "repos": [
+        "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0",
+        "INSAIT-Institute/BgGPT-Gemma-2-2.6B-IT-v1.0-GGUF"
+      ],
+      "rank": 135,
       "momentum_rank": 129
     },
     {
@@ -3131,13 +3110,13 @@
       "parameters_source_repo": null,
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 4,
+      "delta_downloads_30d": 0,
       "repos": [
         "LeoLM/leo-hessianai-13b",
         "LeoLM/leo-hessianai-13b-chat",
         "LeoLM/leo-hessianai-13b-chat-bilingual"
       ],
-      "rank": 137,
+      "rank": 136,
       "momentum_rank": 145
     },
     {
@@ -3147,21 +3126,21 @@
       "country": "FR",
       "developer": "PleIAs",
       "official_org": "PleIAs",
-      "total_downloads_30d": 172,
+      "total_downloads_30d": 170,
       "total_downloads_all_time": 79781,
-      "momentum_score": 0.000957,
+      "momentum_score": 0.000946,
       "parameters": 8030261248,
       "parameters_source_repo": "PleIAs/OCRonos",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -2,
       "repos": [
         "PleIAs/OCRonos",
         "PleIAs/OCRonos-Vintage",
         "PleIAs/OCRonos-Vintage-CT2"
       ],
-      "rank": 138,
-      "momentum_rank": 141
+      "rank": 137,
+      "momentum_rank": 142
     },
     {
       "row_id": "viking-13b",
@@ -3177,35 +3156,12 @@
       "parameters_source_repo": "LumiOpen/Viking-13B",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": -5,
+      "delta_downloads_30d": 0,
       "repos": [
         "LumiOpen/Viking-13B"
       ],
-      "rank": 139,
-      "momentum_rank": 134
-    },
-    {
-      "row_id": "gams2-27b",
-      "display_name": "GaMS2 27B",
-      "version": null,
-      "country": "SI",
-      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
-      "official_org": "cjvt",
-      "total_downloads_30d": 149,
-      "total_downloads_all_time": 281,
-      "momentum_score": 0.001486,
-      "parameters": 27227128320,
-      "parameters_source_repo": "cjvt/GaMS2-27B-GRPO-Translator",
-      "repo_count": 3,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "cjvt/GaMS2-27B",
-        "cjvt/GaMS2-27B-GRPO-Translator",
-        "cjvt/GaMS2-27B-Instruct"
-      ],
-      "rank": 140,
-      "momentum_rank": 131
+      "rank": 138,
+      "momentum_rank": 135
     },
     {
       "row_id": "leo-hessianai-70b",
@@ -3221,36 +3177,57 @@
       "parameters_source_repo": "LeoLM/leo-hessianai-70b",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 1,
+      "delta_downloads_30d": 0,
       "repos": [
         "LeoLM/leo-hessianai-70b",
         "LeoLM/leo-hessianai-70b-chat"
       ],
-      "rank": 141,
-      "momentum_rank": 136
+      "rank": 139,
+      "momentum_rank": 137
     },
     {
-      "row_id": "tildeopen-8b-wmt26-cs-de",
-      "display_name": "TildeOpen 8B WMT26 (cs-de)",
+      "row_id": "gams2-27b",
+      "display_name": "GaMS2 27B",
       "version": null,
-      "country": "LV",
-      "developer": "Tilde",
-      "official_org": "TildeAI",
-      "total_downloads_30d": 127,
-      "total_downloads_all_time": 127,
-      "momentum_score": 0.001268,
-      "parameters": 8158570240,
-      "parameters_source_repo": "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn",
+      "country": "SI",
+      "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
+      "official_org": "cjvt",
+      "total_downloads_30d": 138,
+      "total_downloads_all_time": 281,
+      "momentum_score": 0.001376,
+      "parameters": 27227128320,
+      "parameters_source_repo": "cjvt/GaMS2-27B-GRPO-Translator",
       "repo_count": 3,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -11,
       "repos": [
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
-        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
+        "cjvt/GaMS2-27B",
+        "cjvt/GaMS2-27B-GRPO-Translator",
+        "cjvt/GaMS2-27B-Instruct"
       ],
-      "rank": 142,
-      "momentum_rank": 135
+      "rank": 140,
+      "momentum_rank": 131
+    },
+    {
+      "row_id": "pleias-slm-rag",
+      "display_name": "Pleias SLM RAG",
+      "version": null,
+      "country": "FR",
+      "developer": "PleIAs",
+      "official_org": "PleIAs",
+      "total_downloads_30d": 135,
+      "total_downloads_all_time": 185,
+      "momentum_score": 0.001348,
+      "parameters": 320956992,
+      "parameters_source_repo": "PleIAs/Pleias-SLM-RAG",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": -50,
+      "repos": [
+        "PleIAs/Pleias-SLM-RAG"
+      ],
+      "rank": 141,
+      "momentum_rank": 133
     },
     {
       "row_id": "bggpt-gemma2-27b",
@@ -3259,20 +3236,43 @@
       "country": "BG",
       "developer": "INSAIT",
       "official_org": "INSAIT-Institute",
-      "total_downloads_30d": 125,
-      "total_downloads_all_time": 11241,
-      "momentum_score": 0.001124,
+      "total_downloads_30d": 129,
+      "total_downloads_all_time": 11245,
+      "momentum_score": 0.00116,
       "parameters": 27227128320,
       "parameters_source_repo": "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 4,
       "repos": [
         "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0",
         "INSAIT-Institute/BgGPT-Gemma-2-27B-IT-v1.0-GGUF"
       ],
-      "rank": 143,
+      "rank": 142,
       "momentum_rank": 138
+    },
+    {
+      "row_id": "tildeopen-8b-wmt26-cs-de",
+      "display_name": "TildeOpen 8B WMT26 (cs-de)",
+      "version": null,
+      "country": "LV",
+      "developer": "Tilde",
+      "official_org": "TildeAI",
+      "total_downloads_30d": 128,
+      "total_downloads_all_time": 128,
+      "momentum_score": 0.001278,
+      "parameters": 8158570240,
+      "parameters_source_repo": "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn",
+      "repo_count": 3,
+      "complete": true,
+      "delta_downloads_30d": 1,
+      "repos": [
+        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de",
+        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
+        "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp8-dyn"
+      ],
+      "rank": 143,
+      "momentum_rank": 136
     },
     {
       "row_id": "gams-2b",
@@ -3281,20 +3281,20 @@
       "country": "SI",
       "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
       "official_org": "cjvt",
-      "total_downloads_30d": 121,
-      "total_downloads_all_time": 19043,
-      "momentum_score": 0.001016,
+      "total_downloads_30d": 118,
+      "total_downloads_all_time": 19044,
+      "momentum_score": 0.000991,
       "parameters": 3204165888,
       "parameters_source_repo": "cjvt/GaMS-2B",
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -3,
       "repos": [
         "cjvt/GaMS-2B",
         "cjvt/GaMS-2B-Instruct"
       ],
       "rank": 144,
-      "momentum_rank": 139
+      "momentum_rank": 140
     },
     {
       "row_id": "leo-mistral-hessianai-7b",
@@ -3310,7 +3310,7 @@
       "parameters_source_repo": null,
       "repo_count": 2,
       "complete": true,
-      "delta_downloads_30d": -65,
+      "delta_downloads_30d": 0,
       "repos": [
         "LeoLM/leo-mistral-hessianai-7b",
         "LeoLM/leo-mistral-hessianai-7b-chat"
@@ -3347,7 +3347,7 @@
       "developer": "SpeakLeash / ACK Cyfronet AGH",
       "official_org": "speakleash",
       "total_downloads_30d": 100,
-      "total_downloads_all_time": 4859,
+      "total_downloads_all_time": 4861,
       "momentum_score": 0.000954,
       "parameters": 11510465234,
       "parameters_source_repo": "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit",
@@ -3362,30 +3362,7 @@
         "speakleash/Bielik-11B-v2.5-Instruct-bnb-4bit"
       ],
       "rank": 147,
-      "momentum_rank": 142
-    },
-    {
-      "row_id": "llama-pllum-70b-2508",
-      "display_name": "Llama-PLLuM 70B (2508)",
-      "version": "2508",
-      "country": "PL",
-      "developer": "CYFRAGOVPL / PLLuM consortium",
-      "official_org": "CYFRAGOVPL",
-      "total_downloads_30d": 89,
-      "total_downloads_all_time": 4620,
-      "momentum_score": 0.000851,
-      "parameters": 70553788416,
-      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-70B-chat-2508",
-      "repo_count": 3,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "CYFRAGOVPL/Llama-PLLuM-70B-base-2508",
-        "CYFRAGOVPL/Llama-PLLuM-70B-chat-2508",
-        "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2508"
-      ],
-      "rank": 148,
-      "momentum_rank": 146
+      "momentum_rank": 141
     },
     {
       "row_id": "leanstral-2603",
@@ -3394,19 +3371,42 @@
       "country": "FR",
       "developer": "Mistral AI",
       "official_org": "mistralai",
-      "total_downloads_30d": 88,
-      "total_downloads_all_time": 810,
-      "momentum_score": 0.000873,
+      "total_downloads_30d": 87,
+      "total_downloads_all_time": 812,
+      "momentum_score": 0.000863,
       "parameters": null,
       "parameters_source_repo": null,
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1,
       "repos": [
         "mistralai/Leanstral-2603"
       ],
-      "rank": 149,
+      "rank": 148,
       "momentum_rank": 144
+    },
+    {
+      "row_id": "llama-pllum-70b-2508",
+      "display_name": "Llama-PLLuM 70B (2508)",
+      "version": "2508",
+      "country": "PL",
+      "developer": "CYFRAGOVPL / PLLuM consortium",
+      "official_org": "CYFRAGOVPL",
+      "total_downloads_30d": 86,
+      "total_downloads_all_time": 4621,
+      "momentum_score": 0.000822,
+      "parameters": 70553788416,
+      "parameters_source_repo": "CYFRAGOVPL/Llama-PLLuM-70B-chat-2508",
+      "repo_count": 3,
+      "complete": true,
+      "delta_downloads_30d": -3,
+      "repos": [
+        "CYFRAGOVPL/Llama-PLLuM-70B-base-2508",
+        "CYFRAGOVPL/Llama-PLLuM-70B-chat-2508",
+        "CYFRAGOVPL/Llama-PLLuM-70B-instruct-2508"
+      ],
+      "rank": 149,
+      "momentum_rank": 146
     },
     {
       "row_id": "gams-1b",
@@ -3415,9 +3415,9 @@
       "country": "SI",
       "developer": "CJVT UL (Center za jezikovne vire in tehnologije, University of Ljubljana)",
       "official_org": "cjvt",
-      "total_downloads_30d": 75,
+      "total_downloads_30d": 74,
       "total_downloads_all_time": 15128,
-      "momentum_score": 0.000651,
+      "momentum_score": 0.000643,
       "parameters": 1540481024,
       "parameters_source_repo": "cjvt/GaMS-1B",
       "repo_count": 4,
@@ -3430,7 +3430,7 @@
         "cjvt/OPT_GaMS-1B-Chat"
       ],
       "rank": 150,
-      "momentum_rank": 149
+      "momentum_rank": 150
     },
     {
       "row_id": "zagreus-0.4b-por",
@@ -3439,14 +3439,14 @@
       "country": "IT",
       "developer": "mii-llm",
       "official_org": "mii-llm",
-      "total_downloads_30d": 71,
-      "total_downloads_all_time": 164,
-      "momentum_score": 0.000709,
+      "total_downloads_30d": 72,
+      "total_downloads_all_time": 166,
+      "momentum_score": 0.000719,
       "parameters": 437760960,
       "parameters_source_repo": "mii-llm/zagreus-0.4B-por",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": 1,
       "repos": [
         "mii-llm/zagreus-0.4B-por"
       ],
@@ -3461,7 +3461,7 @@
       "developer": "PleIAs",
       "official_org": "PleIAs",
       "total_downloads_30d": 31,
-      "total_downloads_all_time": 6935,
+      "total_downloads_all_time": 6936,
       "momentum_score": 0.00029,
       "parameters": 1195468800,
       "parameters_source_repo": "PleIAs/Pleias-Nano",
@@ -3482,14 +3482,14 @@
       "country": "IT",
       "developer": "mii-llm",
       "official_org": "mii-llm",
-      "total_downloads_30d": 27,
-      "total_downloads_all_time": 301,
-      "momentum_score": 0.000269,
+      "total_downloads_30d": 26,
+      "total_downloads_all_time": 304,
+      "momentum_score": 0.000259,
       "parameters": 437768640,
       "parameters_source_repo": "mii-llm/open-zagreus-0.4B",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1,
       "repos": [
         "mii-llm/open-zagreus-0.4B"
       ],
@@ -3503,40 +3503,19 @@
       "country": "EU",
       "developer": "utter-project",
       "official_org": "utter-project",
-      "total_downloads_30d": 23,
+      "total_downloads_30d": 22,
       "total_downloads_all_time": 2057,
-      "momentum_score": 0.000225,
+      "momentum_score": 0.000216,
       "parameters": null,
       "parameters_source_repo": null,
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1,
       "repos": [
         "utter-project/EuroLLM-22B-Preview"
       ],
       "rank": 154,
       "momentum_rank": 154
-    },
-    {
-      "row_id": "zagreus-0.4b-fra",
-      "display_name": "Zagreus 0.4B (FRA)",
-      "version": "0.4B",
-      "country": "IT",
-      "developer": "mii-llm",
-      "official_org": "mii-llm",
-      "total_downloads_30d": 13,
-      "total_downloads_all_time": 107,
-      "momentum_score": 0.00013,
-      "parameters": 437760960,
-      "parameters_source_repo": "mii-llm/zagreus-0.4B-fra",
-      "repo_count": 1,
-      "complete": true,
-      "delta_downloads_30d": 0,
-      "repos": [
-        "mii-llm/zagreus-0.4B-fra"
-      ],
-      "rank": 155,
-      "momentum_rank": 155
     },
     {
       "row_id": "maestrale-chat-v0.1",
@@ -3552,9 +3531,30 @@
       "parameters_source_repo": "mii-llm/maestrale-chat-v0.1-alpha-sft",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": -1,
+      "delta_downloads_30d": 0,
       "repos": [
         "mii-llm/maestrale-chat-v0.1-alpha-sft"
+      ],
+      "rank": 155,
+      "momentum_rank": 155
+    },
+    {
+      "row_id": "zagreus-0.4b-fra",
+      "display_name": "Zagreus 0.4B (FRA)",
+      "version": "0.4B",
+      "country": "IT",
+      "developer": "mii-llm",
+      "official_org": "mii-llm",
+      "total_downloads_30d": 11,
+      "total_downloads_all_time": 107,
+      "momentum_score": 0.00011,
+      "parameters": 437760960,
+      "parameters_source_repo": "mii-llm/zagreus-0.4B-fra",
+      "repo_count": 1,
+      "complete": true,
+      "delta_downloads_30d": -2,
+      "repos": [
+        "mii-llm/zagreus-0.4B-fra"
       ],
       "rank": 156,
       "momentum_rank": 156
@@ -3587,14 +3587,14 @@
       "country": "IT",
       "developer": "mii-llm",
       "official_org": "mii-llm",
-      "total_downloads_30d": 8,
+      "total_downloads_30d": 7,
       "total_downloads_all_time": 57,
-      "momentum_score": 8e-05,
+      "momentum_score": 7e-05,
       "parameters": 437760960,
       "parameters_source_repo": "mii-llm/zagreus-0.4B-spa",
       "repo_count": 1,
       "complete": true,
-      "delta_downloads_30d": 0,
+      "delta_downloads_30d": -1,
       "repos": [
         "mii-llm/zagreus-0.4B-spa"
       ],
